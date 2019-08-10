@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Akrobat';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Akrobat-Regular.woff2") format("woff2"),
+       url("Akrobat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Publica Sans';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("PublicaSans-Regular.woff2") format("woff2"),
+       url("PublicaSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Akrobat';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("Akrobat-Light.woff2") format("woff2"),
+       url("Akrobat-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Akrobat';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Akrobat-SemiBold.woff2") format("woff2"),
+       url("Akrobat-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Akrobat';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("Akrobat-Bold.woff2") format("woff2"),
+       url("Akrobat-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: 'Akrobat';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Akrobat-ExtraBold.woff2") format("woff2"),
+       url("Akrobat-ExtraBold.woff") format("woff");
+}
