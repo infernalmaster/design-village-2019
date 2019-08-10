@@ -17,7 +17,6 @@ const Speaker = ({ name, desc }) => (
       css={css`
         font-size: 36px;
         line-height: 45px;
-        text-transform: uppercase;
         color: #fcfb63;
         margin: 39px 0 22px;
       `}
@@ -35,6 +34,77 @@ const Speaker = ({ name, desc }) => (
     >
       {desc}
     </p>
+  </section>
+)
+
+const ScheduleItem = ({ title, desc, start, end }) => (
+  <section
+    css={css`
+      width: 33.333%;
+      padding: 15px;
+      color: #000000;
+    `}
+  >
+    <div
+      css={css`
+        height: 248px;
+        padding: 32px 19px;
+        border: 1px solid rgba(196, 196, 196, 0.6);
+        display: flex;
+      `}
+    >
+      <div
+        css={css`
+          flex: 0 0 75px;
+        `}
+      >
+        <time
+          css={css`
+            display: block;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 43px;
+          `}
+        >
+          {start}
+        </time>
+
+        <time
+          css={css`
+            display: block;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 43px;
+          `}
+        >
+          {end}
+        </time>
+      </div>
+
+      <div
+        css={css`
+          margin: 0 0 0 30px;
+        `}
+      >
+        <h4
+          css={css`
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 45px;
+          `}
+        >
+          {title}
+        </h4>
+        <p
+          css={css`
+            font-size: 24px;
+            line-height: 30px;
+          `}
+        >
+          {desc}
+        </p>
+      </div>
+    </div>
   </section>
 )
 
@@ -104,7 +174,6 @@ const Workshop = ({ title, name, desc, fbLink, info }) => (
       css={css`
         font-size: 36px;
         line-height: 45px;
-        text-transform: uppercase;
         color: #fcfb63;
         padding-top: 8px;
         margin-bottom: 8px;
@@ -128,7 +197,6 @@ const Workshop = ({ title, name, desc, fbLink, info }) => (
         font-weight: 700;
         font-size: 48px;
         line-height: 60px;
-        text-transform: uppercase;
         margin-bottom: 39px;
       `}
     >
@@ -166,13 +234,119 @@ const Workshop = ({ title, name, desc, fbLink, info }) => (
   </section>
 )
 
+const ExhibitionItem = ({
+  author,
+  title,
+  desc,
+  address,
+  fbLink,
+  imgLeft = true,
+}) => (
+  <section
+    css={css`
+      color: #fff;
+      margin: 60px 0 95px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: ${imgLeft ? "row" : "row-reverse"};
+    `}
+  >
+    <div
+      css={css`
+        width: calc(50% - 15px);
+      `}
+    >
+      <img src={require("../images/p1.jpg")} alt={title} />
+    </div>
+    <div
+      css={css`
+        width: calc(50% - 15px);
+        border: 1px solid #fff;
+        padding: 70px 45px;
+      `}
+    >
+      {author && (
+        <p
+          css={css`
+            font-size: 24px;
+            line-height: 29px;
+            color: #fcfb63;
+            font-weight: 500;
+            margin-bottom: 9px;
+          `}
+        >
+          {author}
+        </p>
+      )}
+
+      <h3
+        css={css`
+          font-size: 72px;
+          line-height: 86px;
+          font-weight: 700;
+          margin-bottom: 9px;
+        `}
+      >
+        {title}
+      </h3>
+      <p
+        css={css`
+          font-size: 24px;
+          line-height: 29px;
+          font-weight: 500;
+          margin-bottom: 66px;
+        `}
+      >
+        {desc}
+      </p>
+      <p
+        css={css`
+          font-size: 24px;
+          line-height: 29px;
+          font-weight: 300;
+          margin-bottom: 9px;
+        `}
+      >
+        Локація
+      </p>
+      <p
+        css={css`
+          font-size: 24px;
+          line-height: 29px;
+          font-weight: 600;
+          margin-bottom: 55px;
+        `}
+        dangerouslySetInnerHTML={{ __html: address }}
+      />
+      <a
+        href={fbLink}
+        css={css`
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          text-decoration-line: underline;
+          text-transform: uppercase;
+
+          color: #fcfb63;
+
+          display: inline-block;
+          margin-bottom: 76px;
+        `}
+      >
+        facebook
+      </a>
+    </div>
+  </section>
+)
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
     <section
       css={css`
-        color: #ffffff;
+        color: #fff;
       `}
     >
       <p
@@ -197,7 +371,13 @@ const IndexPage = () => (
         11-13.10.2019
       </p>
 
-      <img src={require("../images/logo.png")} alt="logo" />
+      <img
+        css={css`
+          cursor: none;
+        `}
+        src={require("../images/logo.png")}
+        alt="logo"
+      />
 
       <p
         css={css`
@@ -230,7 +410,6 @@ const IndexPage = () => (
           font-size: 96px;
           line-height: 110%;
           letter-spacing: 0.44em;
-          text-transform: uppercase;
           width: 4em;
         `}
       >
@@ -266,7 +445,6 @@ const IndexPage = () => (
           font-size: 96px;
           line-height: 110%;
           letter-spacing: 0.44em;
-          text-transform: uppercase;
           width: 4.5em;
         `}
       >
@@ -307,15 +485,77 @@ const IndexPage = () => (
             font-size: 96px;
             line-height: 110%;
             letter-spacing: 1.03em;
-            text-transform: uppercase;
             width: 5.5em;
           `}
         >
           schedule
         </h2>
+
+        <h3
+          css={css`
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 80px;
+            color: rgba(196, 196, 196, 0.4);
+          `}
+        >
+          11 / 10
+        </h3>
+
+        <section
+          css={css`
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+          `}
+        >
+          {new Array(12).fill(null).map(() => (
+            <ScheduleItem
+              start={"09 00"}
+              end={"09 45"}
+              title="ранкова кава"
+              desc="Драматичний театр ім. І. Франка Вул. Незалежності, 42"
+            />
+          ))}
+        </section>
       </div>
     </section>
 
+    <section
+      css={css`
+        color: #000;
+      `}
+    >
+      <img src={require("../images/exhibition-bg.jpg")} alt="bg" />
+      <div
+        css={css`
+          max-width: 1250px;
+          margin: auto;
+        `}
+      >
+        <ExhibitionItem
+          author="kikit art studio"
+          title="реакція"
+          desc="стріт-арт виставка"
+          address="Promprylad.Renovation <br/> Сахарова, 23"
+          fbLink="https://google.com"
+        />
+        <ExhibitionItem
+          title="реакція"
+          desc="стріт-арт виставка"
+          address="Promprylad.Renovation <br/> Сахарова, 23"
+          fbLink="https://google.com"
+          imgLeft={false}
+        />
+        <ExhibitionItem
+          author="kikit art studio"
+          title="реакція"
+          desc="стріт-арт виставка"
+          address="Promprylad.Renovation <br/> Сахарова, 23"
+          fbLink="https://google.com"
+        />
+      </div>
+    </section>
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
