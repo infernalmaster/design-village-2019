@@ -562,37 +562,117 @@ const IndexPage = () => (
     <section
       css={css`
         color: #fff;
+        position: relative;
       `}
     >
-      <p
+      <div
         css={css`
-          font-family: Publica Sans, san-serif;
-          text-transform: uppercase;
-          font-size: 48px;
-          line-height: 58px;
+          margin: 0 240px;
         `}
       >
-        ivano-Frankivsk
-      </p>
+        <div
+          css={css`
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+          `}
+        >
+          <p
+            css={css`
+              font-family: Publica Sans, san-serif;
+              font-weight: 700;
+              text-transform: uppercase;
+              font-size: 48px;
+              line-height: 58px;
+            `}
+          >
+            IV annual design <br /> festival
+          </p>
 
-      <p
+          <date
+            css={css`
+              font-family: Publica Sans, san-serif;
+              text-transform: uppercase;
+              font-size: 48px;
+              line-height: 58px;
+            `}
+          >
+            11-13.10.2019
+          </date>
+        </div>
+
+        <div
+          css={css`
+            position: relative;
+            z-index: -1;
+            margin-top: -1.4%;
+            margin-left: -2.4%;
+            margin-right: -1%;
+          `}
+        >
+          <img
+            css={css`
+              cursor: none;
+            `}
+            src={require("../images/logo.jpg")}
+            alt="logo"
+          />
+        </div>
+
+        <p
+          css={css`
+            font-family: Publica Sans, san-serif;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 58px;
+          `}
+        >
+          ivano-Frankivsk
+        </p>
+      </div>
+
+      <div
         css={css`
-          font-family: Publica Sans, san-serif;
-          text-transform: uppercase;
-          font-size: 48px;
-          line-height: 58px;
+          position: absolute;
+          top: 170px;
+          right: 72px;
+          & > a {
+            display: block;
+            width: 80px;
+            height: 80px;
+            background-size: cover;
+            font-size: 0;
+            margin-bottom: 36px;
+          }
         `}
       >
-        11-13.10.2019
-      </p>
+        <a
+          href="https://google.com"
+          css={css`
+            background: url(${require("../images/icons/telegram.svg")});
+          `}
+        >
+          telegram
+        </a>
 
-      <img
-        css={css`
-          cursor: none;
-        `}
-        src={require("../images/logo.png")}
-        alt="logo"
-      />
+        <a
+          href="https://google.com"
+          css={css`
+            background: url(${require("../images/icons/fb.svg")});
+          `}
+        >
+          facebook
+        </a>
+
+        <a
+          href="https://google.com"
+          css={css`
+            background: url(${require("../images/icons/ig.svg")});
+          `}
+        >
+          instagram
+        </a>
+      </div>
 
       <p
         css={css`
@@ -600,6 +680,8 @@ const IndexPage = () => (
           font-size: 36px;
           line-height: 140%;
           width: 70%;
+          margin: 103px 240px;
+          max-width: 1100px;
         `}
       >
         Learning from transformative thinkers and connecting with like-minded
