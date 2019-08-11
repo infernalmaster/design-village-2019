@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3add7f15-47f0-470c-831e-144f775a31e3/deploy-status)](https://app.netlify.com/sites/design-village-2019/deploys)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

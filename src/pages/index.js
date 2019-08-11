@@ -1,10 +1,223 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { css } from "@emotion/core"
+import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+let supportsPassive = false
+try {
+  var opts = Object.defineProperty({}, "passive", {
+    get() {
+      return (supportsPassive = true)
+    },
+  })
+  window.addEventListener("testPassive", null, opts)
+  window.removeEventListener("testPassive", null, opts)
+} catch (e) {}
+
+const NavLink = ({ href, onClick, children }) => (
+  <a
+    onClick={e => {
+      onClick && onClick()
+
+      if (href[0] === "#") {
+        e.preventDefault()
+
+        try {
+          document
+            .querySelector(href)
+            .scrollIntoView({ block: "start", behavior: "smooth" })
+        } catch (e) {}
+      }
+    }}
+    href={href}
+    css={css`
+      display: block;
+      color: #000;
+      font-size: 36px;
+      line-height: 99.5%;
+      text-transform: uppercase;
+      margin-bottom: 46px;
+      text-decoration: none;
+    `}
+  >
+    <span
+      css={css`
+        position: relative;
+        &:before {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          right: -10px;
+          width: 300px;
+          height: 34px;
+          background: #fcfb63;
+
+          transition: transform 0.5s;
+          transform: translateX(-300px);
+        }
+
+        &:hover {
+          &:before {
+            transform: translateX(0);
+          }
+        }
+      `}
+    >
+      {children}
+    </span>
+  </a>
+)
+
+const Header = () => {
+  const [isOpen, setOpen] = useState(false)
+  const close = () => setOpen(false)
+
+  const [scrollY, setScrollY] = useState(0)
+
+  function logIt() {
+    setScrollY(window.pageYOffset)
+  }
+  useEffect(() => {
+    window.addEventListener(
+      "scroll",
+      logIt,
+      supportsPassive ? { passive: true } : false
+    )
+    return () => {
+      window.removeEventListener(
+        "scroll",
+        logIt,
+        supportsPassive ? { passive: true } : false
+      )
+    }
+  })
+
+  const isBlack = scrollY === 0
+
+  return (
+    <header
+      css={css`
+        z-index: 10;
+        padding: ${isBlack ? "44px" : "18px"} 72px;
+        display: flex;
+        justify-content: flex-end;
+
+        position: sticky;
+        top: 0;
+
+        ${!isBlack && "background: #fff;"}
+      `}
+    >
+      <nav
+        css={css`
+          padding: 160px 70px 0;
+          background: #fff;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100vh;
+          overflow: scroll;
+
+          transition: transform 0.3s;
+          transform: translateX(-110%);
+
+          ${isOpen && "transform: translateX(0);"}
+        `}
+      >
+        <NavLink href="#speakers" onClick={close}>
+          speakers
+        </NavLink>
+        <NavLink href="#workshops" onClick={close}>
+          workshops
+        </NavLink>
+        <NavLink href="#schedule" onClick={close}>
+          schedule
+        </NavLink>
+        <NavLink href="#exhibition" onClick={close}>
+          exhibition
+        </NavLink>
+        <NavLink href="#merch" onClick={close}>
+          merch
+        </NavLink>
+        <NavLink href="#venue" onClick={close}>
+          venue
+        </NavLink>
+      </nav>
+      <button
+        onClick={() => setOpen(!isOpen)}
+        css={css`
+          position: absolute;
+          left: 70px;
+          z-index: 10;
+          width: 60px;
+          height: 60px;
+          background: none;
+          border: none;
+          outline: none;
+          overflow: hidden;
+
+          &:before,
+          &:after,
+          div {
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            left: 0;
+
+            background: ${isBlack && !isOpen ? "white" : "black"};
+
+            transition: transform 0.3s;
+          }
+
+          div {
+            ${isOpen && "transform: translateX(70px);"}
+          }
+
+          &:before {
+            content: "";
+            top: 0;
+            ${isOpen && "transform: translateY(27px) rotate(45deg);"}
+          }
+
+          &:after {
+            content: "";
+            bottom: 0;
+            ${isOpen && "transform: translateY(-27px) rotate(-45deg);"}
+          }
+        `}
+      >
+        <div
+          css={css`
+            top: 29px;
+          `}
+        ></div>
+      </button>
+
+      <button
+        css={css`
+          text-transform: uppercase;
+          font-size: 24px;
+          line-height: 29px;
+          letter-spacing: 0.285em;
+          border: none;
+          color: #000;
+          padding: 16px 30px;
+          height: 60px;
+          font-weight: 500;
+
+          ${isBlack
+            ? "background: #fff;color: #000;"
+            : "background: #000;color: #FCFB63;"}
+        `}
+      >
+        tickets
+      </button>
+    </header>
+  )
+}
 const Speaker = ({ name, desc }) => (
   <section
     css={css`
@@ -210,7 +423,7 @@ const Workshop = ({ title, name, desc, fbLink, info }) => (
       `}
     >
       {info.map(({ name, value }) => (
-        <WTime name={name} value={value} />
+        <WTime key={name} name={name} value={value} />
       ))}
     </div>
 
@@ -344,6 +557,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
+    <Header />
+
     <section
       css={css`
         color: #fff;
@@ -398,6 +613,7 @@ const IndexPage = () => (
     </section>
 
     <section
+      id="speakers"
       css={css`
         max-width: 1250px;
         margin: auto;
@@ -423,9 +639,10 @@ const IndexPage = () => (
           margin: 0 -15px;
         `}
       >
-        {new Array(5).fill(null).map(() => (
+        {new Array(5).fill(null).map((_, i) => (
           <Speaker
-            name="Rupert Breheny"
+            key={`Rupert Breheny${i}`}
+            name={`Rupert Breheny${i}`}
             desc="Product Manager and Director, Google VR map, Zürich Area, Switzerland"
           />
         ))}
@@ -433,6 +650,7 @@ const IndexPage = () => (
     </section>
 
     <section
+      id="workshops"
       css={css`
         max-width: 1250px;
         margin: auto;
@@ -451,9 +669,10 @@ const IndexPage = () => (
         workshops
       </h2>
 
-      {new Array(3).fill(null).map(() => (
+      {new Array(3).fill(null).map((_, i) => (
         <Workshop
-          title="Створення обкладинки нового журналу «Франківер»"
+          key={`Створення обкладинки нового журналу «Франківер»${i}`}
+          title={`Створення обкладинки нового журналу «Франківер»${i}`}
           name="Rupert Breheny"
           desc="Product Manager and Director, Google VR map, Zürich Area, Switzerland"
           fbLink="https://google.com"
@@ -468,6 +687,7 @@ const IndexPage = () => (
     </section>
 
     <section
+      id="schedule"
       css={css`
         background: #fff;
         color: #000;
@@ -509,8 +729,9 @@ const IndexPage = () => (
             margin: 0 -15px;
           `}
         >
-          {new Array(12).fill(null).map(() => (
+          {new Array(12).fill(null).map((_, i) => (
             <ScheduleItem
+              key={i}
               start={"09 00"}
               end={"09 45"}
               title="ранкова кава"
@@ -522,6 +743,7 @@ const IndexPage = () => (
     </section>
 
     <section
+      id="exhibition"
       css={css`
         color: #000;
       `}
@@ -555,6 +777,23 @@ const IndexPage = () => (
           fbLink="https://google.com"
         />
       </div>
+    </section>
+
+    <section
+      id="merch"
+      css={css`
+        color: #000;
+      `}
+    >
+      merch
+    </section>
+    <section
+      id="venue"
+      css={css`
+        color: #000;
+      `}
+    >
+      venue
     </section>
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
