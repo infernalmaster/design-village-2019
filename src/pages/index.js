@@ -145,6 +145,9 @@ const Header = () => {
         <NavLink href="#venue" onClick={close}>
           venue
         </NavLink>
+        <NavLink href="#partners" onClick={close}>
+          partners
+        </NavLink>
       </nav>
       <button
         onClick={() => setOpen(!isOpen)}
@@ -601,7 +604,7 @@ const IndexPage = () => (
           </date>
         </div>
 
-        <div
+        <h1
           css={css`
             position: relative;
             z-index: -1;
@@ -611,13 +614,22 @@ const IndexPage = () => (
           `}
         >
           <img
-            css={css`
-              cursor: none;
-            `}
+            css={css``}
             src={require("../images/logo.jpg")}
-            alt="logo"
+            alt="Design Village 2019"
           />
-        </div>
+
+          <img
+            css={css`
+              position: absolute;
+              top: 40%;
+              left: 67%;
+              width: 15%;
+            `}
+            src={require("../images/dvcircle.svg")}
+            alt="icon"
+          />
+        </h1>
 
         <p
           css={css`
@@ -877,13 +889,23 @@ const IndexPage = () => (
     >
       venue
     </section>
-    {/* <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> */}
+
+    <section
+      id="partners"
+      css={css`
+        color: #000;
+      `}
+    >
+      partners
+    </section>
+
+    <footer
+      css={css`
+        color: #000;
+      `}
+    >
+      footer
+    </footer>
   </Layout>
 )
 
