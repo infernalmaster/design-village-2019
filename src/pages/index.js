@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React, { useState, useEffect } from "react"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
@@ -878,14 +877,12 @@ const IndexPage = () => (
           margin: auto;
         `}
       >
-
         <div
           css={css`
             position: relative;
             padding: 99px 0;
           `}
         >
-
           <img
             src={require("../images/mouth.png")}
             alt="hand"
