@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState, useEffect } from "react"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
@@ -246,6 +247,59 @@ const Speaker = ({ name, desc }) => (
         font-weight: 300;
         height: 45px;
         margin-bottom: 90px;
+      `}
+    >
+      {desc}
+    </p>
+  </section>
+)
+
+const SpeakerMain = ({ name, desc }) => (
+  <section
+    css={css`
+      position: absolute;
+      z-index: -1;
+      left: 110px;
+      top: 597px;
+      padding: 100px 0 0 171px;
+    `}
+  >
+    <img
+      css={css`
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+      `}
+      src={require("../images/jereb.jpg")}
+      alt={name}
+    />
+    <h3
+      css={css`
+        font-size: 48px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: 700;
+        background: #fcfb63;
+        display: inline-block;
+        padding: 0 4px;
+      `}
+    >
+      {name}
+    </h3>
+    <p
+      css={css`
+        font-size: 36px;
+        line-height: 45px;
+        color: #ffffff;
+        font-weight: 600;
+        width: 380px;
+        margin-top: 12px;
       `}
     >
       {desc}
@@ -571,38 +625,14 @@ const IndexPage = () => (
       <div
         css={css`
           margin: 0 240px;
+
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          font-size: 48px;
+          line-height: 58px;
         `}
       >
-        <div
-          css={css`
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-          `}
-        >
-          <p
-            css={css`
-              font-family: Publica Sans, san-serif;
-              font-weight: 700;
-              text-transform: uppercase;
-              font-size: 48px;
-              line-height: 58px;
-            `}
-          >
-            IV annual design <br /> festival
-          </p>
-
-          <date
-            css={css`
-              font-family: Publica Sans, san-serif;
-              text-transform: uppercase;
-              font-size: 48px;
-              line-height: 58px;
-            `}
-          >
-            11-13.10.2019
-          </date>
-        </div>
+        <date>11-13.10.2019</date>
 
         <h1
           css={css`
@@ -633,13 +663,10 @@ const IndexPage = () => (
 
         <p
           css={css`
-            font-family: Publica Sans, san-serif;
-            text-transform: uppercase;
-            font-size: 48px;
-            line-height: 58px;
+            text-align: right;
           `}
         >
-          ivano-Frankivsk
+          Ivano-Frankivsk
         </p>
       </div>
 
@@ -714,17 +741,42 @@ const IndexPage = () => (
         color: #ffffff;
       `}
     >
-      <h2
+      <div
         css={css`
-          font-family: Publica Sans;
-          font-size: 96px;
-          line-height: 110%;
-          letter-spacing: 0.44em;
-          width: 4em;
+          position: relative;
+          padding: 470px 0 220px;
         `}
       >
-        speakers
-      </h2>
+        <video
+          poster={require("../images/gif.jpg")}
+          loop
+          autoplay
+          muted
+          css={css`
+            width: 713px;
+            height: auto;
+            position: absolute;
+            top: 100px;
+            right: 0;
+          `}
+        />
+        <h2
+          css={css`
+            font-family: Publica Sans;
+            font-size: 96px;
+            line-height: 110%;
+            letter-spacing: 0.44em;
+            width: 4em;
+          `}
+        >
+          speakers
+        </h2>
+
+        <SpeakerMain
+          name="Andre Jereb"
+          desc="Creative director, BBDO Ukraine, Kyiv, Ukraine - Event moderator"
+        />
+      </div>
 
       <section
         css={css`
@@ -751,17 +803,50 @@ const IndexPage = () => (
         color: #ffffff;
       `}
     >
-      <h2
+      <div
         css={css`
-          font-family: Publica Sans;
-          font-size: 96px;
-          line-height: 110%;
-          letter-spacing: 0.44em;
-          width: 4.5em;
+          position: relative;
+          padding: 270px 0 140px 50%;
         `}
       >
-        workshops
-      </h2>
+        <video
+          poster={require("../images/gif.jpg")}
+          loop
+          autoplay
+          muted
+          css={css`
+            width: 713px;
+            height: auto;
+            position: absolute;
+            top: 90px;
+            left: 0;
+            z-index: -1;
+          `}
+        />
+        <h2
+          css={css`
+            font-family: Publica Sans;
+            font-size: 96px;
+            line-height: 110%;
+            letter-spacing: 0.44em;
+            width: 4.5em;
+          `}
+        >
+          workshops
+        </h2>
+
+        <img
+          src={require("../images/hand.png")}
+          alt="hand"
+          css={css`
+            width: 309px;
+            height: auto;
+            position: absolute;
+            top: 377px;
+            right: -10px;
+          `}
+        />
+      </div>
 
       {new Array(3).fill(null).map((_, i) => (
         <Workshop
@@ -793,17 +878,39 @@ const IndexPage = () => (
           margin: auto;
         `}
       >
-        <h2
+
+        <div
           css={css`
-            font-family: Publica Sans;
-            font-size: 96px;
-            line-height: 110%;
-            letter-spacing: 1.03em;
-            width: 5.5em;
+            position: relative;
+            padding: 99px 0;
           `}
         >
-          schedule
-        </h2>
+
+          <img
+            src={require("../images/mouth.png")}
+            alt="hand"
+            css={css`
+              width: 227px;
+              height: auto;
+              position: absolute;
+              top: 225px;
+              left: 195px;
+            `}
+          />
+
+          <h2
+            css={css`
+              font-family: Publica Sans;
+              font-size: 96px;
+              line-height: 110%;
+              letter-spacing: 1.03em;
+              width: 5.5em;
+              position: relative;
+            `}
+          >
+            schedule
+          </h2>
+        </div>
 
         <h3
           css={css`
