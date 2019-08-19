@@ -1,9 +1,13 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3add7f15-47f0-470c-831e-144f775a31e3/deploy-status)](https://app.netlify.com/sites/design-village-2019/deploys)
 
+todo:
+- images in headers to bg images
+
 ## Resources:
 - https://www.figma.com/file/uEntt79qCiF9kNUBCLhmlA/design-village?node-id=14%3A2
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - https://www.gatsbyjs.org/packages/gatsby-image/?= and bg
+- https://evanw.github.io/glfx.js/demo/#dotScreen
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
