@@ -225,7 +225,55 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "",
+          en: "Rene Wawrzkiewicz",
+          uk: "",
+        },
+        desc: {
+          en: "Lection",
+          uk: "",
+        },
+      },
+      {
+        start: "",
+        end: "",
+        title: {
+          en: "Rupert Breheny",
+          uk: "",
+        },
+        desc: {
+          en: "Lection",
+          uk: "",
+        },
+      },
+      {
+        start: "",
+        end: "",
+        title: {
+          en: "TBD",
+          uk: "",
+        },
+        desc: {
+          en: "Lection",
+          uk: "",
+        },
+      },
+      {
+        start: "",
+        end: "",
+        title: {
+          en: "Sebastiaan Scheer",
+          uk: "",
+        },
+        desc: {
+          en: "Media Monks",
+          uk: "",
+        },
+      },
+      {
+        start: "",
+        end: "",
+        title: {
+          en: "Break",
           uk: "",
         },
         desc: {
@@ -237,7 +285,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "",
+          en: "Davor Bruketa",
           uk: "",
         },
         desc: {
@@ -249,7 +297,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "",
+          en: "van Abrams",
           uk: "",
         },
         desc: {
@@ -261,7 +309,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "",
+          en: "Erik Berger Vaage",
           uk: "",
         },
         desc: {
@@ -273,7 +321,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "",
+          en: "TBA",
           uk: "",
         },
         desc: {
@@ -285,7 +333,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "",
+          en: "TBA",
           uk: "",
         },
         desc: {
@@ -297,7 +345,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "",
+          en: "TBA",
           uk: "",
         },
         desc: {
@@ -309,55 +357,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "",
-          uk: "",
-        },
-        desc: {
-          en: "",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "",
-          uk: "",
-        },
-        desc: {
-          en: "",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "",
-          uk: "",
-        },
-        desc: {
-          en: "",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "",
-          uk: "",
-        },
-        desc: {
-          en: "",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "",
+          en: "Party",
           uk: "",
         },
         desc: {

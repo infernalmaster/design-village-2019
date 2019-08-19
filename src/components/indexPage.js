@@ -335,17 +335,29 @@ const SpeakerMain = ({ name, desc }) => (
 const ScheduleItem = ({ title, desc, start, end }) => (
   <section
     css={css`
-      width: 33.333%;
+      width: 100%;
       padding: 15px;
       color: #000000;
+
+      @media (min-width: ${bp}) {
+        width: 33.333%;
+      }
     `}
   >
     <div
       css={css`
-        height: 248px;
-        padding: 32px 19px;
-        border: 1px solid rgba(196, 196, 196, 0.6);
         display: flex;
+
+        font-size: 24px;
+        line-height: 29px;
+
+        @media (min-width: ${bp}) {
+          font-size: 36px;
+          line-height: 43px;
+          height: 248px;
+          padding: 32px 19px;
+          border: 1px solid rgba(196, 196, 196, 0.6);
+        }
       `}
     >
       <div
@@ -357,8 +369,6 @@ const ScheduleItem = ({ title, desc, start, end }) => (
           css={css`
             display: block;
             font-weight: 600;
-            font-size: 36px;
-            line-height: 43px;
           `}
         >
           {start}
@@ -368,8 +378,6 @@ const ScheduleItem = ({ title, desc, start, end }) => (
           css={css`
             display: block;
             font-weight: 600;
-            font-size: 36px;
-            line-height: 43px;
           `}
         >
           {end}
@@ -384,16 +392,19 @@ const ScheduleItem = ({ title, desc, start, end }) => (
         <h4
           css={css`
             font-weight: 700;
-            font-size: 36px;
-            line-height: 45px;
           `}
         >
           {title}
         </h4>
         <p
           css={css`
-            font-size: 24px;
-            line-height: 30px;
+            font-size: 18px;
+            line-height: 22px;
+
+            @media (min-width: ${bp}) {
+              font-size: 24px;
+              line-height: 30px;
+            }
           `}
         >
           {desc}
@@ -408,17 +419,26 @@ const ScheduleDayTitle = ({ active, children, onClick }) => {
     <button
       css={css`
         font-weight: 700;
-        font-size: 64px;
         border: none;
         border-radius: 50%;
-        width: 203px;
-        height: 203px;
-        line-height: 203px;
+
+        font-size: 36px;
+        width: 103px;
+        height: 103px;
+        line-height: 103px;
+
         text-align: center;
         outline: none;
 
         background: ${active ? "#fcfb63" : "white"};
         color: ${active ? "black" : "rgba(196, 196, 196, 0.4)"};
+
+        @media (min-width: ${bp}) {
+          font-size: 64px;
+          width: 203px;
+          height: 203px;
+          line-height: 203px;
+        }
       `}
       onClick={onClick}
     >
@@ -440,8 +460,9 @@ const ScheduleSection = ({ t }) => {
     >
       <div
         css={css`
-          max-width: 1250px;
+          max-width: 1290px;
           margin: auto;
+          padding: 0 20px;
         `}
       >
         <div
