@@ -4,6 +4,11 @@ export default {
   },
   links: {
     tickets: "https://concert.ua/uk/booking/design-village-ivano-frankovsk/",
+    telegram: "https://t.me/DesignVillage2019",
+    fb: "https://www.facebook.com/designvillagecarpathians/",
+    ig: "https://www.instagram.com/designvillage_festival/",
+    tw: "https://twitter.com/DesignVillageUA",
+    phone_collaboration: "095 706 23 03",
   },
   header: {
     desc: {
@@ -47,7 +52,7 @@ export default {
         uk:
           "Графічний дизайнер, дослідник та дизайн-куратор, член журі European Design Awards. Варшава, Польща.",
       },
-      img: "speaker.jpg",
+      img: "Rene-Wawrzkiewicz.png",
     },
     {
       name: {
@@ -68,9 +73,9 @@ export default {
       },
       desc: {
         en:
-          "Creative Director and Co-Owner, Bruketa&Zinic&Grey. Zagreb, Croatia",
+          "Creative Director and Co-Owner, Bruketa&Žinić&Grey. Zagreb, Croatia",
         uk:
-          "Креативний директор та співвласник Bruketa&Zinic&Grey. Загреб, Хорватія",
+          "Креативний директор та співвласник Bruketa&Žinić&Grey. Загреб, Хорватія",
       },
       img: "speaker.jpg",
     },
@@ -83,7 +88,7 @@ export default {
         en: "Freelance Motion Designer and Tutor. Ontario, Canada",
         uk: "Моушн дизайнер та автор онлайн-курсів. Онтаріо, Канада",
       },
-      img: "speaker.jpg",
+      img: "Abrams.png",
     },
     {
       name: {
@@ -94,7 +99,7 @@ export default {
         en:
           "Creative Designer, illustrator, clients include Google, Uber, Nike, Disney, NYT and Coca-Cola. Brazil",
         uk:
-          "Креативний дизайнер, ілюстратор. Працював з Google, Uber, Nike, Disney, New York Time та Coca Cola. Бразилія.",
+          "Креативний дизайнер, ілюстратор. Працював з Google, Uber, Nike, Disney, New York Times та Coca-Cola. Бразилія.",
       },
       img: "speaker.jpg",
     },
@@ -106,9 +111,9 @@ export default {
       desc: {
         en:
           "Senior Designer, COLLINS https://www.wearecollins.com/. New York, USA",
-        uk: "Senior Designer, Collins. Працює з Mailchimp, Bose. Нью Йорк, США",
+        uk: "Senior Designer, COLLINS. Працює з Mailchimp, Bose. Нью-Йорк, США",
       },
-      img: "speaker.jpg",
+      img: "eric.png",
     },
     // {
     //   name: {
@@ -151,7 +156,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "Exhibitions opening",
+          en: "Exhibitions Opening",
           uk: "",
         },
         desc: {
@@ -163,7 +168,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "Synhrodogs",
+          en: "Synchrodogs",
           uk: "",
         },
         desc: {
@@ -203,7 +208,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "",
+          en: "Anze Jereb moderates the panel",
           uk: "",
         },
       },
@@ -213,11 +218,11 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "Registration",
+          en: "Participants Registration",
           uk: "Реєстрація",
         },
         desc: {
-          en: "Драматичний театр ім. І. Франка, Вул. Незалежності, 42",
+          en: "Ivan Franko Academic Music-Drama Theater, Nezalezhnosti str. 42",
           uk: "Драматичний театр ім. І. Франка, Вул. Незалежності, 42",
         },
       },
@@ -265,7 +270,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "Media Monks",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -273,7 +278,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "Break",
+          en: "Lunch time!",
           uk: "",
         },
         desc: {
@@ -289,7 +294,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -297,11 +302,11 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "van Abrams",
+          en: "Evan Abrams",
           uk: "",
         },
         desc: {
-          en: "",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -313,7 +318,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -325,7 +330,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -337,7 +342,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -349,7 +354,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -357,7 +362,7 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "Party",
+          en: "Party time!",
           uk: "",
         },
         desc: {
@@ -375,7 +380,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "Воркшоп",
+          en: "Workshop",
           uk: "",
         },
       },
@@ -383,11 +388,11 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "Микола Коваленко",
+          en: "Mykola Kovalenko",
           uk: "Микола Коваленко",
         },
         desc: {
-          en: "Воркшоп",
+          en: "Workshop",
           uk: "Воркшоп",
         },
       },
@@ -395,11 +400,11 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "Ольга Протасова",
+          en: "Olga Protasova",
           uk: "Ольга Протасова",
         },
         desc: {
-          en: "Воркшоп",
+          en: "Workshop",
           uk: "Воркшоп",
         },
       },
@@ -411,7 +416,7 @@ export default {
           uk: "TBA",
         },
         desc: {
-          en: "",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -423,7 +428,7 @@ export default {
           uk: "TBA",
         },
         desc: {
-          en: "",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -435,7 +440,7 @@ export default {
           uk: "TBA",
         },
         desc: {
-          en: "",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -447,7 +452,7 @@ export default {
           uk: "TBA",
         },
         desc: {
-          en: "",
+          en: "Workshop",
           uk: "",
         },
       },
@@ -459,13 +464,68 @@ export default {
           uk: "TBA",
         },
         desc: {
-          en: "",
+          en: "Workshop",
           uk: "",
         },
       },
     ],
   },
-  exhibition: {},
+  exhibitions: [
+    {
+      author: {
+        en: "Maria Bilinska",
+        uk: "",
+      },
+      title: {
+        en: "In Search of Meanings",
+        uk: "",
+      },
+      desc: {
+        en: "Mixed media art works exhibition",
+      },
+      address: {
+        en: "Detector Gallery",
+      },
+      fbLink: "",
+      img: "p1.jpg",
+    },
+    {
+      author: {
+        en: "Rene Wawrzkiewicz",
+        uk: "",
+      },
+      title: {
+        en: "TBD",
+        uk: "",
+      },
+      desc: {
+        en: "",
+      },
+      address: {
+        en: "Ivan Franko Academic Music-Drama Theater",
+      },
+      fbLink: "",
+      img: "p2.jpg",
+    },
+    {
+      author: {
+        en: "Pictoric",
+        uk: "",
+      },
+      title: {
+        en: "TBD",
+        uk: "",
+      },
+      desc: {
+        en: "",
+      },
+      address: {
+        en: "Mickiewicz Square",
+      },
+      fbLink: "",
+      img: "p3.jpg",
+    },
+  ],
   merch: {},
   venue: {},
   partners: {},

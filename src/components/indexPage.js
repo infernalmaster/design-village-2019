@@ -695,6 +695,7 @@ const ExhibitionItem = ({
   address,
   fbLink,
   imgLeft = true,
+  imgRender,
 }) => (
   <section
     css={css`
@@ -711,7 +712,7 @@ const ExhibitionItem = ({
         width: calc(50% - 15px);
       `}
     >
-      <img src={require("../images/p1.jpg")} alt={title} />
+      {imgRender()}
     </div>
     <div
       css={css`
@@ -762,7 +763,7 @@ const ExhibitionItem = ({
           margin-bottom: 9px;
         `}
       >
-        Локація
+        Location
       </p>
       <p
         css={css`
@@ -797,6 +798,21 @@ const ExhibitionItem = ({
 const IndexPage = ({ t }) => {
   const imagesData = useStaticQuery(graphql`
     query {
+      exhibitions: allFile(
+        filter: { relativeDirectory: { eq: "exhibitions" } }
+      ) {
+        edges {
+          node {
+            relativePath
+            base
+            childImageSharp {
+              fluid(maxWidth: 610) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+        }
+      }
       speakers: allFile(filter: { relativeDirectory: { eq: "speakers" } }) {
         edges {
           node {
@@ -1089,27 +1105,24 @@ const IndexPage = ({ t }) => {
             margin: auto;
           `}
         >
-          <ExhibitionItem
-            author="kikit art studio"
-            title="реакція"
-            desc="стріт-арт виставка"
-            address="Promprylad.Renovation <br/> Сахарова, 23"
-            fbLink="https://google.com"
-          />
-          <ExhibitionItem
-            title="реакція"
-            desc="стріт-арт виставка"
-            address="Promprylad.Renovation <br/> Сахарова, 23"
-            fbLink="https://google.com"
-            imgLeft={false}
-          />
-          <ExhibitionItem
-            author="kikit art studio"
-            title="реакція"
-            desc="стріт-арт виставка"
-            address="Promprylad.Renovation <br/> Сахарова, 23"
-            fbLink="https://google.com"
-          />
+          {data.exhibitions.map((e, i) => {
+            const imgSrc = imagesData.exhibitions.edges.find(
+              ({ node: { base } }) => base === e.img
+            ).node.childImageSharp.fluid
+
+            return (
+              <ExhibitionItem
+                key={i}
+                author={t(e.author)}
+                title={t(e.title)}
+                desc={t(e.desc)}
+                address={t(e.address)}
+                fbLink={e.fbLink}
+                imgLeft={!(i % 2)}
+                imgRender={() => <Img fluid={imgSrc} alt={t(e.title)} />}
+              />
+            )
+          })}
         </div>
       </section>
 
