@@ -111,8 +111,10 @@ const Header = ({ data, t }) => {
         display: flex;
         justify-content: flex-end;
 
-        position: sticky;
+        position: fixed;
         top: 0;
+        left: 0;
+        width: 100%;
 
         ${!isBlack && "background: #fff;"}
       `}
@@ -145,9 +147,9 @@ const Header = ({ data, t }) => {
         <NavLink href="#exhibition" onClick={close}>
           exhibition
         </NavLink>
-        <NavLink href="#merch" onClick={close}>
+        {/* <NavLink href="#merch" onClick={close}>
           merch
-        </NavLink>
+        </NavLink> */}
         <NavLink href="#venue" onClick={close}>
           venue
         </NavLink>
@@ -798,6 +800,20 @@ const ExhibitionItem = ({
 const IndexPage = ({ t }) => {
   const imagesData = useStaticQuery(graphql`
     query {
+      logoBig: file(relativePath: { eq: "logo-big.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      logoMobile: file(relativePath: { eq: "logo-mobile.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       exhibitions: allFile(
         filter: { relativeDirectory: { eq: "exhibitions" } }
       ) {
@@ -845,78 +861,84 @@ const IndexPage = ({ t }) => {
       >
         <div
           css={css`
-            margin: 0 240px;
+            padding: 10vw 12.5vw;
 
             letter-spacing: 0.05em;
             text-transform: uppercase;
             font-size: 48px;
             line-height: 58px;
+
+            position: absolute;
+            width: 100%;
+            z-index: 2;
           `}
         >
-          <p>11-13.10.2019</p>
-
-          <h1
-            css={css`
-              position: relative;
-              z-index: -1;
-              margin-top: -1.4%;
-              margin-left: -2.4%;
-              margin-right: -1%;
-            `}
-          >
-            <img
-              css={css``}
-              src={require("../images/logo.jpg")}
-              alt="Design Village 2019"
-            />
-
-            <img
-              css={css`
-                position: absolute;
-                top: 40%;
-                left: 67%;
-                width: 15%;
-              `}
-              src={require("../images/dvcircle.svg")}
-              alt="icon"
-            />
-          </h1>
-
+          <p css={css``}>11-13.10.2019</p>
           <p
             css={css`
               text-align: right;
+              margin-top: 30vw;
             `}
           >
             Ivano-Frankivsk
           </p>
         </div>
+        <h1>
+          <Img
+            css={css`
+              @media (min-width: ${bp}) {
+                display: none;
+              }
+            `}
+            fluid={imagesData.logoMobile.childImageSharp.fluid}
+            alt="Design Village 2019"
+          />
+
+          <Img
+            css={css`
+              @media (max-width: 1023px) {
+                display: none;
+              }
+            `}
+            fluid={imagesData.logoBig.childImageSharp.fluid}
+            alt="Design Village 2019"
+          />
+          <img
+            css={css`
+              position: absolute;
+              top: 25vw;
+              left: 77%;
+              width: 10%;
+            `}
+            src={require("../images/icon.png")}
+            alt="icon"
+          />
+        </h1>
 
         <div
           css={css`
             position: absolute;
-            top: 170px;
+            z-index: 3;
+            top: 15vw;
             right: 72px;
             & > a {
               display: block;
-              width: 80px;
-              height: 80px;
+              width: 4vw;
+              height: 4vw;
               background-size: cover;
               font-size: 0;
               margin-bottom: 36px;
+              &:hover {
+                filter: brightness(97%) sepia(90%) hue-rotate(5deg)
+                  saturate(500%);
+              }
             }
           `}
         >
           <a
-            href="https://google.com"
-            css={css`
-              background: url(${require("../images/icons/telegram.svg")});
-            `}
-          >
-            telegram
-          </a>
-
-          <a
-            href="https://google.com"
+            href={data.links.fb}
+            target="_blank"
+            rel="noopener noreferrer"
             css={css`
               background: url(${require("../images/icons/fb.svg")});
             `}
@@ -925,12 +947,36 @@ const IndexPage = ({ t }) => {
           </a>
 
           <a
-            href="https://google.com"
+            href={data.links.tg}
+            target="_blank"
+            rel="noopener noreferrer"
+            css={css`
+              background: url(${require("../images/icons/tg.svg")});
+            `}
+          >
+            telegram
+          </a>
+
+          <a
+            href={data.links.ig}
+            target="_blank"
+            rel="noopener noreferrer"
             css={css`
               background: url(${require("../images/icons/ig.svg")});
             `}
           >
             instagram
+          </a>
+
+          <a
+            href={data.links.tw}
+            target="_blank"
+            rel="noopener noreferrer"
+            css={css`
+              background: url(${require("../images/icons/tw.svg")});
+            `}
+          >
+            twitter
           </a>
         </div>
 
@@ -940,7 +986,7 @@ const IndexPage = ({ t }) => {
             font-size: 36px;
             line-height: 140%;
             max-width: 70%;
-            margin: 103px 240px;
+            margin: 0 12.5vw 103px;
             max-width: 1100px;
           `}
           dangerouslySetInnerHTML={{ __html: t(data.header.desc) }}
@@ -1126,38 +1172,144 @@ const IndexPage = ({ t }) => {
         </div>
       </section>
 
-      <section
+      {/* <section
         id="merch"
         css={css`
           color: #000;
         `}
       >
         merch
-      </section>
+      </section> */}
       <section
         id="venue"
         css={css`
-          color: #000;
+          color: white;
         `}
       >
-        venue
+        <div
+          css={css`
+            max-width: 1290px;
+            margin: auto;
+            padding: 140px 20px;
+
+            display: flex;
+          `}
+        >
+          <div>
+            <h2
+              css={css`
+                font-family: Publica Sans;
+                font-size: 96px;
+                line-height: 110%;
+                letter-spacing: 1.03em;
+                width: 6.5em;
+              `}
+            >
+              locations
+            </h2>
+
+            <h3
+              css={css`
+                padding: 90px 0 21px;
+                font-size: 36px;
+                line-height: 43px;
+                text-transform: uppercase;
+                color: #fcfb63;
+                font-weight: 700;
+              `}
+            >
+              Saturday
+              <br />
+              Main event
+            </h3>
+            <p
+              css={css`
+                font-size: 36px;
+                line-height: 140%;
+                font-weight: 500;
+                max-width: 450px;
+              `}
+            >
+              Ivan Franko Academic Music-Drama Theater,
+              <br /> Nezalezhnosti str. 42, Ivano-Frankivsk
+            </p>
+          </div>
+          <div>
+            <img
+              css={css`
+                max-width: 875px;
+                margin-top: 185px;
+              `}
+              src={require("../images/map.jpg")}
+            />
+          </div>
+        </div>
       </section>
 
       <section
         id="partners"
         css={css`
           color: #000;
+          background: white;
         `}
       >
-        partners
+        <div
+          css={css`
+            max-width: 1290px;
+            margin: auto;
+            padding: 72px 20px 170px;
+          `}
+        >
+          <h2
+            css={css`
+              font-family: Publica Sans;
+              font-size: 96px;
+              line-height: 110%;
+              letter-spacing: 1.03em;
+              width: 5.5em;
+              padding-bottom: 72px;
+            `}
+          >
+            partners
+          </h2>
+          <img src={require("../images/partners.jpg")} />
+        </div>
       </section>
 
       <footer
         css={css`
-          color: #000;
+          color: #fff;
         `}
       >
-        footer
+        <div
+          css={css`
+            max-width: 1290px;
+            margin: auto;
+            padding: 56px 20px;
+          `}
+        >
+          <section>
+            <p
+              css={css`
+                font-size: 48px;
+                line-height: 137%;
+                text-transform: uppercase;
+                color: #fcfb63;
+              `}
+            >
+              collaboration
+            </p>
+            <p
+              css={css`
+                font-size: 64px;
+                line-height: 137%;
+                font-weight: 300;
+              `}
+            >
+              {data.links.phone_collaboration}
+            </p>
+          </section>
+        </div>
       </footer>
     </Layout>
   )

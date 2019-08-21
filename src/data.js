@@ -4,7 +4,7 @@ export default {
   },
   links: {
     tickets: "https://concert.ua/uk/booking/design-village-ivano-frankovsk/",
-    telegram: "https://t.me/DesignVillage2019",
+    tg: "https://t.me/DesignVillage2019",
     fb: "https://www.facebook.com/designvillagecarpathians/",
     ig: "https://www.instagram.com/designvillage_festival/",
     tw: "https://twitter.com/DesignVillageUA",
