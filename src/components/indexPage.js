@@ -5,7 +5,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "./layout"
-// import Image from "./image"
 import SEO from "./seo"
 
 import data from "../data"
@@ -503,6 +502,7 @@ const ScheduleSection = ({ t }) => {
           css={css`
             display: flex;
             justify-content: space-around;
+            margin-bottom: 35px;
           `}
         >
           <ScheduleDayTitle
@@ -702,35 +702,52 @@ const ExhibitionItem = ({
   <section
     css={css`
       color: #fff;
-      margin: 60px 0 95px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-direction: ${imgLeft ? "row" : "row-reverse"};
+      margin: 39px 0 0 0;
+
+      @media (min-width: ${bp}) {
+        margin: 60px 0 95px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: ${imgLeft ? "row" : "row-reverse"};
+      }
     `}
   >
     <div
       css={css`
-        width: calc(50% - 15px);
+        width: 70%;
+        @media (min-width: ${bp}) {
+          width: calc(50% - 15px);
+        }
       `}
     >
       {imgRender()}
     </div>
     <div
       css={css`
-        width: calc(50% - 15px);
-        border: 1px solid #fff;
-        padding: 70px 45px;
+        width: 70%;
+        padding: 14px 0 0 0;
+        line-height: 1.2;
+        @media (min-width: ${bp}) {
+          width: calc(50% - 15px);
+
+          border: 1px solid #fff;
+          padding: 70px 45px;
+        }
       `}
     >
       {author && (
         <p
           css={css`
-            font-size: 24px;
-            line-height: 29px;
             color: #fcfb63;
             font-weight: 500;
             margin-bottom: 9px;
+
+            font-size: 18px;
+            @media (min-width: ${bp}) {
+              font-size: 24px;
+            }
           `}
         >
           {author}
@@ -739,60 +756,75 @@ const ExhibitionItem = ({
 
       <h3
         css={css`
-          font-size: 72px;
-          line-height: 86px;
           font-weight: 700;
           margin-bottom: 9px;
+
+          font-size: 24px;
+          @media (min-width: ${bp}) {
+            font-size: 72px;
+          }
         `}
       >
         {title}
       </h3>
       <p
         css={css`
-          font-size: 24px;
-          line-height: 29px;
           font-weight: 500;
-          margin-bottom: 66px;
+          margin-bottom: 24px;
+
+          font-size: 18px;
+          @media (min-width: ${bp}) {
+            font-size: 24px;
+            margin-bottom: 66px;
+          }
         `}
       >
         {desc}
       </p>
       <p
         css={css`
-          font-size: 24px;
-          line-height: 29px;
           font-weight: 300;
           margin-bottom: 9px;
+
+          font-size: 14px;
+          @media (min-width: ${bp}) {
+            font-size: 24px;
+          }
         `}
       >
         Location
       </p>
       <p
         css={css`
-          font-size: 24px;
-          line-height: 29px;
           font-weight: 600;
           margin-bottom: 55px;
+
+          font-size: 18px;
+          @media (min-width: ${bp}) {
+            font-size: 24px;
+          }
         `}
         dangerouslySetInnerHTML={{ __html: address }}
       />
-      <a
-        href={fbLink}
-        css={css`
-          font-weight: 700;
-          font-size: 24px;
-          line-height: 30px;
-          text-decoration-line: underline;
-          text-transform: uppercase;
+      {fbLink && (
+        <a
+          href={fbLink}
+          css={css`
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            text-decoration-line: underline;
+            text-transform: uppercase;
 
-          color: #fcfb63;
+            color: #fcfb63;
 
-          display: inline-block;
-          margin-bottom: 76px;
-        `}
-      >
-        facebook
-      </a>
+            display: inline-block;
+            margin-bottom: 76px;
+          `}
+        >
+          facebook
+        </a>
+      )}
     </div>
   </section>
 )
@@ -836,6 +868,19 @@ const IndexPage = ({ t }) => {
             base
             childImageSharp {
               fluid(maxWidth: 397) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+        }
+      }
+      partners: allFile(filter: { relativeDirectory: { eq: "partners" } }) {
+        edges {
+          node {
+            relativePath
+            base
+            childImageSharp {
+              fluid(maxWidth: 290) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
@@ -1147,7 +1192,8 @@ const IndexPage = ({ t }) => {
         <img src={require("../images/exhibition-bg.jpg")} alt="bg" />
         <div
           css={css`
-            max-width: 1250px;
+            max-width: 1290px;
+            padding: 100px 20px 100px;
             margin: auto;
           `}
         >
@@ -1257,7 +1303,7 @@ const IndexPage = ({ t }) => {
           css={css`
             max-width: 1290px;
             margin: auto;
-            padding: 72px 20px 170px;
+            padding: 72px 20px 85px;
           `}
         >
           <h2
@@ -1267,12 +1313,53 @@ const IndexPage = ({ t }) => {
               line-height: 110%;
               letter-spacing: 1.03em;
               width: 5.5em;
-              padding-bottom: 72px;
             `}
           >
             partners
           </h2>
-          <img src={require("../images/partners.jpg")} />
+        </div>
+
+        <div
+          css={css`
+            padding: 0 20px 175px;
+          `}
+        >
+          <div
+            css={css`
+              display: flex;
+              flex-wrap: wrap;
+              margin: 0 -15px;
+
+              max-width: 1290px;
+              margin: auto;
+
+              @media (min-width: 1610px) {
+                max-width: 1570px;
+              }
+            `}
+          >
+            {data.partners.map((p, i) => {
+              const imgSrc = imagesData.partners.edges.find(
+                ({ node: { base } }) => base === p
+              ).node.childImageSharp.fluid
+
+              return (
+                <Img
+                  key={p}
+                  css={css`
+                    padding: 15px;
+                    width: 33%;
+
+                    @media (min-width: ${bp}) {
+                      width: 20%;
+                    }
+                  `}
+                  fluid={imgSrc}
+                  alt="partner"
+                />
+              )
+            })}
+          </div>
         </div>
       </section>
 

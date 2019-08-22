@@ -5,6 +5,7 @@ todo:
 
 ## Resources:
 - https://www.figma.com/file/uEntt79qCiF9kNUBCLhmlA/design-village?node-id=14%3A2
+- https://drive.google.com/drive/folders/15X2xYaRaGF3sHTa4U7R1LJHp0lLseNqn?usp=sharing
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - https://www.gatsbyjs.org/packages/gatsby-image/?= and bg
 - https://evanw.github.io/glfx.js/demo/#dotScreen

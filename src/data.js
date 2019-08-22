@@ -37,7 +37,7 @@ export default {
       uk:
         "Регіональний виконавчий креативний директор BBDO Україна та Центральна Азія. Київ",
     },
-    img: "speaker.jpg",
+    img: "zaglushka.png",
   },
 
   speakers: [
@@ -64,7 +64,7 @@ export default {
           "Product Manager and Director, Google VR map. Zürich Area, Switzerland",
         uk: "Product Manager у Google VR Map. Цюрих, Швейцарія.",
       },
-      img: "speaker.jpg",
+      img: "zaglushka.png",
     },
     {
       name: {
@@ -77,7 +77,7 @@ export default {
         uk:
           "Креативний директор та співвласник Bruketa&Žinić&Grey. Загреб, Хорватія",
       },
-      img: "speaker.jpg",
+      img: "zaglushka.png",
     },
     {
       name: {
@@ -101,7 +101,7 @@ export default {
         uk:
           "Креативний дизайнер, ілюстратор. Працював з Google, Uber, Nike, Disney, New York Times та Coca-Cola. Бразилія.",
       },
-      img: "speaker.jpg",
+      img: "zaglushka.png",
     },
     {
       name: {
@@ -124,7 +124,7 @@ export default {
     //     en: "Partner at Pentagram, New York",
     //     uk: "Партнер у Pentagram, New York.",
     //   },
-    //   img: "speaker.jpg",
+    //   img: "zaglushka.png",
     // },
     {
       name: {
@@ -135,7 +135,7 @@ export default {
         en: "Design Director, MediaMonks. Amsterdam, Netherlands",
         uk: "Design Director MediaMonks. Амстердам, Нідерланди",
       },
-      img: "speaker.jpg",
+      img: "zaglushka.png",
     },
     {
       name: {
@@ -146,7 +146,7 @@ export default {
         en: "Managing Partner at Aimbulance. Kyiv, Ukraine",
         uk: "Співзасновник та керуючий партнер Aimbulance. Київ",
       },
-      img: "speaker.jpg",
+      img: "zaglushka.png",
     },
   ],
   workshops: [],
@@ -528,5 +528,21 @@ export default {
   ],
   merch: {},
   venue: {},
-  partners: {},
+  partners: [
+    "Frame 3.1.png",
+    "Frame 3.10.png",
+    "Frame 3.11.png",
+    "Frame 3.12.png",
+    "Frame 3.13.png",
+    "Frame 3.14.png",
+    "Frame 3.2.png",
+    "Frame 3.3.png",
+    "Frame 3.4.png",
+    "Frame 3.5.png",
+    "Frame 3.6.png",
+    "Frame 3.7.png",
+    "Frame 3.8.png",
+    "Frame 3.9.png",
+    "Frame 3.png",
+  ],
 }
