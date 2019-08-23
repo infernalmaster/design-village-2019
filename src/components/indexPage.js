@@ -106,7 +106,7 @@ const Header = ({ data, t }) => {
     <header
       css={css`
         z-index: 10;
-        padding: ${isBlack ? "44px" : "18px"} 72px;
+        padding: 0 72px;
         display: flex;
         justify-content: flex-end;
 
@@ -170,19 +170,21 @@ const Header = ({ data, t }) => {
           position: absolute;
           left: 70px;
           z-index: 10;
-          width: 60px;
-          height: 60px;
+          width: 30px;
+          height: 30px;
           background: none;
           border: none;
           outline: none;
           overflow: hidden;
+
+          margin-top: ${isBlack ? "20px" : "10px"};
 
           &:before,
           &:after,
           div {
             position: absolute;
             width: 100%;
-            height: 5px;
+            height: 2px;
             left: 0;
 
             background: ${isBlack && !isOpen ? "white" : "black"};
@@ -191,25 +193,25 @@ const Header = ({ data, t }) => {
           }
 
           div {
-            ${isOpen && "transform: translateX(70px);"}
+            ${isOpen && "transform: translateX(40px);"}
           }
 
           &:before {
             content: "";
             top: 0;
-            ${isOpen && "transform: translateY(27px) rotate(45deg);"}
+            ${isOpen && "transform: translateY(14px) rotate(45deg);"}
           }
 
           &:after {
             content: "";
             bottom: 0;
-            ${isOpen && "transform: translateY(-27px) rotate(-45deg);"}
+            ${isOpen && "transform: translateY(-14px) rotate(-45deg);"}
           }
         `}
       >
         <div
           css={css`
-            top: 29px;
+            top: 14px;
           `}
         ></div>
       </button>
@@ -221,18 +223,31 @@ const Header = ({ data, t }) => {
         css={css`
           text-transform: uppercase;
           font-size: 24px;
-          line-height: 29px;
+          line-height: ${isBlack ? "24px" : "34px"};
           letter-spacing: 0.285em;
           border: none;
-          color: #000;
-          padding: 16px 30px;
-          height: 60px;
+          padding: 10px 30px 6px;
+          height: ${isBlack ? "40px" : "50px"};
           font-weight: 500;
           text-decoration: none;
 
+          margin-top: ${isBlack ? "20px" : "0"};
+
           ${isBlack
             ? "background: #fff;color: #000;"
-            : "background: #000;color: #FCFB63;"}
+            : "background: #FCFB63;color: #000;"}
+
+          &:hover {
+            ${isBlack
+              ? "background: #FCFB63;color: #000;"
+              : "background: #000;color: #fff;"}
+          }
+
+          &:active {
+            ${isBlack
+              ? "background: #000;color: #fff;"
+              : "background: #fff;color: #000;"}
+          }
         `}
       >
         tickets
