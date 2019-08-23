@@ -604,7 +604,16 @@ const WTime = ({ name, value }) => (
     </p>
   </div>
 )
-const Workshop = ({ title, name, desc, fbLink, info }) => (
+const Workshop = ({
+  title,
+  name,
+  desc,
+  fbLink,
+  time,
+  duration,
+  peoples,
+  price,
+}) => (
   <section
     css={css`
       margin-top: 30px;
@@ -650,7 +659,7 @@ const Workshop = ({ title, name, desc, fbLink, info }) => (
             left: -140px;
           }
         `}
-        src={require("../images/wshop.jpg")}
+        src={require("../images/workshops/zaglushka.png")}
         alt={name}
       />
       <div>
@@ -691,32 +700,35 @@ const Workshop = ({ title, name, desc, fbLink, info }) => (
 
     <div
       css={css`
-        margin-bottom: 68px;
+        padding-bottom: 68px;
         display: flex;
       `}
     >
-      {info.map(({ name, value }) => (
-        <WTime key={name} name={name} value={value} />
-      ))}
+      <WTime name="time" value={time} />
+      <WTime name="duration" value={duration} />
+      <WTime name="quantity" value={peoples} />
+      <WTime name="price" value={price} />
     </div>
 
-    <a
-      href={fbLink}
-      css={css`
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 30px;
-        text-decoration-line: underline;
-        text-transform: uppercase;
+    {fbLink && (
+      <a
+        href={fbLink}
+        css={css`
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          text-decoration-line: underline;
+          text-transform: uppercase;
 
-        color: #fcfb63;
+          color: #fcfb63;
 
-        display: inline-block;
-        margin-bottom: 76px;
-      `}
-    >
-      facebook
-    </a>
+          display: inline-block;
+          margin-bottom: 76px;
+        `}
+      >
+        facebook
+      </a>
+    )}
   </section>
 )
 
@@ -1215,21 +1227,21 @@ const IndexPage = ({ t }) => {
           />
         </div>
 
-        {new Array(3).fill(null).map((_, i) => (
-          <Workshop
-            key={`Створення обкладинки нового журналу «Франківер»${i}`}
-            title={`Створення обкладинки нового журналу «Франківер»${i}`}
-            name="Rupert Breheny"
-            desc="Product Manager and Director, Google VR map, Zürich Area, Switzerland"
-            fbLink="https://google.com"
-            info={[
-              { name: "час", value: "9.00" },
-              { name: "тривалість", value: "5 год" },
-              { name: "кількість", value: "20" },
-              { name: "вартість", value: "free" },
-            ]}
-          />
-        ))}
+        {data.workshops.map((w, i) => {
+          // const imgSrc = imagesData.speakers.edges.find(
+          //   ({ node: { base } }) => base === s.img
+          // ).node.childImageSharp.fluid
+
+          return (
+            <Workshop
+              key={i}
+              {...w}
+              title={t(w.title)}
+              name={t(w.name)}
+              desc={t(w.desc)}
+            />
+          )
+        })}
       </section>
 
       <ScheduleSection t={t} />

@@ -149,7 +149,50 @@ export default {
       img: "zaglushka.png",
     },
   ],
-  workshops: [],
+  workshops: [
+    {
+      title: {
+        en: "Social Poster",
+        uk: "",
+      },
+      name: {
+        en: "Mykola Kovalenko",
+        uk: "",
+      },
+      desc: {
+        en:
+          '"Social poster", workshop of graphic designer, art director dnkstudio Nikolai Kovalenko',
+        uk: "",
+      },
+      fbLink: "",
+      date: "13/10",
+      time: "10:00",
+      duration: "6-8 hours",
+      peoples: "16",
+      price: "600 UAH",
+    },
+    {
+      title: {
+        en: "Plasticine illustration",
+        uk: "",
+      },
+      name: {
+        en: "Olga Protasova",
+        uk: "",
+      },
+      desc: {
+        en:
+          "Olga Protasova is Kyiv-based freelance illustrator and graphic designer, at the moment happily focused on things she loves best: lettering, illustration community in Ukraine and her family.",
+        uk: "",
+      },
+      fbLink: "",
+      date: "11/10",
+      time: "15:00",
+      duration: "?",
+      peoples: "UNLIMITED",
+      price: "FREE",
+    },
+  ],
   schedule: {
     0: [
       {
