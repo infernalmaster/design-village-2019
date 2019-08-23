@@ -100,22 +100,25 @@ const Header = ({ data, t }) => {
     }
   })
 
-  const isBlack = scrollY === 0
+  const isBlack = scrollY < 200
 
   return (
     <header
       css={css`
         z-index: 10;
-        padding: 0 72px;
         display: flex;
         justify-content: flex-end;
 
-        position: fixed;
+        position: ${isBlack ? "absolute" : "fixed"};
         top: 0;
         left: 0;
         width: 100%;
 
-        ${!isBlack && "background: #fff;"}
+        ${!isBlack && `background: #fff center center no-repeat;`}
+
+        @media (min-width: ${bp}) {
+          background-image: url(${require("../images/village.svg")});
+        }
       `}
     >
       <nav
@@ -168,7 +171,7 @@ const Header = ({ data, t }) => {
         onClick={() => setOpen(!isOpen)}
         css={css`
           position: absolute;
-          left: 70px;
+          left: 20px;
           z-index: 10;
           width: 30px;
           height: 30px;
@@ -178,6 +181,10 @@ const Header = ({ data, t }) => {
           overflow: hidden;
 
           margin-top: ${isBlack ? "20px" : "10px"};
+
+          @media (min-width: ${bp}) {
+            left: 70px;
+          }
 
           &:before,
           &:after,
@@ -231,6 +238,10 @@ const Header = ({ data, t }) => {
           font-weight: 500;
           text-decoration: none;
 
+          @media (min-width: ${bp}) {
+            margin-right: 70px;
+          }
+
           margin-top: ${isBlack ? "20px" : "0"};
 
           ${isBlack
@@ -241,6 +252,10 @@ const Header = ({ data, t }) => {
             ${isBlack
               ? "background: #FCFB63;color: #000;"
               : "background: #000;color: #fff;"}
+          }
+
+          @media (max-width: ${bp}) {
+            ${isBlack && "display: none;"}
           }
 
           &:active {
@@ -925,19 +940,30 @@ const IndexPage = ({ t }) => {
 
             letter-spacing: 0.05em;
             text-transform: uppercase;
-            font-size: 48px;
-            line-height: 58px;
+            font-size: 18px;
 
             position: absolute;
             width: 100%;
             z-index: 2;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+
+            @media (min-width: ${bp}) {
+              flex-direction: column;
+              font-size: 48px;
+            }
           `}
         >
           <p css={css``}>11-13.10.2019</p>
           <p
             css={css`
               text-align: right;
-              margin-top: 30vw;
+
+              @media (min-width: ${bp}) {
+                margin-top: 30vw;
+              }
             `}
           >
             Ivano-Frankivsk
@@ -989,9 +1015,14 @@ const IndexPage = ({ t }) => {
               font-size: 0;
               margin-bottom: 36px;
               &:hover {
-                filter: brightness(97%) sepia(90%) hue-rotate(5deg)
+                filter: brightness(95%) sepia(89%) hue-rotate(1deg)
                   saturate(500%);
               }
+            }
+
+            display: none;
+            @media (min-width: ${bp}) {
+              display: block;
             }
           `}
         >
@@ -1043,11 +1074,16 @@ const IndexPage = ({ t }) => {
         <p
           css={css`
             font-weight: 300;
-            font-size: 36px;
+            font-size: 18px;
             line-height: 140%;
             max-width: 70%;
-            margin: 0 12.5vw 103px;
+            margin: 0 50px 70px 20px;
             max-width: 1100px;
+
+            @media (min-width: ${bp}) {
+              font-size: 36px;
+              margin: 0 12.5vw 103px;
+            }
           `}
           dangerouslySetInnerHTML={{ __html: t(data.header.desc) }}
         ></p>
