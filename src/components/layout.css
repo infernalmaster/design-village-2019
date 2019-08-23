@@ -18,6 +18,9 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   background: #000;
+
+  /* hack to prevent horizontal scroll when something goes wrong  */
+  overflow-x: hidden;
 }
 article,
 aside,
