@@ -53,6 +53,7 @@ export default {
           "Графічний дизайнер, дослідник та дизайн-куратор, член журі European Design Awards. Варшава, Польща.",
       },
       img: "Rene-Wawrzkiewicz.png",
+      clearImg: "Rene-Wawrzkiewicz1.png",
     },
     {
       name: {
@@ -65,6 +66,7 @@ export default {
         uk: "Product Manager у Google VR Map. Цюрих, Швейцарія.",
       },
       img: "zaglushka.png",
+      clearImg: "zaglushka.png",
     },
     {
       name: {
@@ -78,6 +80,7 @@ export default {
           "Креативний директор та співвласник Bruketa&Žinić&Grey. Загреб, Хорватія",
       },
       img: "zaglushka.png",
+      clearImg: "zaglushka.png",
     },
     {
       name: {
@@ -89,6 +92,7 @@ export default {
         uk: "Моушн дизайнер та автор онлайн-курсів. Онтаріо, Канада",
       },
       img: "Abrams.png",
+      clearImg: "Abrams1.png",
     },
     {
       name: {
@@ -102,6 +106,7 @@ export default {
           "Креативний дизайнер, ілюстратор. Працював з Google, Uber, Nike, Disney, New York Times та Coca-Cola. Бразилія.",
       },
       img: "zaglushka.png",
+      clearImg: "zaglushka.png",
     },
     {
       name: {
@@ -114,6 +119,7 @@ export default {
         uk: "Senior Designer, COLLINS. Працює з Mailchimp, Bose. Нью-Йорк, США",
       },
       img: "eric.png",
+      clearImg: "eric1.png",
     },
     // {
     //   name: {
@@ -125,6 +131,7 @@ export default {
     //     uk: "Партнер у Pentagram, New York.",
     //   },
     //   img: "zaglushka.png",
+    //   clearImg: "zaglushka.png",
     // },
     {
       name: {
@@ -136,6 +143,7 @@ export default {
         uk: "Design Director MediaMonks. Амстердам, Нідерланди",
       },
       img: "zaglushka.png",
+      clearImg: "zaglushka.png",
     },
     {
       name: {
@@ -147,6 +155,7 @@ export default {
         uk: "Співзасновник та керуючий партнер Aimbulance. Київ",
       },
       img: "zaglushka.png",
+      clearImg: "zaglushka.png",
     },
   ],
   workshops: [

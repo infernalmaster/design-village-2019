@@ -270,7 +270,7 @@ const Header = ({ data, t }) => {
     </header>
   )
 }
-const Speaker = ({ name, desc, imgRender }) => {
+const Speaker = ({ name, desc, imgSrc, clearImgSrc }) => {
   return (
     <section
       css={css`
@@ -282,13 +282,39 @@ const Speaker = ({ name, desc, imgRender }) => {
         }
       `}
     >
-      {imgRender()}
+      <div
+        css={css`
+          position: relative;
+        `}
+      >
+        <Img fluid={clearImgSrc} alt={name} />
+        <div
+          css={css`
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            width: 100%;
+            transition: opacity 0.3s;
+            &:hover {
+              opacity: 0;
+            }
+          `}
+        >
+          <Img fluid={imgSrc} alt={name} />
+        </div>
+      </div>
+
       <h3
         css={css`
-          font-size: 36px;
-          line-height: 45px;
+          font-size: 24px;
           color: #fcfb63;
-          margin: 39px 0 22px;
+          margin: 14px 0 9px;
+
+          @media (min-width: ${bp}) {
+            font-size: 36px;
+            margin: 39px 0 22px;
+          }
         `}
       >
         {name}
@@ -298,9 +324,9 @@ const Speaker = ({ name, desc, imgRender }) => {
           font-size: 18px;
           line-height: 22px;
           font-weight: 300;
-          height: 45px;
-          margin-bottom: 45px;
+          margin-bottom: 15px;
           @media (min-width: ${bp}) {
+            height: 45px;
             margin-bottom: 70px;
           }
         `}
@@ -313,49 +339,61 @@ const Speaker = ({ name, desc, imgRender }) => {
 const SpeakerMain = ({ name, desc }) => (
   <section
     css={css`
-      position: absolute;
-      z-index: -1;
-      left: 110px;
-      top: 597px;
-      padding: 100px 0 0 171px;
+      position: relative;
+      @media (min-width: ${bp}) {
+        position: absolute;
+        z-index: -1;
+        left: 110px;
+        top: 597px;
+        padding: 100px 0 0 171px;
+      }
     `}
   >
     <img
       css={css`
-        width: 230px;
-        height: 230px;
         border-radius: 50%;
 
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
+        @media (min-width: ${bp}) {
+          width: 230px;
+          height: 230px;
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          left: 0;
+        }
       `}
       src={require("../images/jereb.jpg")}
       alt={name}
     />
     <h3
       css={css`
-        font-size: 48px;
-        line-height: 48px;
+        font-size: 24px;
         text-transform: uppercase;
         color: #000000;
         font-weight: 700;
         background: #fcfb63;
         display: inline-block;
-        padding: 8px 4px 2px;
+        padding: 0 4px 0;
+
+        @media (min-width: ${bp}) {
+          font-size: 48px;
+        }
       `}
     >
       {name}
     </h3>
     <p
       css={css`
-        font-size: 36px;
-        line-height: 45px;
+        font-size: 18px;
         color: #ffffff;
         font-weight: 600;
-        width: 380px;
-        margin-top: 12px;
+        margin-top: 38px;
+
+        @media (min-width: ${bp}) {
+          max-width: 380px;
+          margin-top: 12px;
+          font-size: 36px;
+        }
       `}
     >
       {desc}
@@ -932,8 +970,6 @@ const IndexPage = ({ t }) => {
     }
   `)
 
-  console.log(data, imagesData)
-
   return (
     <Layout>
       <SEO title="Home" />
@@ -1114,7 +1150,11 @@ const IndexPage = ({ t }) => {
         <div
           css={css`
             position: relative;
-            padding: 470px 0 220px;
+            padding: 20px 0 40px;
+
+            @media (min-width: ${bp}) {
+              padding: 470px 0 220px;
+            }
           `}
         >
           <video
@@ -1123,12 +1163,16 @@ const IndexPage = ({ t }) => {
             autoPlay
             muted
             css={css`
-              width: 800px;
               height: auto;
-              position: absolute;
-              z-index: -1;
-              top: 100px;
-              right: 0;
+              width: 100%;
+
+              @media (min-width: ${bp}) {
+                width: 800px;
+                position: absolute;
+                z-index: -1;
+                top: 100px;
+                right: 0;
+              }
             `}
           >
             <source src={require("../images/speakers.mp4")} type="video/mp4" />
@@ -1136,10 +1180,21 @@ const IndexPage = ({ t }) => {
           <h2
             css={css`
               font-family: Publica Sans;
-              font-size: 96px;
+
               line-height: 110%;
               letter-spacing: 0.44em;
-              width: 4em;
+
+              font-size: 36px;
+              margin: auto;
+              padding: 70px 0 70px 1em;
+              width: 5em;
+
+              @media (min-width: ${bp}) {
+                font-size: 96px;
+                margin: 0;
+                padding: 0;
+                width: 4em;
+              }
             `}
           >
             speakers
@@ -1163,12 +1218,17 @@ const IndexPage = ({ t }) => {
               ({ node: { base } }) => base === s.img
             ).node.childImageSharp.fluid
 
+            const clearImgSrc = imagesData.speakers.edges.find(
+              ({ node: { base } }) => base === s.clearImg
+            ).node.childImageSharp.fluid
+
             return (
               <Speaker
                 key={i}
                 name={t(s.name)}
                 desc={t(s.desc)}
-                imgRender={() => <Img fluid={imgSrc} alt={t(s.name)} />}
+                imgSrc={imgSrc}
+                clearImgSrc={clearImgSrc}
               />
             )
           })}
@@ -1187,7 +1247,11 @@ const IndexPage = ({ t }) => {
         <div
           css={css`
             position: relative;
-            padding: 270px 0 140px 50%;
+            padding: 30px 0;
+
+            @media (min-width: ${bp}) {
+              padding: 270px 0 140px 50%;
+            }
           `}
         >
           <video
@@ -1202,6 +1266,12 @@ const IndexPage = ({ t }) => {
               top: 121px;
               left: 0;
               z-index: -1;
+
+              display: none;
+
+              @media (min-width: ${bp}) {
+                display: block;
+              }
             `}
           >
             <source src={require("../images/workshops.mp4")} type="video/mp4" />
@@ -1209,10 +1279,20 @@ const IndexPage = ({ t }) => {
           <h2
             css={css`
               font-family: Publica Sans;
-              font-size: 96px;
               line-height: 110%;
               letter-spacing: 0.44em;
-              width: 4.5em;
+              width: 5.5em;
+
+              font-size: 36px;
+              margin: auto;
+              padding: 0 0 0 1em;
+
+              @media (min-width: ${bp}) {
+                width: 4.5em;
+                font-size: 96px;
+                margin: 0;
+                padding: 0;
+              }
             `}
           >
             workshops
@@ -1222,11 +1302,19 @@ const IndexPage = ({ t }) => {
             src={require("../images/hand.png")}
             alt="hand"
             css={css`
-              width: 309px;
               height: auto;
+              width: 109px;
+
               position: absolute;
-              top: 377px;
-              right: -10px;
+              top: 72px;
+              right: calc(50% - 164px);
+
+              @media (min-width: ${bp}) {
+                width: 309px;
+                position: absolute;
+                top: 377px;
+                right: -10px;
+              }
             `}
           />
         </div>
@@ -1354,6 +1442,7 @@ const IndexPage = ({ t }) => {
                 margin-top: 185px;
               `}
               src={require("../images/map.jpg")}
+              alt="map"
             />
           </div>
         </div>
