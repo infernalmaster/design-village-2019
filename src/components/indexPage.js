@@ -1118,19 +1118,21 @@ const IndexPage = ({ t }) => {
           `}
         >
           <video
-            poster={require("../images/gif.jpg")}
+            poster={require("../images/speakers.jpg")}
             loop
             autoPlay
             muted
             css={css`
-              width: 713px;
+              width: 800px;
               height: auto;
               position: absolute;
               z-index: -1;
               top: 100px;
               right: 0;
             `}
-          />
+          >
+            <source src={require("../images/speakers.mp4")} type="video/mp4" />
+          </video>
           <h2
             css={css`
               font-family: Publica Sans;
@@ -1189,19 +1191,21 @@ const IndexPage = ({ t }) => {
           `}
         >
           <video
-            poster={require("../images/gif.jpg")}
+            poster={require("../images/workshops.jpg")}
             loop
             autoPlay
             muted
             css={css`
-              width: 713px;
+              width: 800px;
               height: auto;
               position: absolute;
-              top: 90px;
+              top: 121px;
               left: 0;
               z-index: -1;
             `}
-          />
+          >
+            <source src={require("../images/workshops.mp4")} type="video/mp4" />
+          </video>
           <h2
             css={css`
               font-family: Publica Sans;
