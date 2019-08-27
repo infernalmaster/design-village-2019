@@ -32,7 +32,8 @@ function SEO({ description, lang, meta, title }) {
     ? `${title} | ${site.siteMetadata.title}`
     : site.siteMetadata.title
 
-  const image = `${site.siteMetadata.url}${site.siteMetadata.image}`
+  const url = site.siteMetadata.url
+  const image = `${url}${site.siteMetadata.image}`
 
   return (
     <Helmet
@@ -56,6 +57,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:url`,
+          content: url,
         },
         {
           property: `og:image`,
