@@ -12,7 +12,7 @@ import { ExhibitionItem } from "./ExhibitionItem"
 import { Speaker } from "./Speaker"
 import { SpeakerMain } from "./SpeakerMain"
 import { ScheduleSection } from "./ScheduleSection"
-import { Header } from "./Header"
+import { MainHeader } from "./MainHeader"
 import { bp } from "./bp"
 
 import "./layout.css"
@@ -96,7 +96,7 @@ const IndexPage = ({ t }) => {
     <>
       <SEO />
 
-      <Header data={data} t={t} />
+      <MainHeader data={data} t={t} />
 
       <section
         css={css`

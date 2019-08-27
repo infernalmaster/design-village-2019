@@ -4,7 +4,7 @@ import { bp } from "./bp"
 import { NavLink } from "./NavLink"
 import { supportsPassive } from "./supportsPassive"
 
-export const Header = ({ data, t }) => {
+export const MainHeader = ({ data, t }) => {
   const [isOpen, setOpen] = useState(false)
   const close = () => setOpen(false)
   const [scrollY, setScrollY] = useState(0)
