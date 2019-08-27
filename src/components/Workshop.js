@@ -16,63 +16,88 @@ export const Workshop = ({
 }) => (
   <section
     css={css`
-      margin-top: 30px;
+      margin: 30px 0;
       position: relative;
       color: white;
 
-      &:after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        width: calc(100% + 160px);
-        height: 1px;
-        background: white;
-        right: 0;
-      }
-      &:last-child {
-        &:after {
-          display: none;
-        }
-      }
+      border: 1px solid #323232;
+      padding: 0 10px 10px 10px;
 
       @media (min-width: ${bp}) {
+        padding: 0;
         margin-left: 320px;
+        border: none;
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          width: calc(100% + 160px);
+          height: 1px;
+          background: white;
+          right: 0;
+        }
+        &:last-child {
+          &:after {
+            display: none;
+          }
+        }
       }
     `}
   >
     <div
       css={css`
         display: flex;
-        justify-content: flex-;
-        // @media (min-width: ${bp}) {
-        //   display: block;
-        // }
+
+        padding-top: 72px;
+
+        flex-wrap: wrap;
+        @media (min-width: ${bp}) {
+          flex-wrap: nowrap;
+        }
       `}
     >
       <div
         css={css`
-          width: 100px;
-          height: 100px;
+          width: 60px;
+          height: 60px;
           border-radius: 50%;
           overflow: hidden;
+          order: 2;
+          margin-right: 18px;
 
           @media (min-width: ${bp}) {
+            width: 100px;
+            height: 100px;
             position: absolute;
             left: -140px;
+            order: 1;
           }
         `}
       >
         <Img fixed={imgSrc} alt={name} />
       </div>
 
-      <div>
+      <div
+        css={css`
+          flex-grow: 1;
+          order: 3;
+          max-width: calc(100% - 78px);
+
+          @media (min-width: ${bp}) {
+            order: 2;
+          }
+        `}
+      >
         <h4
           css={css`
-            font-size: 36px;
-            line-height: 45px;
+            font-size: 22px;
             color: #fcfb63;
-            padding-top: 8px;
-            margin-bottom: 8px;
+
+            @media (min-width: ${bp}) {
+              font-size: 36px;
+              padding: 8px 0;
+            }
           `}
         >
           {name}
@@ -81,8 +106,11 @@ export const Workshop = ({
           css={css`
             font-weight: 300;
             font-size: 18px;
-            line-height: 22px;
             margin-bottom: 39px;
+
+            @media (min-width: ${bp}) {
+              font-size: 22px;
+            }
           `}
         >
           {desc}
@@ -92,14 +120,37 @@ export const Workshop = ({
       <div
         css={css`
           text-align: right;
+          width: 100%;
+          order: 1;
+
+          @media (max-width: ${bp}) {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border: 1px solid #ffffff;
+            padding: 9px;
+
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+
+          @media (min-width: ${bp}) {
+            width: 500px;
+            order: 3;
+          }
         `}
       >
         <p
           css={css`
             font-weight: 700;
-            font-size: 48px;
+            font-size: 18px;
             color: #fcfb63;
-            padding-bottom: 8px;
+
+            @media (min-width: ${bp}) {
+              font-size: 48px;
+              padding-bottom: 8px;
+            }
           `}
         >
           12 / 10
@@ -107,13 +158,21 @@ export const Workshop = ({
         <span
           css={css`
             display: inline-block;
-            font-size: 18px;
-            background: #fcfb63;
-            color: #000;
+            font-size: 14px;
+            color: #fcfb63;
             padding: 3px;
+
+            font-weight: 300;
+
+            @media (min-width: ${bp}) {
+              font-size: 18px;
+              background: #fcfb63;
+              color: #000;
+              font-weight: 400;
+            }
           `}
         >
-          Some Tag
+          #workshop
         </span>
       </div>
     </div>
@@ -121,9 +180,13 @@ export const Workshop = ({
     <h3
       css={css`
         font-weight: 700;
-        font-size: 48px;
-        line-height: 60px;
-        margin-bottom: 39px;
+        font-size: 24px;
+        margin-bottom: 22px;
+
+        @media (min-width: ${bp}) {
+          font-size: 48px;
+          margin-bottom: 39px;
+        }
       `}
     >
       {title}
@@ -131,8 +194,8 @@ export const Workshop = ({
 
     <div
       css={css`
-        padding-bottom: 68px;
         display: flex;
+        flex-wrap: wrap;
       `}
     >
       <WTime name="time" value={time} />
@@ -147,7 +210,6 @@ export const Workshop = ({
         css={css`
           font-weight: 700;
           font-size: 24px;
-          line-height: 30px;
           text-decoration-line: underline;
           text-transform: uppercase;
 

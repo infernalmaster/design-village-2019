@@ -1,17 +1,27 @@
 import React from "react"
 import { css } from "@emotion/core"
+import { bp } from "./bp"
+
 export const WTime = ({ name, value }) => (
   <div
     css={css`
-      margin-right: 60px;
+      padding-right: 60px;
+      padding-bottom: 30px;
+
+      width: 50%;
+      @media (min-width: ${bp}) {
+        width: auto;
+      }
     `}
   >
     <p
       css={css`
         font-weight: 300;
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 18px;
         margin-bottom: 5px;
+        @media (min-width: ${bp}) {
+          font-size: 24px;
+        }
       `}
     >
       {name}
@@ -19,8 +29,11 @@ export const WTime = ({ name, value }) => (
     <p
       css={css`
         font-weight: 500;
-        font-size: 36px;
-        line-height: 45px;
+        font-size: 24px;
+
+        @media (min-width: ${bp}) {
+          font-size: 36px;
+        }
       `}
     >
       {value}
