@@ -65,8 +65,8 @@ export default {
           "Product Manager and Director, Google VR map. Zürich Area, Switzerland",
         uk: "Product Manager у Google VR Map. Цюрих, Швейцарія.",
       },
-      img: "zaglushka.png",
-      clearImg: "zaglushka.png",
+      img: "Rupert-Breheny.png",
+      clearImg: "Rupert-Breheny1.png",
     },
     {
       name: {
@@ -105,8 +105,8 @@ export default {
         uk:
           "Креативний дизайнер, ілюстратор. Працював з Google, Uber, Nike, Disney, New York Times та Coca-Cola. Бразилія.",
       },
-      img: "zaglushka.png",
-      clearImg: "zaglushka.png",
+      img: "leo-natsume.png",
+      clearImg: "leo-natsume1.png",
     },
     {
       name: {
@@ -130,8 +130,8 @@ export default {
     //     en: "Partner at Pentagram, New York",
     //     uk: "Партнер у Pentagram, New York.",
     //   },
-    //   img: "zaglushka.png",
-    //   clearImg: "zaglushka.png",
+    //   img: "luke-hayman.png",
+    //   clearImg: "luke-hayman1.png",
     // },
     {
       name: {
@@ -154,8 +154,8 @@ export default {
         en: "Managing Partner at Aimbulance. Kyiv, Ukraine",
         uk: "Співзасновник та керуючий партнер Aimbulance. Київ",
       },
-      img: "zaglushka.png",
-      clearImg: "zaglushka.png",
+      img: "roman-havrysh.png",
+      clearImg: "roman-havrysh1.png",
     },
   ],
   workshops: [
@@ -179,6 +179,7 @@ export default {
       duration: "6-8 hours",
       peoples: "16",
       price: "600 UAH",
+      img: "zaglushka.png",
     },
     {
       title: {
@@ -200,6 +201,7 @@ export default {
       duration: "?",
       peoples: "UNLIMITED",
       price: "FREE",
+      img: "zaglushka.png",
     },
   ],
   schedule: {

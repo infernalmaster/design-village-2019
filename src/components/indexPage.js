@@ -651,6 +651,7 @@ const Workshop = ({
   duration,
   peoples,
   price,
+  imgSrc,
 }) => (
   <section
     css={css`
@@ -681,25 +682,28 @@ const Workshop = ({
     <div
       css={css`
         display: flex;
-        @media (min-width: ${bp}) {
-          display: block;
-        }
+        justify-content: flex-;
+        // @media (min-width: ${bp}) {
+        //   display: block;
+        // }
       `}
     >
-      <img
+      <div
         css={css`
           width: 100px;
           height: 100px;
           border-radius: 50%;
+          overflow: hidden;
 
           @media (min-width: ${bp}) {
             position: absolute;
             left: -140px;
           }
         `}
-        src={require("../images/workshops/zaglushka.png")}
-        alt={name}
-      />
+      >
+        <Img fixed={imgSrc} alt={name} />
+      </div>
+
       <div>
         <h4
           css={css`
@@ -722,6 +726,34 @@ const Workshop = ({
         >
           {desc}
         </p>
+      </div>
+
+      <div
+        css={css`
+          text-align: right;
+        `}
+      >
+        <p
+          css={css`
+            font-weight: 700;
+            font-size: 48px;
+            color: #fcfb63;
+            padding-bottom: 8px;
+          `}
+        >
+          12 / 10
+        </p>
+        <span
+          css={css`
+            display: inline-block;
+            font-size: 18px;
+            background: #fcfb63;
+            color: #000;
+            padding: 3px;
+          `}
+        >
+          Some Tag
+        </span>
       </div>
     </div>
 
@@ -949,6 +981,19 @@ const IndexPage = ({ t }) => {
             childImageSharp {
               fluid(maxWidth: 397) {
                 ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+        }
+      }
+      workshops: allFile(filter: { relativeDirectory: { eq: "workshops" } }) {
+        edges {
+          node {
+            relativePath
+            base
+            childImageSharp {
+              fixed(width: 100) {
+                ...GatsbyImageSharpFixed_withWebp
               }
             }
           }
@@ -1320,9 +1365,9 @@ const IndexPage = ({ t }) => {
         </div>
 
         {data.workshops.map((w, i) => {
-          // const imgSrc = imagesData.speakers.edges.find(
-          //   ({ node: { base } }) => base === s.img
-          // ).node.childImageSharp.fluid
+          const imgSrc = imagesData.workshops.edges.find(
+            ({ node: { base } }) => base === w.img
+          ).node.childImageSharp.fixed
 
           return (
             <Workshop
@@ -1331,6 +1376,7 @@ const IndexPage = ({ t }) => {
               title={t(w.title)}
               name={t(w.name)}
               desc={t(w.desc)}
+              imgSrc={imgSrc}
             />
           )
         })}
