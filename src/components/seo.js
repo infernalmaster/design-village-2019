@@ -19,6 +19,8 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            url
+            image
           }
         }
       }
@@ -29,6 +31,8 @@ function SEO({ description, lang, meta, title }) {
   const composedTitle = title
     ? `${title} | ${site.siteMetadata.title}`
     : site.siteMetadata.title
+
+  const image = `${site.siteMetadata.url}${site.siteMetadata.image}`
 
   return (
     <Helmet
@@ -55,7 +59,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: require("../images/logo-big.jpg"),
+          content: image,
         },
         {
           name: `twitter:card`,
