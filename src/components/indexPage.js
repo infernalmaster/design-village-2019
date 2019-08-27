@@ -657,13 +657,13 @@ const IndexPage = ({ t }) => {
       >
         <div
           css={css`
-            max-width: 1290px;
-            margin: auto;
             margin: 56px 20px;
 
             @media (min-width: ${bp}) {
               display: flex;
               justify-content: space-between;
+              max-width: 1250px;
+              margin: 56px auto;
             }
           `}
         >
