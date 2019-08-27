@@ -94,7 +94,7 @@ const IndexPage = ({ t }) => {
 
   return (
     <>
-      <SEO title="Home" />
+      <SEO />
 
       <Header data={data} t={t} />
 
@@ -582,16 +582,24 @@ const IndexPage = ({ t }) => {
           css={css`
             max-width: 1290px;
             margin: auto;
-            padding: 72px 20px 85px;
+            padding: 72px 20px 50px;
+
+            @media (min-width: ${bp}) {
+              padding-bottom: 85px;
+            }
           `}
         >
           <h2
             css={css`
               font-family: Publica Sans;
-              font-size: 96px;
+              font-size: 36px;
               line-height: 110%;
               letter-spacing: 1.03em;
               width: 5.5em;
+
+              @media (min-width: ${bp}) {
+                font-size: 96px;
+              }
             `}
           >
             partners

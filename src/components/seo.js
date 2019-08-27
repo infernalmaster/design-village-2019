@@ -26,14 +26,16 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const composedTitle = title
+    ? `${title} | ${site.siteMetadata.title}`
+    : site.siteMetadata.title
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={composedTitle}
       meta={[
         {
           name: `description`,
@@ -41,7 +43,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: composedTitle,
         },
         {
           property: `og:description`,
@@ -50,6 +52,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: require("../images/logo-big.jpg"),
         },
         {
           name: `twitter:card`,
@@ -61,7 +67,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: composedTitle,
         },
         {
           name: `twitter:description`,

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Design Village 2019`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Theme of this year's festival - Working together. UI / UX designers, illustrators, graphic designers, VR engineers and creative directors - experts from the best Ukrainian and world companies will tell you who to cooperate with while working on the project and what to expect of it.`,
     author: `@DesignVillageUA`,
   },
   plugins: [
