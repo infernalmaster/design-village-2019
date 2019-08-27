@@ -5,6 +5,7 @@ todo:
 
 ## Resources:
 - https://www.figma.com/file/uEntt79qCiF9kNUBCLhmlA/design-village?node-id=14%3A2
+- https://docs.google.com/document/d/1TEKw6MtsSzh-I55ficMLUK5Gp_qHvjUaEAfGh4rNcig/edit?usp=sharing
 - https://drive.google.com/drive/folders/15X2xYaRaGF3sHTa4U7R1LJHp0lLseNqn?usp=sharing
 - https://docs.google.com/spreadsheets/d/1GD0wy4tRzzMCR2vr3wUUV-mn4Ie18Qol_frcJOANnEY/edit?fbclid=IwAR3b1e4SzH5s19CRSDLJ6GXM4GYraZo0wfZOPIWlt72WMoIqKQimuFzSjDU#gid=0
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
