@@ -742,6 +742,7 @@ const IndexPage = ({ t }) => {
                 font-weight: 300;
                 color: white;
                 text-decoration: none;
+                display: block;
 
                 @media (min-width: ${bp}) {
                   margin-top: 27px;
@@ -763,9 +764,11 @@ const IndexPage = ({ t }) => {
                 font-weight: 300;
                 color: white;
                 text-decoration: none;
+                display: block;
 
                 @media (min-width: ${bp}) {
                   font-size: 64px;
+                  margin-top: 8px;
                 }
               `}
             >
