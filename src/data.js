@@ -75,10 +75,8 @@ export default {
         uk: "Давор Брукета",
       },
       desc: {
-        en:
-          "Creative Director and Co-Owner, Bruketa&Žinić&Grey. Zagreb, Croatia",
-        uk:
-          "Креативний директор та співвласник Bruketa&Žinić&Grey. Загреб, Хорватія",
+        en: "Creative Director, Bruketa&Žinić&Grey. Zagreb, Croatia",
+        uk: "Креативний директор Bruketa&Žinić&Grey. Загреб, Хорватія",
       },
       img: "zaglushka.png",
       clearImg: "zaglushka.png",
@@ -122,18 +120,18 @@ export default {
       img: "eric.png",
       clearImg: "eric1.png",
     },
-    // {
-    //   name: {
-    //     en: "Luke Hayman",
-    //     uk: "Люк Хейман",
-    //   },
-    //   desc: {
-    //     en: "Partner at Pentagram, New York",
-    //     uk: "Партнер у Pentagram, New York.",
-    //   },
-    //   img: "luke-hayman.png",
-    //   clearImg: "luke-hayman1.png",
-    // },
+    {
+      name: {
+        en: "Luke Hayman",
+        uk: "Люк Хейман",
+      },
+      desc: {
+        en: "Partner at Pentagram, New York, USA",
+        uk: "Партнер у Pentagram, New York, США",
+      },
+      img: "luke-hayman.png",
+      clearImg: "luke-hayman1.png",
+    },
     {
       name: {
         en: "Sebastiaan Scheer",
