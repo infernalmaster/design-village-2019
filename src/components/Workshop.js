@@ -8,6 +8,7 @@ export const Workshop = ({
   name,
   desc,
   fbLink,
+  date,
   time,
   duration,
   peoples,
@@ -153,7 +154,7 @@ export const Workshop = ({
             }
           `}
         >
-          12 / 10
+          {date}
         </p>
         <span
           css={css`

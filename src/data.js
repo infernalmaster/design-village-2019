@@ -34,7 +34,7 @@ export default {
     },
     desc: {
       en:
-        "Regional Executive Creative Director, BBDO Ukraine & Central Asia. Kyiv, Ukraine",
+        "Regional Executive Creative Director, BBDO Ukraine & Central Asia. Kyiv, Ukraine. Event moderator",
       uk:
         "Регіональний виконавчий креативний директор BBDO Україна та Центральна Азія. Київ",
     },
@@ -42,84 +42,6 @@ export default {
   },
 
   speakers: [
-    {
-      name: {
-        en: "Rene Wawrzkiewicz",
-        uk: "Рене Вавжкевич",
-      },
-      desc: {
-        en:
-          "Graphic designer, researcher, and design curator, Jury at European Design Awards. Warsaw, Poland.",
-        uk:
-          "Графічний дизайнер, дослідник та дизайн-куратор, член журі European Design Awards. Варшава, Польща.",
-      },
-      img: "Rene-Wawrzkiewicz.png",
-      clearImg: "Rene-Wawrzkiewicz1.png",
-    },
-    {
-      name: {
-        en: "Rupert Breheny",
-        uk: "Руперт Брегені",
-      },
-      desc: {
-        en:
-          "Product Manager and Director, Google VR map. Zürich Area, Switzerland",
-        uk: "Product Manager у Google VR Map. Цюрих, Швейцарія.",
-      },
-      img: "Rupert-Breheny.png",
-      clearImg: "Rupert-Breheny1.png",
-    },
-    {
-      name: {
-        en: "Davor Bruketa",
-        uk: "Давор Брукета",
-      },
-      desc: {
-        en: "Creative Director, Bruketa&Žinić&Grey. Zagreb, Croatia",
-        uk: "Креативний директор Bruketa&Žinić&Grey. Загреб, Хорватія",
-      },
-      img: "zaglushka.png",
-      clearImg: "zaglushka.png",
-    },
-    {
-      name: {
-        en: "Evan Abrams",
-        uk: "Еван Абрамс",
-      },
-      desc: {
-        en: "Freelance Motion Designer and Tutor. Ontario, Canada",
-        uk: "Моушн дизайнер та автор онлайн-курсів. Онтаріо, Канада",
-      },
-      img: "Abrams.png",
-      clearImg: "Abrams1.png",
-    },
-    {
-      name: {
-        en: "Leo Natsume",
-        uk: "Лео Натсуме",
-      },
-      desc: {
-        en:
-          "Creative Designer, illustrator, clients include Google, Uber, Nike, Disney, NYT and Coca-Cola. Brazil",
-        uk:
-          "Креативний дизайнер, ілюстратор. Працював з Google, Uber, Nike, Disney, New York Times та Coca-Cola. Бразилія.",
-      },
-      img: "leo-natsume.png",
-      clearImg: "leo-natsume1.png",
-    },
-    {
-      name: {
-        en: "Erik Berger Vaage",
-        uk: "Ерік Бергер Вааге",
-      },
-      desc: {
-        en:
-          "Senior Designer, COLLINS https://www.wearecollins.com/. New York, USA",
-        uk: "Senior Designer, COLLINS. Працює з Mailchimp, Bose. Нью-Йорк, США",
-      },
-      img: "eric.png",
-      clearImg: "eric1.png",
-    },
     {
       name: {
         en: "Luke Hayman",
@@ -156,6 +78,84 @@ export default {
       img: "roman-havrysh.png",
       clearImg: "roman-havrysh1.png",
     },
+    {
+      name: {
+        en: "Rupert Breheny",
+        uk: "Руперт Брегені",
+      },
+      desc: {
+        en:
+          "Product Manager and Director, Google VR map. Zürich Area, Switzerland",
+        uk: "Product Manager у Google VR Map. Цюрих, Швейцарія.",
+      },
+      img: "Rupert-Breheny.png",
+      clearImg: "Rupert-Breheny1.png",
+    },
+    {
+      name: {
+        en: "Evan Abrams",
+        uk: "Еван Абрамс",
+      },
+      desc: {
+        en: "Freelance Motion Designer and Tutor. Ontario, Canada",
+        uk: "Моушн дизайнер та автор онлайн-курсів. Онтаріо, Канада",
+      },
+      img: "Abrams.png",
+      clearImg: "Abrams1.png",
+    },
+    {
+      name: {
+        en: "Erik Berger Vaage",
+        uk: "Ерік Бергер Вааге",
+      },
+      desc: {
+        en:
+          "Senior Designer, COLLINS https://www.wearecollins.com/. New York, USA",
+        uk: "Senior Designer, COLLINS. Працює з Mailchimp, Bose. Нью-Йорк, США",
+      },
+      img: "eric.png",
+      clearImg: "eric1.png",
+    },
+    {
+      name: {
+        en: "Davor Bruketa",
+        uk: "Давор Брукета",
+      },
+      desc: {
+        en: "Creative Director, Bruketa&Žinić&Grey. Zagreb, Croatia",
+        uk: "Креативний директор Bruketa&Žinić&Grey. Загреб, Хорватія",
+      },
+      img: "zaglushka.png",
+      clearImg: "zaglushka.png",
+    },
+    {
+      name: {
+        en: "Rene Wawrzkiewicz",
+        uk: "Рене Вавжкевич",
+      },
+      desc: {
+        en:
+          "Graphic designer, researcher, and design curator, Jury at European Design Awards. Warsaw, Poland.",
+        uk:
+          "Графічний дизайнер, дослідник та дизайн-куратор, член журі European Design Awards. Варшава, Польща.",
+      },
+      img: "Rene-Wawrzkiewicz.png",
+      clearImg: "Rene-Wawrzkiewicz1.png",
+    },
+    {
+      name: {
+        en: "Leo Natsume",
+        uk: "Лео Натсуме",
+      },
+      desc: {
+        en:
+          "Creative Designer, illustrator, clients include Google, Uber, Nike, Disney, NYT and Coca-Cola. Porto Alegre, Brazil",
+        uk:
+          "Креативний дизайнер, ілюстратор. Працював з Google, Uber, Nike, Disney, New York Times та Coca-Cola. Бразилія",
+      },
+      img: "leo-natsume.png",
+      clearImg: "leo-natsume1.png",
+    },
   ],
   workshops: [
     {
@@ -173,7 +173,7 @@ export default {
         uk: "",
       },
       fbLink: "",
-      date: "13/10",
+      date: "13 / 10",
       time: "10:00",
       duration: "6-8 hours",
       peoples: "16",
@@ -195,7 +195,7 @@ export default {
         uk: "",
       },
       fbLink: "",
-      date: "11/10",
+      date: "11 / 10",
       time: "15:00",
       duration: "?",
       peoples: "UNLIMITED",
@@ -225,7 +225,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "Lection",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -237,7 +237,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "Lection",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -249,7 +249,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "Lection",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -287,7 +287,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "Lection",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -299,7 +299,7 @@ export default {
           uk: "",
         },
         desc: {
-          en: "Lection",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -307,11 +307,11 @@ export default {
         start: "",
         end: "",
         title: {
-          en: "TBD",
+          en: "TBA",
           uk: "",
         },
         desc: {
-          en: "Lection",
+          en: "Lecture",
           uk: "",
         },
       },
@@ -548,7 +548,7 @@ export default {
         uk: "",
       },
       title: {
-        en: "TBD",
+        en: "TBA",
         uk: "",
       },
       desc: {
@@ -566,7 +566,7 @@ export default {
         uk: "",
       },
       title: {
-        en: "TBD",
+        en: "TBA",
         uk: "",
       },
       desc: {
@@ -582,20 +582,20 @@ export default {
   merch: {},
   venue: {},
   partners: [
-    "Frame 3.1.png",
-    "Frame 3.10.png",
-    "Frame 3.11.png",
+    "Frame 3.png",
     "Frame 3.12.png",
-    "Frame 3.13.png",
-    "Frame 3.14.png",
-    "Frame 3.2.png",
     "Frame 3.3.png",
-    "Frame 3.4.png",
-    "Frame 3.5.png",
+    "Frame 3.9.png",
+    "Frame 3.1.png",
     "Frame 3.6.png",
     "Frame 3.7.png",
+    "Frame 3.10.png",
+    "Frame 3.13.png",
+    "Frame 3.11.png",
+    "Frame 3.14.png",
+    "Frame 3.2.png",
+    "Frame 3.4.png",
+    "Frame 3.5.png",
     "Frame 3.8.png",
-    "Frame 3.9.png",
-    "Frame 3.png",
   ],
 }

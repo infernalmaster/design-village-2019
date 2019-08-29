@@ -5,12 +5,13 @@ import { bp } from "./bp"
 export const WTime = ({ name, value }) => (
   <div
     css={css`
-      padding-right: 60px;
+      padding-right: 20px;
       padding-bottom: 30px;
 
       width: 50%;
       @media (min-width: ${bp}) {
         width: auto;
+        padding-right: 60px;
       }
     `}
   >
