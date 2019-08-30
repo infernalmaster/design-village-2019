@@ -206,7 +206,7 @@ export default {
   schedule: {
     0: [
       {
-        start: "",
+        start: "14:00",
         end: "",
         title: {
           en: "Exhibitions Opening",
@@ -218,58 +218,58 @@ export default {
         },
       },
       {
-        start: "",
+        start: "15:00",
         end: "",
         title: {
-          en: "Synchrodogs",
-          uk: "",
+          en: "OLGA PROTASOVA",
+          uk: "Ольга Протасова",
         },
         desc: {
-          en: "Lecture",
-          uk: "",
+          en: "Workshop",
+          uk: "Воркшоп",
         },
       },
       {
-        start: "",
-        end: "",
-        title: {
-          en: "Christine Ravit, Marhzia Decore",
-          uk: "",
-        },
-        desc: {
-          en: "Lecture",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
+        start: "16:40",
+        end: "17:40",
         title: {
           en: "TBA",
-          uk: "",
+          uk: "TBA",
         },
         desc: {
           en: "Lecture",
-          uk: "",
+          uk: "Лекція",
         },
       },
       {
-        start: "",
-        end: "",
+        start: "17:40",
+        end: "18:40",
+        title: {
+          en: "LEO NATSUME",
+          uk: "LEO NATSUME",
+        },
+        desc: {
+          en: "Lecture. English",
+          uk: "Лекція. English",
+        },
+      },
+      {
+        start: "19:00",
+        end: "20:30",
         title: {
           en: "Panel discussion",
           uk: "",
         },
         desc: {
           en: "Anze Jereb moderates the panel",
-          uk: "",
+          uk: "Модератор Анже Йереб",
         },
       },
     ],
     1: [
       {
-        start: "",
-        end: "",
+        start: "8:00",
+        end: "9:00",
         title: {
           en: "Participants Registration",
           uk: "Реєстрація",
@@ -280,59 +280,47 @@ export default {
         },
       },
       {
-        start: "",
+        start: "9:00",
         end: "",
+        title: {
+          en: "Official opening",
+          uk: "Офіційне відкриття",
+        },
+        desc: {
+          en: "",
+          uk: "",
+        },
+      },      
+      {
+        start: "9:10",
+        end: "9:40",
         title: {
           en: "Rene Wawrzkiewicz",
-          uk: "",
+          uk: "Rene Wawrzkiewicz",
         },
         desc: {
           en: "Lecture",
-          uk: "",
+          uk: "Лекція",
         },
       },
       {
-        start: "",
-        end: "",
+        start: "9:50",
+        end: "10:35",
         title: {
           en: "Rupert Breheny",
-          uk: "",
+          uk: "Rupert Breheny",
         },
         desc: {
-          en: "Lecture",
-          uk: "",
+          en: "Lecture. English",
+          uk: "Лекція. English",
         },
       },
       {
-        start: "",
-        end: "",
+        start: "10:35",
+        end: "11:15",
         title: {
-          en: "TBA",
-          uk: "",
-        },
-        desc: {
-          en: "Lecture",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "Sebastiaan Scheer",
-          uk: "",
-        },
-        desc: {
-          en: "Lecture",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "Lunch time!",
-          uk: "",
+          en: "Coffee break",
+          uk: "Каво-перерва",
         },
         desc: {
           en: "",
@@ -340,83 +328,143 @@ export default {
         },
       },
       {
-        start: "",
-        end: "",
+        start: "11:15",
+        end: "12:00",
         title: {
-          en: "Davor Bruketa",
-          uk: "",
+          en: "Sebastiaan Scheer",
+          uk: "Sebastiaan Scheer",
+        },
+        desc: {
+          en: "Lecture. English",
+          uk: "Лекція. English",
+        },
+      },
+      {
+        start: "12:10",
+        end: "12:50",
+        title: {
+          en: "TBA",
+          uk: "TBA",
         },
         desc: {
           en: "Lecture",
+          uk: "Лекція",
+        },
+      },
+      {
+        start: "13:00",
+        end: "14:30",
+        title: {
+          en: "Lunch Time",
+          uk: "Перерва на обід",
+        },
+        desc: {
+          en: "",
           uk: "",
         },
       },
       {
-        start: "",
+        start: "14:30",
+        end: "15:00",
+        title: {
+          en: "TBA",
+          uk: "TBA",
+        },
+        desc: {
+          en: "Lecture",
+          uk: "Лекція",
+        },
+      },
+      {
+        start: "15:10-15:50",
         end: "",
+        title: {
+          en: "ROMAN HAVRYSH",
+          uk: "Роман Гавриш",
+        },
+        desc: {
+          en: "Lecture",
+          uk: "Лекція",
+        },
+      },
+      {
+        start: "16:00",
+        end: "16:45",
         title: {
           en: "Evan Abrams",
-          uk: "",
+          uk: "Evan Abrams",
         },
         desc: {
-          en: "Lecture",
+          en: "Lecture. English",
+          uk: "Лекція. English",
+        },
+      },
+      {
+        start: "16:50",
+        end: "17:20",
+        title: {
+          en: "Coffee break",
+          uk: "Каво-перерва",
+        },
+        desc: {
+          en: "",
           uk: "",
         },
       },
       {
-        start: "",
-        end: "",
+        start: "17:20",
+        end: "17:50",
+        title: {
+          en: "Davor Bruketa",
+          uk: "Davor Bruketa",
+        },
+        desc: {
+          en: "Lecture. English",
+          uk: "Лекція. English",
+        },
+      },
+      {
+        start: "18:00",
+        end: "18:40",
         title: {
           en: "Erik Berger Vaage",
-          uk: "",
+          uk: "Erik Berger Vaage",
         },
         desc: {
-          en: "Lecture",
-          uk: "",
+          en: "Lecture. English",
+          uk: "Лекція. English",
         },
       },
       {
-        start: "",
-        end: "",
+        start: "18:50",
+        end: "19:30",
         title: {
-          en: "TBA",
-          uk: "",
+          en: "Luke Hayman",
+          uk: "Luke Hayman",
         },
         desc: {
-          en: "Lecture",
-          uk: "",
+          en: "Lecture. English",
+          uk: "Лекція. English",
         },
       },
       {
-        start: "",
+        start: "19:30",
         end: "",
         title: {
-          en: "TBA",
-          uk: "",
+          en: "Thanks for watching",
+          uk: "Thanks for watching",
         },
         desc: {
-          en: "Lecture",
-          uk: "",
+          en: "",
+          uk: "",  
         },
       },
       {
-        start: "",
+        start: "21:30",
         end: "",
         title: {
-          en: "TBA",
-          uk: "",
-        },
-        desc: {
-          en: "Lecture",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "Party time!",
-          uk: "",
+          en: "PARTY TIME!",
+          uk: "Вечірка",
         },
         desc: {
           en: "",
@@ -426,19 +474,19 @@ export default {
     ],
     2: [
       {
-        start: "",
+        start: "10:00",
         end: "",
         title: {
-          en: "Leo Natsume",
-          uk: "",
+          en: "LEO NATSUME",
+          uk: "LEO NATSUME",
         },
         desc: {
-          en: "Workshop",
-          uk: "",
+          en: "Workshop. English",
+          uk: "Workshop. English",
         },
       },
       {
-        start: "",
+        start: "10:00",
         end: "",
         title: {
           en: "Mykola Kovalenko",
@@ -450,11 +498,11 @@ export default {
         },
       },
       {
-        start: "",
+        start: "10:00",
         end: "",
         title: {
-          en: "Olga Protasova",
-          uk: "Ольга Протасова",
+          en: "Masha Teterin",
+          uk: "Маша Тетерін",
         },
         desc: {
           en: "Workshop",
@@ -462,63 +510,39 @@ export default {
         },
       },
       {
-        start: "",
+        start: "10:00",
         end: "",
         title: {
-          en: "TBA",
-          uk: "TBA",
-        },
-        desc: {
-          en: "Lecture",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "TBA",
-          uk: "TBA",
-        },
-        desc: {
-          en: "Lecture",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "TBA",
-          uk: "TBA",
-        },
-        desc: {
-          en: "Lecture",
-          uk: "",
-        },
-      },
-      {
-        start: "",
-        end: "",
-        title: {
-          en: "TBA",
-          uk: "TBA",
+          en: "Depositphotos",
+          uk: "Depositphotos",
         },
         desc: {
           en: "Workshop",
-          uk: "",
+          uk: "Воркшоп",
         },
       },
       {
-        start: "",
-        end: "",
+        start: "12:00",
+        end: "12:30",
         title: {
-          en: "TBA",
-          uk: "TBA",
+          en: "Roman Malynovsky",
+          uk: "Роман Малиновський",
         },
         desc: {
-          en: "Workshop",
-          uk: "",
+          en: "Вавилонська Бібліотека/Цивілізація",
+          uk: "Вавилонська Бібліотека/Цивілізація",
+        },
+      },
+      {
+        start: "12:45",
+        end: "13:30 ",
+        title: {
+          en: "Mykola Kovalchuk",
+          uk: "Микола Ковальчук",
+        },
+        desc: {
+          en: "Lecture",
+          uk: "Лекція",
         },
       },
     ],
