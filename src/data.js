@@ -38,7 +38,7 @@ export default {
       uk:
         "Регіональний виконавчий креативний директор BBDO Україна та Центральна Азія. Київ",
     },
-    img: "zaglushka.png",
+    img: "jereb.png",
   },
 
   speakers: [
@@ -290,7 +290,7 @@ export default {
           en: "",
           uk: "",
         },
-      },      
+      },
       {
         start: "9:10",
         end: "9:40",
@@ -456,7 +456,7 @@ export default {
         },
         desc: {
           en: "",
-          uk: "",  
+          uk: "",
         },
       },
       {
@@ -564,7 +564,7 @@ export default {
         en: "Detector Gallery",
       },
       fbLink: "",
-      img: "p1.jpg",
+      img: "in_search_of_meaning.png",
     },
     {
       author: {
@@ -606,20 +606,23 @@ export default {
   merch: {},
   venue: {},
   partners: [
-    "Frame 3.png",
+    "Frame 3.svg",
     "Frame 3.12.png",
-    "Frame 3.3.png",
-    "Frame 3.9.png",
-    "Frame 3.1.png",
-    "Frame 3.6.png",
-    "Frame 3.7.png",
-    "Frame 3.10.png",
-    "Frame 3.13.png",
+    "Frame 3.3.svg",
+    "Frame 3.9.svg",
+    "Frame 3.1.svg",
+    "Frame 3.6.svg",
+    "Frame 3.7.svg",
+    "Frame 3.10.svg",
+    "Frame 3.13.svg",
     "Frame 3.11.png",
-    "Frame 3.14.png",
+    "Frame 3.14.svg",
     "Frame 3.2.png",
-    "Frame 3.4.png",
-    "Frame 3.5.png",
-    "Frame 3.8.png",
+    "Frame 3.4.svg",
+    "Frame 3.5.svg",
+    "Frame 3.8.svg",
+    "Frame 3.15.svg",
+    "Frame 3.16.svg",
+    "Frame 3.17.svg",
   ],
 }

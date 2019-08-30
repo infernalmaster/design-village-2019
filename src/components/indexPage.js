@@ -76,19 +76,6 @@ const IndexPage = ({ t }) => {
           }
         }
       }
-      partners: allFile(filter: { relativeDirectory: { eq: "partners" } }) {
-        edges {
-          node {
-            relativePath
-            base
-            childImageSharp {
-              fluid(maxWidth: 290) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-        }
-      }
     }
   `)
 
@@ -625,27 +612,22 @@ const IndexPage = ({ t }) => {
               }
             `}
           >
-            {data.partners.map((p, i) => {
-              const imgSrc = imagesData.partners.edges.find(
-                ({ node: { base } }) => base === p
-              ).node.childImageSharp.fluid
+            {data.partners.map((p, i) => (
+              <img
+                key={p}
+                css={css`
+                  padding: 15px;
+                  width: 33%;
 
-              return (
-                <Img
-                  key={p}
-                  css={css`
-                    padding: 15px;
-                    width: 33%;
-
-                    @media (min-width: ${bp}) {
-                      width: 20%;
-                    }
-                  `}
-                  fluid={imgSrc}
-                  alt="partner"
-                />
-              )
-            })}
+                  @media (min-width: ${bp}) {
+                    width: 20%;
+                  }
+                `}
+                src={require(`../images/partners/${p}`)}
+                alt="partner"
+                loading="lazy"
+              />
+            ))}
           </div>
         </div>
       </section>

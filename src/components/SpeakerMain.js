@@ -27,8 +27,9 @@ export const SpeakerMain = ({ name, desc }) => (
           left: 0;
         }
       `}
-      src={require("../images/jereb.jpg")}
+      src={require("../images/jereb.png")}
       alt={name}
+      loading="lazy"
     />
     <h3
       css={css`
