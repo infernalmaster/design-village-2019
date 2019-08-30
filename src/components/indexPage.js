@@ -23,14 +23,14 @@ const IndexPage = ({ t }) => {
     query {
       logoBig: file(relativePath: { eq: "logo-big.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid(maxWidth: 1920, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       logoMobile: file(relativePath: { eq: "logo-mobile.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid(maxWidth: 1920, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
@@ -43,7 +43,7 @@ const IndexPage = ({ t }) => {
             relativePath
             base
             childImageSharp {
-              fluid(maxWidth: 610) {
+              fluid(maxWidth: 610, quality: 100) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
@@ -56,7 +56,7 @@ const IndexPage = ({ t }) => {
             relativePath
             base
             childImageSharp {
-              fluid(maxWidth: 397) {
+              fluid(maxWidth: 397, quality: 100) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
@@ -69,7 +69,7 @@ const IndexPage = ({ t }) => {
             relativePath
             base
             childImageSharp {
-              fixed(width: 100) {
+              fixed(width: 100, quality: 100) {
                 ...GatsbyImageSharpFixed_withWebp
               }
             }
@@ -271,6 +271,7 @@ const IndexPage = ({ t }) => {
             loop
             autoPlay
             muted
+            loading="lazy"
             css={css`
               height: auto;
               width: 100%;
@@ -368,6 +369,7 @@ const IndexPage = ({ t }) => {
             loop
             autoPlay
             muted
+            loading="lazy"
             css={css`
               width: 800px;
               height: auto;
