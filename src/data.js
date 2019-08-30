@@ -464,7 +464,7 @@ export default {
         end: "",
         title: {
           en: "PARTY TIME!",
-          uk: "Вечірка"",
+          uk: "Вечірка",
         },
         desc: {
           en: "",
