@@ -16,13 +16,13 @@ export default {
       en: `Let's face it: designer is not the only person behind the design.
            Sometimes you need a little help from data specialists, marketers,
            AI engineers, artists or from all of them at a time to come up with a final vision.
-           So, how the whole ‘working together’ process in design really look like and how cooperation affect the project?
+           So, how does the whole ‘working together’ process in design really look like and how does the cooperation affect the project?
            <br/>
            Join us on a three day design festival to have the answers.`,
       uk: `Let's face it: designer is not the only person behind the design.
            Sometimes you need a little help from data specialists, marketers,
            AI engineers, artists or from all of them at a time to come up with a final vision.
-           So, how the whole ‘working together’ process in design really look like and how cooperation affect the project?
+           So, how does the whole ‘working together’ process in design really look like and how does the cooperation affect the project?
            <br/>
            Join us on a three day design festival to have the answers.`,
     },
