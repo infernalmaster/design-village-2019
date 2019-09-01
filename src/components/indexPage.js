@@ -310,7 +310,7 @@ const IndexPage = ({ t }) => {
         id="workshops"
         css={css`
           max-width: 1290px;
-          padding: 0 20px;
+          padding: 0 20px 30px;
           margin: auto;
           color: #ffffff;
         `}
@@ -321,7 +321,7 @@ const IndexPage = ({ t }) => {
             padding: 30px 0;
 
             @media (min-width: ${bp}) {
-              padding: 270px 0 140px 50%;
+              padding: 270px 0 60px 50%;
             }
           `}
         >
