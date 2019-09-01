@@ -7,16 +7,19 @@ import Img from "gatsby-image"
 import SEO from "./seo"
 
 import data from "../data"
+import { bp } from "./bp"
+
 import { Workshop } from "./Workshop"
 import { ExhibitionItem } from "./ExhibitionItem"
 import { Speaker } from "./Speaker"
 import { SpeakerMain } from "./SpeakerMain"
 import { ScheduleSection } from "./ScheduleSection"
 import { MainHeader } from "./MainHeader"
-import { bp } from "./bp"
+import { SocialLinks } from "./SocialLinks"
 
 import "./layout.css"
 import "../fonts/fonts.css"
+import { FooterTitle } from "./FooterTitle"
 
 const IndexPage = ({ t }) => {
   const imagesData = useStaticQuery(graphql`
@@ -183,49 +186,7 @@ const IndexPage = ({ t }) => {
             }
           `}
         >
-          <a
-            href={data.links.fb}
-            target="_blank"
-            rel="noopener noreferrer"
-            css={css`
-              background: url(${require("../images/icons/fb.svg")});
-            `}
-          >
-            facebook
-          </a>
-
-          <a
-            href={data.links.tg}
-            target="_blank"
-            rel="noopener noreferrer"
-            css={css`
-              background: url(${require("../images/icons/tg.svg")});
-            `}
-          >
-            telegram
-          </a>
-
-          <a
-            href={data.links.ig}
-            target="_blank"
-            rel="noopener noreferrer"
-            css={css`
-              background: url(${require("../images/icons/ig.svg")});
-            `}
-          >
-            instagram
-          </a>
-
-          <a
-            href={data.links.tw}
-            target="_blank"
-            rel="noopener noreferrer"
-            css={css`
-              background: url(${require("../images/icons/tw.svg")});
-            `}
-          >
-            twitter
-          </a>
+          <SocialLinks />
         </div>
 
         <p
@@ -671,49 +632,7 @@ const IndexPage = ({ t }) => {
                 }
               `}
             >
-              <a
-                href={data.links.fb}
-                target="_blank"
-                rel="noopener noreferrer"
-                css={css`
-                  background: url(${require("../images/icons/fb.svg")});
-                `}
-              >
-                facebook
-              </a>
-
-              <a
-                href={data.links.tg}
-                target="_blank"
-                rel="noopener noreferrer"
-                css={css`
-                  background: url(${require("../images/icons/tg.svg")});
-                `}
-              >
-                telegram
-              </a>
-
-              <a
-                href={data.links.ig}
-                target="_blank"
-                rel="noopener noreferrer"
-                css={css`
-                  background: url(${require("../images/icons/ig.svg")});
-                `}
-              >
-                instagram
-              </a>
-
-              <a
-                href={data.links.tw}
-                target="_blank"
-                rel="noopener noreferrer"
-                css={css`
-                  background: url(${require("../images/icons/tw.svg")});
-                `}
-              >
-                twitter
-              </a>
+              <SocialLinks />
             </div>
           </section>
           <section>
@@ -765,23 +684,3 @@ const IndexPage = ({ t }) => {
   )
 }
 export default IndexPage
-
-function FooterTitle({ children }) {
-  return (
-    <h2
-      css={css`
-        margin-top: 40px;
-        font-size: 36px;
-        line-height: 137%;
-        text-transform: uppercase;
-        color: #fcfb63;
-
-        @media (min-width: ${bp}) {
-          font-size: 48px;
-        }
-      `}
-    >
-      {children}
-    </h2>
-  )
-}

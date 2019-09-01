@@ -3,6 +3,7 @@ import { css } from "@emotion/core"
 import { bp } from "./bp"
 import { NavLink } from "./NavLink"
 import { supportsPassive } from "./supportsPassive"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 export const MainHeader = ({ data, t }) => {
   const [isOpen, setOpen] = useState(false)
@@ -84,6 +85,7 @@ export const MainHeader = ({ data, t }) => {
           href={data.links.tickets}
           target="_blank"
           rel="noopener noreferrer"
+          isOutboundLink
           onClick={close}
         >
           get tickets
@@ -145,7 +147,7 @@ export const MainHeader = ({ data, t }) => {
         ></div>
       </button>
 
-      <a
+      <OutboundLink
         href={data.links.tickets}
         target="_blank"
         rel="noopener noreferrer"
@@ -188,7 +190,7 @@ export const MainHeader = ({ data, t }) => {
         `}
       >
         tickets
-      </a>
+      </OutboundLink>
     </header>
   )
 }
