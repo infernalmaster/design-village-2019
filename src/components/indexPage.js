@@ -464,19 +464,34 @@ const IndexPage = ({ t }) => {
           css={css`
             max-width: 1290px;
             margin: auto;
-            padding: 140px 20px;
 
-            display: flex;
+            @media (min-width: ${bp}) {
+              display: flex;
+              padding: 140px 20px;
+            }
           `}
         >
-          <div>
+          <div
+            css={css`
+              padding: 20px;
+
+              @media (min-width: ${bp}) {
+                padding: 0;
+              }
+            `}
+          >
             <h2
               css={css`
                 font-family: Publica Sans;
-                font-size: 96px;
+                font-size: 36px;
                 line-height: 110%;
                 letter-spacing: 1.03em;
-                width: 6.5em;
+                width: 5.5em;
+
+                @media (min-width: ${bp}) {
+                  font-size: 96px;
+                  width: 6.5em;
+                }
               `}
             >
               locations
@@ -484,12 +499,16 @@ const IndexPage = ({ t }) => {
 
             <h3
               css={css`
-                padding: 90px 0 21px;
-                font-size: 36px;
-                line-height: 43px;
+                padding: 35px 0 21px;
+                font-size: 24px;
                 text-transform: uppercase;
                 color: #fcfb63;
                 font-weight: 700;
+
+                @media (min-width: ${bp}) {
+                  font-size: 36px;
+                  padding: 90px 0 21px;
+                }
               `}
             >
               Saturday
@@ -498,26 +517,55 @@ const IndexPage = ({ t }) => {
             </h3>
             <p
               css={css`
-                font-size: 36px;
+                font-size: 18px;
                 line-height: 140%;
                 font-weight: 500;
                 max-width: 450px;
+
+                @media (min-width: ${bp}) {
+                  font-size: 36px;
+                }
               `}
             >
               Ivan Franko Academic Music-Drama Theater,
               <br /> Nezalezhnosti str. 42, Ivano-Frankivsk
             </p>
           </div>
-          <div>
+          <a
+            href="https://www.google.com/maps/place/%D0%98%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%82%D0%B5%D0%B0%D1%82%D1%80+%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8+%D0%98%D0%B2%D0%B0%D0%BD%D0%B0+%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%B0/@48.9156942,24.7177289,16.24z/data=!4m5!3m4!1s0x0:0x9961cdce000e7ba2!8m2!3d48.9176057!4d24.7188574"
+            target="_blank"
+            rel="noopener noreferrer"
+            css={css`
+              position: relative;
+              display: block;
+              margin-top: 20px;
+              @media (min-width: ${bp}) {
+                margin-top: 185px;
+              }
+            `}
+          >
             <img
               css={css`
                 max-width: 875px;
-                margin-top: 185px;
+                display: block;
               `}
               src={require("../images/map.jpg")}
               alt="map"
             />
-          </div>
+
+            <div
+              css={css`
+                position: absolute;
+                z-index: 1;
+                width: 15px;
+                height: 15px;
+                background: #fcfb63;
+                border-radius: 50%;
+                left: 60%;
+                top: 39%;
+              `}
+            />
+          </a>
         </div>
       </section>
 
