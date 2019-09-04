@@ -14,6 +14,7 @@ export const Workshop = ({
   peoples,
   price,
   imgSrc,
+  clearImgSrc,
 }) => (
   <section
     css={css`
@@ -66,6 +67,7 @@ export const Workshop = ({
           overflow: hidden;
           order: 2;
           margin-right: 18px;
+          position: relative;
 
           @media (min-width: ${bp}) {
             width: 100px;
@@ -76,7 +78,22 @@ export const Workshop = ({
           }
         `}
       >
-        <Img fixed={imgSrc} alt={name} />
+        <Img fixed={clearImgSrc} alt={name} />
+        <div
+          css={css`
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            width: 100%;
+            transition: opacity 0.3s;
+            &:hover {
+              opacity: 0;
+            }
+          `}
+        >
+          <Img fixed={imgSrc} alt={name} />
+        </div>
       </div>
 
       <div

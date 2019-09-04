@@ -63,8 +63,8 @@ export default {
         en: "Design Director, MediaMonks. Amsterdam, Netherlands",
         uk: "Design Director MediaMonks. Амстердам, Нідерланди",
       },
-      img: "zaglushka.png",
-      clearImg: "zaglushka.png",
+      img: "sebastiaan.scheer.png",
+      clearImg: "sebastiaan.scheer1.png",
     },
     {
       name: {
@@ -125,8 +125,8 @@ export default {
         en: "Creative Director, Bruketa&Žinić&Grey. Zagreb, Croatia",
         uk: "Креативний директор Bruketa&Žinić&Grey. Загреб, Хорватія",
       },
-      img: "zaglushka.png",
-      clearImg: "zaglushka.png",
+      img: "davor.png",
+      clearImg: "davor1.png",
     },
     {
       name: {
@@ -178,7 +178,8 @@ export default {
       duration: "6-8 hours",
       peoples: "16",
       price: "600 UAH",
-      img: "zaglushka.png",
+      img: "workshop_kovalenko1.png",
+      clearImg: "workshop_kovalenko.png",
     },
     {
       title: {
@@ -200,7 +201,8 @@ export default {
       duration: "?",
       peoples: "UNLIMITED",
       price: "FREE",
-      img: "zaglushka.png",
+      img: "workshop_protasova1.png",
+      clearImg: "workshop_protasova.png",
     },
   ],
   schedule: {

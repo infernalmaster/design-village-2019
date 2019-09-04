@@ -396,6 +396,10 @@ const IndexPage = ({ t }) => {
             ({ node: { base } }) => base === w.img
           ).node.childImageSharp.fixed
 
+          const clearImgSrc = imagesData.workshops.edges.find(
+            ({ node: { base } }) => base === w.clearImg
+          ).node.childImageSharp.fixed
+
           return (
             <Workshop
               key={i}
@@ -404,6 +408,7 @@ const IndexPage = ({ t }) => {
               name={t(w.name)}
               desc={t(w.desc)}
               imgSrc={imgSrc}
+              clearImgSrc={clearImgSrc}
             />
           )
         })}
