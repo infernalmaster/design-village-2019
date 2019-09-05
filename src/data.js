@@ -110,7 +110,7 @@ export default {
       },
       desc: {
         en:
-          "Senior Designer, COLLINS https://www.wearecollins.com/. New York, USA",
+          "Senior Designer, COLLINS. New York, USA",
         uk: "Senior Designer, COLLINS. Працює з Mailchimp, Bose. Нью-Йорк, США",
       },
       img: "eric.png",
@@ -212,7 +212,7 @@ export default {
         end: "",
         title: {
           en: "Exhibitions Opening",
-          uk: "",
+          uk: "Відкритя виставок",
         },
         desc: {
           en: "",
@@ -301,8 +301,8 @@ export default {
           uk: "Rene Wawrzkiewicz",
         },
         desc: {
-          en: "Lecture",
-          uk: "Лекція",
+          en: "How to compete and win in designer competitions?",
+          uk: "Як конкурувати та перемагати у конкурсах для дизайнерів?",
         },
       },
       {
@@ -337,8 +337,8 @@ export default {
           uk: "Sebastiaan Scheer",
         },
         desc: {
-          en: "Lecture. English",
-          uk: "Лекція. English",
+          en: "Making a difference by working as a design team. English",
+          uk: "Досягти більшого, працюючи як дизайн-команда. English",
         },
       },
       {
@@ -397,8 +397,8 @@ export default {
           uk: "Evan Abrams",
         },
         desc: {
-          en: "Lecture. English",
-          uk: "Лекція. English",
+          en: "Motion Design Pre-Production Processes. “Down the waterfall together”. English",
+          uk: "Пре-продакшн у моушн дизайні. \”Всім приготуватись до занурення!\”. English",
         },
       },
       {
@@ -445,8 +445,8 @@ export default {
           uk: "Luke Hayman",
         },
         desc: {
-          en: "Lecture. English",
-          uk: "Лекція. English",
+          en: "Design for your mother, your plumber and your doctor. English",
+          uk: "Дизайн для твоєї мами, твого лікаря чи сантехніка. English",
         },
       },
       {
