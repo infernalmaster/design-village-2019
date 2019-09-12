@@ -8,7 +8,7 @@ export default {
     fb: "https://www.facebook.com/designvillagecarpathians/",
     ig: "https://www.instagram.com/designvillage_festival/",
     tw: "https://twitter.com/DesignVillageUA",
-    phone_collaboration: "095 706 23 03",
+    phone_collaboration: "093 508 99 58",
     email: "hello@designvillage.com.ua",
   },
   header: {
