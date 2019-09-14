@@ -78,7 +78,7 @@ export const Workshop = ({
           }
         `}
       >
-        <Img fixed={clearImgSrc} alt={name} />
+        <Img fluid={clearImgSrc} alt={name} />
         <div
           css={css`
             position: absolute;
@@ -92,7 +92,7 @@ export const Workshop = ({
             }
           `}
         >
-          <Img fixed={imgSrc} alt={name} />
+          <Img fluid={imgSrc} alt={name} />
         </div>
       </div>
 

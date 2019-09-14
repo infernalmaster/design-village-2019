@@ -47,7 +47,7 @@ const IndexPage = ({ t }) => {
             base
             childImageSharp {
               fluid(maxWidth: 610, quality: 100) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_withWebp_noBase64
               }
             }
           }
@@ -60,7 +60,7 @@ const IndexPage = ({ t }) => {
             base
             childImageSharp {
               fluid(maxWidth: 397, quality: 100) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_withWebp_noBase64
               }
             }
           }
@@ -72,8 +72,8 @@ const IndexPage = ({ t }) => {
             relativePath
             base
             childImageSharp {
-              fixed(width: 100, quality: 100) {
-                ...GatsbyImageSharpFixed_withWebp
+              fluid(maxWidth: 100, quality: 100) {
+                ...GatsbyImageSharpFluid_withWebp_noBase64
               }
             }
           }
@@ -394,11 +394,11 @@ const IndexPage = ({ t }) => {
         {data.workshops.map((w, i) => {
           const imgSrc = imagesData.workshops.edges.find(
             ({ node: { base } }) => base === w.img
-          ).node.childImageSharp.fixed
+          ).node.childImageSharp.fluid
 
           const clearImgSrc = imagesData.workshops.edges.find(
             ({ node: { base } }) => base === w.clearImg
-          ).node.childImageSharp.fixed
+          ).node.childImageSharp.fluid
 
           return (
             <Workshop
@@ -639,7 +639,7 @@ const IndexPage = ({ t }) => {
                     width: 20%;
                   }
                 `}
-                src={require(`../images/partners/${p}`)}
+                src={`/images/partners/${p}`}
                 alt="partner"
                 loading="lazy"
               />
