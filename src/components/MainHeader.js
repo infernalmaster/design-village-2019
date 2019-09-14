@@ -92,6 +92,7 @@ export const MainHeader = ({ data, t }) => {
         </NavLink>
       </nav>
       <button
+        title="Menu opener"
         onClick={() => setOpen(!isOpen)}
         css={css`
           position: absolute;
