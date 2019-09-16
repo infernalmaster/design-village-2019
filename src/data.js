@@ -84,9 +84,8 @@ export default {
         uk: "Руперт Брегені",
       },
       desc: {
-        en:
-          "Product Manager and Director, Google VR map. Zürich Area, Switzerland",
-        uk: "Product Manager у Google VR Map. Цюрих, Швейцарія.",
+        en: "VR Manager at Google. Zürich Area, Switzerland",
+        uk: "Map Manager у Google. Цюрих, Швейцарія",
       },
       img: "Rupert-Breheny.png",
       clearImg: "Rupert-Breheny1.png",
