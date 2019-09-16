@@ -611,7 +611,7 @@ const IndexPage = ({ t }) => {
 
         <div
           css={css`
-            padding: 0 20px 175px;
+            padding: 0 20px 70px;
           `}
         >
           <div
