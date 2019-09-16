@@ -499,7 +499,7 @@ const IndexPage = ({ t }) => {
                 }
               `}
             >
-              locations
+              loca<span>t</span>ions
             </h2>
 
             <h3
