@@ -387,12 +387,12 @@ export default {
         start: "12:10",
         end: "12:50",
         title: {
-          en: "TBA",
-          uk: "TBA",
+          en: "Marianna Tomaselli",
+          uk: "Marianna Tomaselli",
         },
         desc: {
-          en: "Lecture",
-          uk: "Лекція",
+          en: "Lecture. English",
+          uk: "Лекція. English",
         },
       },
       {
