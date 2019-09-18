@@ -38,21 +38,6 @@ const IndexPage = ({ t }) => {
           }
         }
       }
-      exhibitions: allFile(
-        filter: { relativeDirectory: { eq: "exhibitions" } }
-      ) {
-        edges {
-          node {
-            relativePath
-            base
-            childImageSharp {
-              fluid(maxWidth: 610, quality: 100) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-        }
-      }
       speakers: allFile(filter: { relativeDirectory: { eq: "speakers" } }) {
         edges {
           node {
@@ -431,10 +416,6 @@ const IndexPage = ({ t }) => {
           `}
         >
           {data.exhibitions.map((e, i) => {
-            const imgSrc = imagesData.exhibitions.edges.find(
-              ({ node: { base } }) => base === e.img
-            ).node.childImageSharp.fluid
-
             return (
               <ExhibitionItem
                 key={i}
@@ -444,7 +425,9 @@ const IndexPage = ({ t }) => {
                 address={t(e.address)}
                 fbLink={e.fbLink}
                 imgLeft={!(i % 2)}
-                imgRender={() => <Img fluid={imgSrc} alt={t(e.title)} />}
+                imgRender={() => (
+                  <img src={`/images/exhibitions/${e.img}`} alt={t(e.title)} />
+                )}
               />
             )
           })}

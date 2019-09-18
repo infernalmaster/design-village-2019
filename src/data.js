@@ -156,7 +156,7 @@ export default {
     },
   ],
   workshops: [
-        {
+    {
       title: {
         en: "Illustration for Digital Product Design",
         uk: "Illustration for Digital Product Design",
@@ -166,7 +166,8 @@ export default {
         uk: "Leo Natsume",
       },
       desc: {
-        en: "is a talented visual designer with a focus on Digital Design - UI/UX, interaction design and mainly illustration, currently working at Grupo RBS, based in Porto Alegre/Brazil. Clients: Google, Uber, Huawei, Nike, Disney, Coca-Cola, NYT, Mercedes-Benz, WillSmith, others.",
+        en:
+          "is a talented visual designer with a focus on Digital Design - UI/UX, interaction design and mainly illustration, currently working at Grupo RBS, based in Porto Alegre/Brazil. Clients: Google, Uber, Huawei, Nike, Disney, Coca-Cola, NYT, Mercedes-Benz, WillSmith, others.",
         uk: "",
       },
       fbLink: "",
@@ -175,8 +176,8 @@ export default {
       duration: "6-8 hours",
       peoples: "14",
       price: "600-800 UAH",
-      img: "workshop_leo_natsume1.png",
-      clearImg: "workshop_leo_natsume.png",
+      img: "workshop-leo-natsume.png",
+      clearImg: "workshop-leo-natsume1.png",
     },
     {
       title: {
@@ -234,7 +235,8 @@ export default {
         uk: "Masha Teterin",
       },
       desc: {
-        en: "Head of BBDO Branding, BBDO Ukraine. Clients: Staropramen, Stella Artois, Mars, WOG, Pepsi, Kotex, Snickers.",
+        en:
+          "Head of BBDO Branding, BBDO Ukraine. Clients: Staropramen, Stella Artois, Mars, WOG, Pepsi, Kotex, Snickers.",
         uk: "",
       },
       fbLink: "",
@@ -243,8 +245,8 @@ export default {
       duration: "6 hours",
       peoples: "9",
       price: "600 UAH",
-      img: "workshop_teterin1.png",
-      clearImg: "workshop_teterin.png",
+      img: "workshop_teterin.png",
+      clearImg: "workshop_teterin1.png",
     },
   ],
   schedule: {
@@ -305,8 +307,10 @@ export default {
           uk: "LEO NATSUME",
         },
         desc: {
-          en: "Artist collaboration with big companies in the design industry. English",
-          uk: "Artist collaboration with big companies in the design industry. English",
+          en:
+            "Artist collaboration with big companies in the design industry. English",
+          uk:
+            "Artist collaboration with big companies in the design industry. English",
         },
       },
       {
@@ -622,7 +626,7 @@ export default {
         en: "Detector Gallery",
       },
       fbLink: "",
-      img: "in_search_of_meaning.png",
+      img: "EXHB_Belinska.jpg",
     },
     {
       author: {
@@ -640,7 +644,7 @@ export default {
         en: "Ivan Franko Academic Music-Drama Theater",
       },
       fbLink: "",
-      img: "p2.jpg",
+      img: "EXHB_Rene.svg",
     },
     {
       author: {
@@ -665,6 +669,7 @@ export default {
   venue: {},
   partners: [
     "1_Logo_UKF.svg",
+    "2_Logo_Wix.svg",
     "3_Logo_Deposit.svg",
     "4_Logo_Bruketa.svg",
     "5_Logo_BBDO.svg",
@@ -674,12 +679,14 @@ export default {
     "9_Logo_Softjourn.svg",
     "10_Logo_ArtHuss.svg",
     "11_Logo_Huss.svg",
+    "12_Logo_TheGradient.png",
     "13_Logo_Skovoroda.svg",
     "14_Logo_Show.svg",
     "15_Logo_Prom.svg",
     "16_Logo_DesignforU.svg",
     "17_Logo_Coax.svg",
     "18_Logo_Arystokraty.svg",
+    "19_Logo_CopperHead.svg",
     "20_Logo_TM.svg",
     "21_Logo_Chernozem.svg",
     "22_Logo_ITCL.svg",
@@ -687,5 +694,7 @@ export default {
     "24_Logo_Nostres.svg",
     "25_Logo_MML.svg",
     "26_Logo_Paperivka.svg",
+    "27_Logo_Uxpressia.svg",
+    "28_Logo_Aquareal.png",
   ],
 }
