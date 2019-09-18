@@ -7,16 +7,23 @@ export const SpeakerMain = ({ name, desc }) => (
       position: relative;
       @media (min-width: ${bp}) {
         position: absolute;
-        z-index: -1;
         left: 110px;
         top: 597px;
         padding: 100px 0 0 171px;
       }
+
+      &:hover {
+        .img-overlay {
+          opacity: 0;
+        }
+      }
     `}
   >
-    <img
+    <div
       css={css`
+        position: relative;
         border-radius: 50%;
+        overflow: hidden;
 
         @media (min-width: ${bp}) {
           width: 230px;
@@ -27,10 +34,32 @@ export const SpeakerMain = ({ name, desc }) => (
           left: 0;
         }
       `}
-      src={require("../images/jereb.png")}
-      alt={name}
-      loading="lazy"
-    />
+    >
+      <img
+        css={css``}
+        src={require("../images/jereb1.png")}
+        alt={name}
+        loading="lazy"
+      />
+      <div
+        className="img-overlay"
+        css={css`
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 2;
+          width: 100%;
+          transition: opacity 0.3s;
+        `}
+      >
+        <img
+          css={css``}
+          src={require("../images/jereb.png")}
+          alt={name}
+          loading="lazy"
+        />
+      </div>
+    </div>
     <h3
       css={css`
         font-size: 24px;

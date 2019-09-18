@@ -25,6 +25,12 @@ export const Workshop = ({
       border: 1px solid #323232;
       padding: 0 10px 10px 10px;
 
+      &:hover {
+        .img-overlay {
+          opacity: 0;
+        }
+      }
+
       @media (min-width: ${bp}) {
         padding: 0;
         margin-left: 320px;
@@ -80,6 +86,7 @@ export const Workshop = ({
       >
         <Img fluid={clearImgSrc} alt={name} />
         <div
+          className="img-overlay"
           css={css`
             position: absolute;
             top: 0;
@@ -87,9 +94,6 @@ export const Workshop = ({
             z-index: 2;
             width: 100%;
             transition: opacity 0.3s;
-            &:hover {
-              opacity: 0;
-            }
           `}
         >
           <Img fluid={imgSrc} alt={name} />

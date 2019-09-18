@@ -12,6 +12,12 @@ export const Speaker = ({ name, desc, imgSrc, clearImgSrc }) => {
         @media (min-width: ${bp}) {
           width: 33.333%;
         }
+
+        &:hover {
+          .img-overlay {
+            opacity: 0;
+          }
+        }
       `}
     >
       <div
@@ -21,6 +27,7 @@ export const Speaker = ({ name, desc, imgSrc, clearImgSrc }) => {
       >
         <Img fluid={clearImgSrc} alt={name} />
         <div
+          className="img-overlay"
           css={css`
             position: absolute;
             top: 0;
@@ -28,9 +35,6 @@ export const Speaker = ({ name, desc, imgSrc, clearImgSrc }) => {
             z-index: 2;
             width: 100%;
             transition: opacity 0.3s;
-            &:hover {
-              opacity: 0;
-            }
           `}
         >
           <Img fluid={imgSrc} alt={name} />

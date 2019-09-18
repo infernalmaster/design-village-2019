@@ -244,6 +244,7 @@ const IndexPage = ({ t }) => {
               margin: auto;
               padding: 70px 0 70px 1em;
               width: 5em;
+              pointer-events: none;
 
               @media (min-width: ${bp}) {
                 font-size: 96px;
