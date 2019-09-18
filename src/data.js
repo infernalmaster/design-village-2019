@@ -174,7 +174,7 @@ export default {
       time: "10:00",
       duration: "6-8 hours",
       peoples: "14",
-      price: "800 UAH",
+      price: "600-800 UAH",
       img: "workshop_leo_natsume1.png",
       clearImg: "workshop_leo_natsume.png",
     },
