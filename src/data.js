@@ -257,8 +257,8 @@ export default {
           uk: "Відкритя виставок",
         },
         desc: {
-          en: "",
-          uk: "",
+          en: "Promprylad.Renovation, Akademika Sakharova, 23",
+          uk: "Promprylad.Renovation, Akademika Sakharova, 23",
         },
       },
       {
@@ -271,6 +271,18 @@ export default {
         desc: {
           en: "Workshop",
           uk: "Воркшоп",
+        },
+      },
+      {
+        start: "16:30",
+        end: "",
+        title: {
+          en: "Design Evening at Promprylad.Renovation",
+          uk: "Design Evening at Promprylad.Renovation",
+        },
+        desc: {
+          en: "Promprylad.Renovation, Akademika Sakharova str. 23",
+          uk: "Promprylad.Renovation, Akademika Sakharova str. 23",
         },
       },
       {
