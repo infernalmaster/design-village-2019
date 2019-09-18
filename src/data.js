@@ -156,6 +156,28 @@ export default {
     },
   ],
   workshops: [
+        {
+      title: {
+        en: "Illustration for Digital Product Design",
+        uk: "Illustration for Digital Product Design",
+      },
+      name: {
+        en: "Leo Natsume",
+        uk: "Leo Natsume",
+      },
+      desc: {
+        en: "is a talented visual designer with a focus on Digital Design - UI/UX, interaction design and mainly illustration, currently working at Grupo RBS, based in Porto Alegre/Brazil. Clients: Google, Uber, Huawei, Nike, Disney, Coca-Cola, NYT, Mercedes-Benz, WillSmith, others.",
+        uk: "",
+      },
+      fbLink: "",
+      date: "13 / 10",
+      time: "10:00",
+      duration: "6-8 hours",
+      peoples: "14",
+      price: "800 UAH",
+      img: "workshop_leo_natsume1.png",
+      clearImg: "workshop_leo_natsume.png",
+    },
     {
       title: {
         en: "Social Poster",
@@ -202,6 +224,28 @@ export default {
       img: "workshop_protasova1.png",
       clearImg: "workshop_protasova.png",
     },
+    {
+      title: {
+        en: "Branding",
+        uk: "Branding",
+      },
+      name: {
+        en: "Masha Teterin",
+        uk: "Masha Teterin",
+      },
+      desc: {
+        en: "Head of BBDO Branding, BBDO Ukraine. Clients: Staropramen, Stella Artois, Mars, WOG, Pepsi, Kotex, Snickers.",
+        uk: "",
+      },
+      fbLink: "",
+      date: "13 / 10",
+      time: "10:00",
+      duration: "6 hours",
+      peoples: "9",
+      price: "600 UAH",
+      img: "workshop_teterin1.png",
+      clearImg: "workshop_teterin.png",
+    },
   ],
   schedule: {
     0: [
@@ -233,8 +277,8 @@ export default {
         start: "16:40",
         end: "17:40",
         title: {
-          en: "TBA",
-          uk: "TBA",
+          en: "Depositphotos",
+          uk: "Depositphotos",
         },
         desc: {
           en: "Lecture",
@@ -249,8 +293,8 @@ export default {
           uk: "LEO NATSUME",
         },
         desc: {
-          en: "Lecture. English",
-          uk: "Лекція. English",
+          en: "Artist collaboration with big companies in the design industry. English",
+          uk: "Artist collaboration with big companies in the design industry. English",
         },
       },
       {
@@ -367,8 +411,8 @@ export default {
         start: "14:30",
         end: "15:00",
         title: {
-          en: "TBA",
-          uk: "TBA",
+          en: "Anna Skorobogatova",
+          uk: "Anna Skorobogatova",
         },
         desc: {
           en: "Lecture",
@@ -383,8 +427,8 @@ export default {
           uk: "Роман Гавриш",
         },
         desc: {
-          en: "Lecture",
-          uk: "Лекція",
+          en: "Design & Strategy",
+          uk: "Design & Strategy",
         },
       },
       {
@@ -462,15 +506,15 @@ export default {
         },
       },
       {
-        start: "21:30",
+        start: "22:00",
         end: "",
         title: {
           en: "PARTY TIME!",
           uk: "Вечірка",
         },
         desc: {
-          en: "",
-          uk: "",
+          en: "Promprylad.Renovation, Parasolkovyi tsekh",
+          uk: "Promprylad.Renovation, Parasolkovyi tsekh",
         },
       },
     ],
@@ -531,8 +575,8 @@ export default {
           uk: "Роман Малиновський",
         },
         desc: {
-          en: "Вавилонська Бібліотека/Цивілізація",
-          uk: "Вавилонська Бібліотека/Цивілізація",
+          en: "What you need to know when you make illustrations for a book",
+          uk: "What you need to know when you make illustrations for a book",
         },
       },
       {
@@ -543,8 +587,8 @@ export default {
           uk: "Микола Ковальчук",
         },
         desc: {
-          en: "Lecture",
-          uk: "Лекція",
+          en: "Co-creating books",
+          uk: "Co-creating books",
         },
       },
     ],
@@ -553,11 +597,11 @@ export default {
     {
       author: {
         en: "Maria Bilinska",
-        uk: "",
+        uk: "Maria Bilinska",
       },
       title: {
         en: "In Search of Meanings",
-        uk: "",
+        uk: "In Search of Meanings",
       },
       desc: {
         en: "Mixed media art works exhibition",
@@ -571,11 +615,11 @@ export default {
     {
       author: {
         en: "Rene Wawrzkiewicz",
-        uk: "",
+        uk: "Rene Wawrzkiewicz",
       },
       title: {
-        en: "TBA",
-        uk: "",
+        en: "Selection of the best Polish books from the Polish Graphic Awards",
+        uk: "Selection of the best Polish books from the Polish Graphic Awards",
       },
       desc: {
         en: "",
@@ -589,11 +633,11 @@ export default {
     {
       author: {
         en: "Pictoric",
-        uk: "",
+        uk: "Pictoric",
       },
       title: {
-        en: "TBA",
-        uk: "",
+        en: "yellow&blue",
+        uk: "yellow&blue",
       },
       desc: {
         en: "",
