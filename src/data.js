@@ -158,6 +158,29 @@ export default {
   workshops: [
     {
       title: {
+        en: "Plasticine illustration",
+        uk: "",
+      },
+      name: {
+        en: "Olga Protasova",
+        uk: "",
+      },
+      desc: {
+        en:
+          "Olga Protasova is Kyiv-based freelance illustrator and graphic designer, at the moment happily focused on things she loves best: lettering, illustration community in Ukraine and her family.",
+        uk: "",
+      },
+      fbLink: "",
+      date: "11 / 10",
+      time: "15:00",
+      duration: "?",
+      peoples: "UNLIMITED",
+      price: "FREE",
+      img: "workshop_protasova1.png",
+      clearImg: "workshop_protasova.png",
+    },
+    {
+      title: {
         en: "Illustration for Digital Product Design",
         uk: "Illustration for Digital Product Design",
       },
@@ -204,29 +227,6 @@ export default {
     },
     {
       title: {
-        en: "Plasticine illustration",
-        uk: "",
-      },
-      name: {
-        en: "Olga Protasova",
-        uk: "",
-      },
-      desc: {
-        en:
-          "Olga Protasova is Kyiv-based freelance illustrator and graphic designer, at the moment happily focused on things she loves best: lettering, illustration community in Ukraine and her family.",
-        uk: "",
-      },
-      fbLink: "",
-      date: "11 / 10",
-      time: "15:00",
-      duration: "?",
-      peoples: "UNLIMITED",
-      price: "FREE",
-      img: "workshop_protasova1.png",
-      clearImg: "workshop_protasova.png",
-    },
-    {
-      title: {
         en: "Branding",
         uk: "Branding",
       },
@@ -259,8 +259,8 @@ export default {
           uk: "Відкритя виставок",
         },
         desc: {
-          en: "Promprylad.Renovation, Akademika Sakharova, 23",
-          uk: "Promprylad.Renovation, Akademika Sakharova, 23",
+          en: "Promprylad.Renovation, Akademika Sakharova str. 23",
+          uk: "Promprylad.Renovation, Akademika Sakharova str. 23",
         },
       },
       {
@@ -279,8 +279,8 @@ export default {
         start: "16:30",
         end: "",
         title: {
-          en: "Design Evening at Promprylad.Renovation",
-          uk: "Design Evening at Promprylad.Renovation",
+          en: "Design Evening",
+          uk: "Design Evening",
         },
         desc: {
           en: "Promprylad.Renovation, Akademika Sakharova str. 23",
