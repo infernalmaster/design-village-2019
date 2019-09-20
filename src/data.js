@@ -216,7 +216,7 @@ export default {
           '"Social poster", workshop of graphic designer, art director dnkstudio Nikolai Kovalenko',
         uk: "",
       },
-      fbLink: "",
+      fbLink: "https://www.facebook.com/events/980699868988952/",
       date: "13 / 10",
       time: "10:00",
       duration: "6-8 hours",
