@@ -154,6 +154,30 @@ export default {
       img: "leo-natsume.png",
       clearImg: "leo-natsume1.png",
     },
+    {
+      name: {
+        en: "Julian Mollema",
+        uk: "",
+      },
+      desc: {
+        en: "",
+        uk: "",
+      },
+      img: "Julian Mollema1.png",
+      clearImg: "Julian Mollema.png",
+    },
+    {
+      name: {
+        en: "Marianna Tomaselli",
+        uk: "",
+      },
+      desc: {
+        en: "",
+        uk: "",
+      },
+      img: "Marianna_Tomaselli1.png",
+      clearImg: "Marianna_Tomaselli.png",
+    },
   ],
   workshops: [
     {

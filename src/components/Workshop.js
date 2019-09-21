@@ -2,7 +2,9 @@ import React from "react"
 import { css } from "@emotion/core"
 import Img from "gatsby-image"
 import { WTime } from "./WTime"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { bp } from "./bp"
+
 export const Workshop = ({
   title,
   name,
@@ -227,22 +229,29 @@ export const Workshop = ({
     </div>
 
     {fbLink && (
-      <a
+      <OutboundLink
         href={fbLink}
+        target="_blank"
+        rel="noopener noreferrer"
         css={css`
           font-weight: 700;
-          font-size: 24px;
+          font-size: 18px;
           text-decoration-line: underline;
           text-transform: uppercase;
 
           color: #fcfb63;
 
           display: inline-block;
-          margin-bottom: 76px;
+          margin-bottom: 30px;
+
+          @media (min-width: ${bp}) {
+            font-size: 24px;
+            margin-bottom: 76px;
+          }
         `}
       >
         facebook
-      </a>
+      </OutboundLink>
     )}
   </section>
 )

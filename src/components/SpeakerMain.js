@@ -37,7 +37,7 @@ export const SpeakerMain = ({ name, desc }) => (
     >
       <img
         css={css``}
-        src={require("../images/jereb1.png")}
+        src={require("../images/speakers/Anze_jereb_circle.png")}
         alt={name}
         loading="lazy"
       />
@@ -54,7 +54,7 @@ export const SpeakerMain = ({ name, desc }) => (
       >
         <img
           css={css``}
-          src={require("../images/jereb.png")}
+          src={require("../images/speakers/Anze_jereb_circle1.png")}
           alt={name}
           loading="lazy"
         />
