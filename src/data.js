@@ -646,11 +646,11 @@ export default {
         uk: "Rene Wawrzkiewicz",
       },
       title: {
-        en: "Selection of the best Polish books from the Polish Graphic Awards",
-        uk: "Selection of the best Polish books from the Polish Graphic Awards",
+        en: "Best of PGA books",
+        uk: "Best of PGA books",
       },
       desc: {
-        en: "",
+        en: "Selection of the best Polish books from the Polish Graphic Awards",
       },
       address: {
         en: "Ivan Franko Academic Music-Drama Theater",
