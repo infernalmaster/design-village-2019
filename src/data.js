@@ -104,15 +104,15 @@ export default {
     },
     {
       name: {
-        en: "Erik Berger Vaage",
-        uk: "Ерік Бергер Вааге",
+        en: "Marianna Tomaselli",
+        uk: "Marianna Tomaselli",
       },
       desc: {
-        en: "Senior Designer, COLLINS. New York, USA",
-        uk: "Senior Designer, COLLINS. Працює з Mailchimp, Bose. Нью-Йорк, США",
+        en: "Illustrator and Art Director, Milan, Italy",
+        uk: "Illustrator and Art Director, Milan, Italy",
       },
-      img: "eric.png",
-      clearImg: "eric1.png",
+      img: "Marianna_Tomaselli1.png",
+      clearImg: "Marianna_Tomaselli.png",
     },
     {
       name: {
@@ -157,26 +157,14 @@ export default {
     {
       name: {
         en: "Julian Mollema",
-        uk: "",
+        uk: "Julian Mollema",
       },
       desc: {
-        en: "",
-        uk: "",
+        en: "Lead Designer у Build in Amsterdam",
+        uk: "Lead Designer у Build in Amsterdam",
       },
       img: "Julian Mollema1.png",
       clearImg: "Julian Mollema.png",
-    },
-    {
-      name: {
-        en: "Marianna Tomaselli",
-        uk: "",
-      },
-      desc: {
-        en: "",
-        uk: "",
-      },
-      img: "Marianna_Tomaselli1.png",
-      clearImg: "Marianna_Tomaselli.png",
     },
   ],
   workshops: [
@@ -513,12 +501,12 @@ export default {
         start: "18:00",
         end: "18:40",
         title: {
-          en: "Erik Berger Vaage",
-          uk: "Erik Berger Vaage",
+          en: "Julian Mollema",
+          uk: "Julian Mollema",
         },
         desc: {
-          en: "Lecture. English",
-          uk: "Лекція. English",
+          en: "Fighting e-commerce sameness. English",
+          uk: "Fighting e-commerce sameness. English",
         },
       },
       {
@@ -680,7 +668,7 @@ export default {
         uk: "yellow&blue",
       },
       desc: {
-        en: "",
+        en: "You won't find it in any travel guide: a complete image of modern Ukraine, bright and ironic, portrayed on posters and illustrations.",
       },
       address: {
         en: "Mickiewicz Square",
