@@ -205,7 +205,7 @@ export default {
           "is a talented visual designer with a focus on Digital Design - UI/UX, interaction design and mainly illustration, currently working at Grupo RBS, based in Porto Alegre/Brazil. Clients: Google, Uber, Huawei, Nike, Disney, Coca-Cola, NYT, Mercedes-Benz, WillSmith, others.",
         uk: "",
       },
-      fbLink: "",
+      fbLink: "https://www.facebook.com/events/489049448340216/",
       date: "13 / 10",
       time: "10:00",
       duration: "6-8 hours",
