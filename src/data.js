@@ -166,6 +166,18 @@ export default {
       img: "Julian Mollema1.png",
       clearImg: "Julian Mollema.png",
     },
+    {
+      name: {
+        en: "Ganna Skorobogatova",
+        uk: "",
+      },
+      desc: {
+        en: "",
+        uk: "",
+      },
+      img: "Ganna_Skorobogatova1.png",
+      clearImg: "Ganna_Skorobogatova.png",
+    },
   ],
   workshops: [
     {
@@ -668,7 +680,8 @@ export default {
         uk: "yellow&blue",
       },
       desc: {
-        en: "You won't find it in any travel guide: a complete image of modern Ukraine, bright and ironic, portrayed on posters and illustrations.",
+        en:
+          "You won't find it in any travel guide: a complete image of modern Ukraine, bright and ironic, portrayed on posters and illustrations.",
       },
       address: {
         en: "Mickiewicz Square",
@@ -708,5 +721,6 @@ export default {
     "26_Logo_Paperivka.svg",
     "27_Logo_Uxpressia.svg",
     "28_Logo_Aquareal.png",
+    "29_Logo_BeetAcademy.svg",
   ],
 }
