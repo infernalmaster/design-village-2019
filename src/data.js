@@ -175,8 +175,8 @@ export default {
         en: "",
         uk: "",
       },
-      img: "Ganna_Skorobogatova1.png",
-      clearImg: "Ganna_Skorobogatova.png",
+      img: "Ganna_Skorobogatova.png",
+      clearImg: "Ganna_Skorobogatova1.png",
     },
   ],
   workshops: [
