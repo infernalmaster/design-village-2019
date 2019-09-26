@@ -695,10 +695,11 @@ export default {
   partners: [
     "1_Logo_UKF.svg",
     "2_Logo_Wix.svg",
-    "3_Logo_Deposit.svg",
     "4_Logo_Bruketa.svg",
+    "3_Logo_Deposit.svg",
     "5_Logo_BBDO.svg",
     "6_Logo_Beetroot.svg",
+    "29_Logo_BeetAcademy.svg",
     "7_Logo_IF.png",
     "8_Logo_Webmil.svg",
     "9_Logo_Softjourn.svg",
@@ -721,6 +722,5 @@ export default {
     "26_Logo_Paperivka.svg",
     "27_Logo_Uxpressia.svg",
     "28_Logo_Aquareal.png",
-    "29_Logo_BeetAcademy.svg",
   ],
 }
