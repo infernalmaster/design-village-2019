@@ -315,12 +315,12 @@ export default {
         start: "16:40",
         end: "17:40",
         title: {
-          en: "Depositphotos",
-          uk: "Depositphotos",
+          en: "Tatiana Boksha",
+          uk: "Tatiana Boksha",
         },
         desc: {
-          en: "Lecture",
-          uk: "Лекція",
+          en: "Creative Content Search",
+          uk: "Creative Content Search",
         },
       },
       {
