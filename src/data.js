@@ -168,12 +168,12 @@ export default {
     },
     {
       name: {
-        en: "Ganna Skorobogatova",
+        en: "Anna Skorobogatova",
         uk: "",
       },
       desc: {
-        en: "",
-        uk: "",
+        en: "Head of Design Wix Ukraine",
+        uk: "Head of Design Wix Ukraine",
       },
       img: "Ganna_Skorobogatova.png",
       clearImg: "Ganna_Skorobogatova1.png",
@@ -455,8 +455,8 @@ export default {
           uk: "Anna Skorobogatova",
         },
         desc: {
-          en: "Lecture",
-          uk: "Лекція",
+          en: "Design skills: Soft is the new hard",
+          uk: "Design skills: Soft is the new hard",
         },
       },
       {
