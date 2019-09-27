@@ -251,8 +251,8 @@ export default {
     },
     {
       title: {
-        en: "Branding",
-        uk: "Branding",
+        en: "Express packaging",
+        uk: "Express packaging",
       },
       name: {
         en: "Masha Teterin",
