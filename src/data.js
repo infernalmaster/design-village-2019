@@ -178,6 +178,18 @@ export default {
       img: "Ganna_Skorobogatova.png",
       clearImg: "Ganna_Skorobogatova1.png",
     },
+    {
+      name: {
+        en: "Mykola Kovalchuk",
+        uk: "Mykola Kovalchuk",
+      },
+      desc: {
+        en: "",
+        uk: "",
+      },
+      img: "kovalchuk.png",
+      clearImg: "kovalchuk.png",
+    },
   ],
   workshops: [
     {
@@ -649,7 +661,7 @@ export default {
       address: {
         en: "Detector Gallery",
       },
-      fbLink: "",
+      fbLink: "https://www.facebook.com/events/437574260195505/",
       img: "EXHB_Belinska.jpg",
     },
     {
