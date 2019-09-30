@@ -190,6 +190,30 @@ export default {
       img: "kovalchuk1.png",
       clearImg: "kovalchuk.png",
     },
+    {
+      name: {
+        en: "Roman Malynovsky",
+        uk: "",
+      },
+      desc: {
+        en: "",
+        uk: "",
+      },
+      img: "malynovsky.png",
+      clearImg: "malynovsky1.png",
+    },
+    {
+      name: {
+        en: "Tatiana Boksha",
+        uk: "",
+      },
+      desc: {
+        en: "",
+        uk: "",
+      },
+      img: "Tatiana_Boksha1.png",
+      clearImg: "Tatiana_Boksha.png",
+    },
   ],
   workshops: [
     {
@@ -734,5 +758,7 @@ export default {
     "26_Logo_Paperivka.svg",
     "27_Logo_Uxpressia.svg",
     "28_Logo_Aquareal.png",
+    "30_Logo_Ukrsybbank.svg",
+    "31_Logo_IfCity.png",
   ],
 }
