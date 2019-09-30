@@ -187,7 +187,7 @@ export default {
         en: "",
         uk: "",
       },
-      img: "kovalchuk.png",
+      img: "kovalchuk1.png",
       clearImg: "kovalchuk.png",
     },
   ],
