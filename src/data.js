@@ -184,8 +184,8 @@ export default {
         uk: "Mykola Kovalchuk",
       },
       desc: {
-        en: "",
-        uk: "",
+        en: "Designer at ArtHuss Publishing House",
+        uk: "Designer at ArtHuss Publishing House",
       },
       img: "kovalchuk1.png",
       clearImg: "kovalchuk.png",
@@ -196,7 +196,7 @@ export default {
         uk: "",
       },
       desc: {
-        en: "",
+        en: "The Library of Babel publishing, Civilization publishing. Founder, editor-and-chief",
         uk: "",
       },
       img: "malynovsky.png",
@@ -208,8 +208,8 @@ export default {
         uk: "",
       },
       desc: {
-        en: "",
-        uk: "",
+        en: "Visual Content Curator. Depositphotos",
+        uk: "Visual Content Curator. Depositphotos",
       },
       img: "Tatiana_Boksha1.png",
       clearImg: "Tatiana_Boksha.png",
@@ -725,6 +725,25 @@ export default {
       fbLink: "",
       img: "p3.jpg",
     },
+    {
+      author: {
+        en: "Mykola Kovalenko",
+        uk: "Mykola Kovalenko",
+      },
+      title: {
+        en: "Social Poster",
+        uk: "Social Poster",
+      },
+      desc: {
+        en:
+          "",
+      },
+      address: {
+        en: "Ivan Franko Academic Music-Drama Theater",
+      },
+      fbLink: "",
+      img: "p2.jpg",
+    },
   ],
   merch: {},
   venue: {},
@@ -742,7 +761,7 @@ export default {
     "10_Logo_ArtHuss.svg",
     "11_Logo_Huss.svg",
     "12_Logo_TheGradient.png",
-    "13_Logo_Skovoroda.svg",
+    "30_Logo_Ukrsybbank.svg",
     "14_Logo_Show.svg",
     "15_Logo_Prom.svg",
     "16_Logo_DesignforU.svg",
@@ -758,7 +777,7 @@ export default {
     "26_Logo_Paperivka.svg",
     "27_Logo_Uxpressia.svg",
     "28_Logo_Aquareal.png",
-    "30_Logo_Ukrsybbank.svg",
+    "13_Logo_Skovoroda.svg",
     "31_Logo_IfCity.png",
   ],
 }
