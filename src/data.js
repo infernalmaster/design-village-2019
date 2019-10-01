@@ -731,15 +731,15 @@ export default {
         uk: "Mykola Kovalenko",
       },
       title: {
-        en: "Social Poster",
-        uk: "Social Poster",
+        en: "Notre-Dame de Paris",
+        uk: "Notre-Dame de Paris",
       },
       desc: {
         en:
-          "",
+          "After Notre-Dame de Paris tragedy famous ukrainian graphic designer Mykola Kovalenko together with the French Institute in Bratislava announced a poster call. We are glad to show you best 24 posters from around the world dedicated to Notre-Dame de Paris.",
       },
       address: {
-        en: "Ivan Franko Academic Music-Drama Theater",
+        en: "Potocki Palace, Shpytalna 3, Ivano Frankivsk",
       },
       fbLink: "",
       img: "p2.jpg",
