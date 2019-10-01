@@ -683,7 +683,7 @@ export default {
         en: "Mixed media art works exhibition",
       },
       address: {
-        en: "Detector Gallery",
+        en: "Detector Gallery, Promrylad.Renovation, Sakharova 23",
       },
       fbLink: "https://www.facebook.com/events/437574260195505/",
       img: "EXHB_Belinska.jpg",
@@ -701,7 +701,7 @@ export default {
         en: "Selection of the best Polish books from the Polish Graphic Awards",
       },
       address: {
-        en: "Ivan Franko Academic Music-Drama Theater",
+        en: "Ivan Franko Academic Music-Drama Theater, Nezalezhnosti 42",
       },
       fbLink: "",
       img: "EXHB_Rene.svg",
@@ -723,7 +723,7 @@ export default {
         en: "Mickiewicz Square",
       },
       fbLink: "",
-      img: "p3.jpg",
+      img: "EXHB_Pictronic.jpg",
     },
     {
       author: {
@@ -742,7 +742,7 @@ export default {
         en: "Potocki Palace, Shpytalna 3, Ivano Frankivsk",
       },
       fbLink: "",
-      img: "p2.jpg",
+      img: "EXHB_Paris.jpg",
     },
   ],
   merch: {},
