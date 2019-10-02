@@ -299,7 +299,7 @@ export default {
           "Head of BBDO Branding, BBDO Ukraine. Clients: Staropramen, Stella Artois, Mars, WOG, Pepsi, Kotex, Snickers.",
         uk: "",
       },
-      fbLink: "",
+      fbLink: "https://www.facebook.com/events/2487934414790655/",
       date: "13 / 10",
       time: "10:00",
       duration: "6 hours",
