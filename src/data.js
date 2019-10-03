@@ -160,8 +160,8 @@ export default {
         uk: "Julian Mollema",
       },
       desc: {
-        en: "Lead Designer у Build in Amsterdam",
-        uk: "Lead Designer у Build in Amsterdam",
+        en: "Lead Designer at Build in Amsterdam",
+        uk: "Lead Designer at Build in Amsterdam",
       },
       img: "Julian Mollema1.png",
       clearImg: "Julian Mollema.png",
