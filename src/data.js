@@ -744,6 +744,25 @@ export default {
       fbLink: "",
       img: "EXHB_Paris.jpg",
     },
+    {
+      author: {
+        en: "Synchrodogs",
+        uk: "Mykola Kovalenko",
+      },
+      title: {
+        en: "-",
+        uk: "Notre-Dame de Paris",
+      },
+      desc: {
+        en:
+          "-",
+      },
+      address: {
+        en: "-",
+      },
+      fbLink: "",
+      img: "EXHB_Synchrodogs.jpg",
+    },
   ],
   merch: {},
   venue: {},
