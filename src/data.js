@@ -829,9 +829,7 @@ export default {
 "18_Logo_Arystokraty.svg",
 "19_Logo_CopperHead.svg",
 "20_Logo_TM.svg",
-"20_Logo_TM.png",
 "21_Logo_IF.svg",
-"21_Logo_IF.png",
 "22_Logo_ITCL.svg",
 "23_Logo_Chernozem.svg",
 "24_Logo_Nostres.svg",
@@ -839,10 +837,8 @@ export default {
 "26_Logo_Paperivka.svg",
 "27_Logo_Uxpressia.svg",
 "28_Logo_Aquareal.svg",
-"28_Logo_Aquareal.png",
 "29_Logo_Ukrsybbank.svg",
 "30_Logo_PMC.svg",
-"30_Logo_PMC.png",
 "31_logo_easy.svg",
 "32_logo_urbanradio.svg",
 "33_logo_coffeelab.svg",
@@ -850,6 +846,5 @@ export default {
 "35_logo_ifcity.svg",
 "36_logo_vertical.svg",
 "37_logo_Art.svg",
-
   ],
 }
