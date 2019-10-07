@@ -828,7 +828,7 @@ export default {
 "17_Logo_Coax.svg",
 "18_Logo_Arystokraty.svg",
 "19_Logo_CopperHead.svg",
-"20_Logo_TM.svgv
+"20_Logo_TM.svg",
 "20_Logo_TM.png",
 "21_Logo_IF.svg",
 "21_Logo_IF.png",
@@ -842,7 +842,7 @@ export default {
 "28_Logo_Aquareal.png",
 "29_Logo_Ukrsybbank.svg",
 "30_Logo_PMC.svg",
-"30_Logo_PMC.pngv
+"30_Logo_PMC.png",
 "31_logo_easy.svg",
 "32_logo_urbanradio.svg",
 "33_logo_coffeelab.svg",
