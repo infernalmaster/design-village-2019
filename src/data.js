@@ -218,6 +218,28 @@ export default {
   workshops: [
     {
       title: {
+        en: "Lettering",
+        uk: "Леттерінг",
+      },
+      name: {
+        en: "Natalka Komyakhov, Alexander Komyakhov",
+        uk: "Наталка Ком’яхова та Олександр Ком’яхов",
+      },
+      desc: {
+        en: "Lettering at PromBar",
+        uk: "Lettering at PromBar",
+      },
+      fbLink: "",
+      date: "11 / 10",
+      time: "15:00",
+      duration: "2 hours",
+      peoples: "UNLIMITED",
+      price: "FREE",
+      img: "zaglushka.png",
+      clearImg: "zaglushka.png",
+    },
+    {
+      title: {
         en: "Plasticine illustration",
         uk: "",
       },
@@ -238,6 +260,28 @@ export default {
       price: "FREE",
       img: "workshop_protasova1.png",
       clearImg: "workshop_protasova.png",
+    },
+    {
+      title: {
+        en: "Augmented Reality in a Browser",
+        uk: "Augmented Reality in a Browser",
+      },
+      name: {
+        en: "Rupert Breheny",
+        uk: "Rupert Breheny",
+      },
+      desc: {
+        en: "A simple, cross-platform approach to displaying 3D models in a browser, with an Augmented Reality view for recent Android and iOS devices. ",
+        uk: "",
+      },
+      fbLink: "",
+      date: "11 / 10",
+      time: "16:30",
+      duration: "1 hour",
+      peoples: "10",
+      price: "FREE",
+      img: "zaglushka.png",
+      clearImg: "zaglushka.png",
     },
     {
       title: {
@@ -272,8 +316,7 @@ export default {
         uk: "",
       },
       desc: {
-        en:
-          '"Social poster", workshop of graphic designer, art director dnkstudio Nikolai Kovalenko',
+        en: '"Social poster", workshop of graphic designer, art director dnkstudio Nikolai Kovalenko"',
         uk: "",
       },
       fbLink: "https://www.facebook.com/events/980699868988952/",
@@ -295,8 +338,7 @@ export default {
         uk: "Masha Teterin",
       },
       desc: {
-        en:
-          "Head of BBDO Branding, BBDO Ukraine. Clients: Staropramen, Stella Artois, Mars, WOG, Pepsi, Kotex, Snickers.",
+        en: "Head of BBDO Branding, BBDO Ukraine. Clients: Staropramen, Stella Artois, Mars, WOG, Pepsi, Kotex, Snickers.",
         uk: "",
       },
       fbLink: "https://www.facebook.com/events/2487934414790655/",
@@ -329,6 +371,30 @@ export default {
         title: {
           en: "OLGA PROTASOVA",
           uk: "Ольга Протасова",
+        },
+        desc: {
+          en: "Workshop",
+          uk: "Воркшоп",
+        },
+      },
+      {
+        start: "15:00",
+        end: "",
+        title: {
+          en: "Natalka Komyakhov, Alexander Komyakhov",
+          uk: "Natalka Komyakhov, Alexander Komyakhov",
+        },
+        desc: {
+          en: "Workshop",
+          uk: "Воркшоп",
+        },
+      },
+      {
+        start: "16:30",
+        end: "",
+        title: {
+          en: "Rupert Breheny",
+          uk: "Rupert Breheny",
         },
         desc: {
           en: "Workshop",
@@ -722,7 +788,7 @@ export default {
       address: {
         en: "Mickiewicz Square",
       },
-      fbLink: "",
+      fbLink: "https://www.facebook.com/events/514685209320719/",
       img: "EXHB_Pictronic.jpg",
     },
     {
@@ -741,43 +807,68 @@ export default {
       address: {
         en: "Potocki Palace, Shpytalna 3, Ivano Frankivsk",
       },
-      fbLink: "",
+      fbLink: "https://www.facebook.com/events/513034409308550/",
       img: "EXHB_Paris.jpg",
+    },
+    {
+      author: {
+        en: "Synchrodogs",
+        uk: "Synchrodogs",
+      },
+      title: {
+        en: "Slightly Altered",
+        uk: "",
+      },
+      desc: {
+        en:
+          '"Working on ‘Slightly Altered’ project artistic duo Synchrodogs went into a one-month trip across the Carpathian Mountains to discover how far people managed to intrude into the territories that were meant to be wild. People have always been shaping natural forces around them. But is there a limit of resources the Earth would allow us to use? "Slightly Altered" is a reflection on how much we are intertwined with nature - changing the environment, we change ourselves."',
+      },
+      address: {
+        en: "Ivan Franko Academic Music-Drama Theater, Nezalezhnosti 42",
+      },
+      fbLink: "",
+      img: "EXHB_Synchrodogs.jpg",
     },
   ],
   merch: {},
   venue: {},
   partners: [
-    "1_Logo_UKF.svg",
-    "2_Logo_Wix.svg",
-    "4_Logo_Bruketa.svg",
-    "3_Logo_Deposit.svg",
-    "5_Logo_BBDO.svg",
-    "6_Logo_Beetroot.svg",
-    "29_Logo_BeetAcademy.svg",
-    "7_Logo_IF.png",
-    "8_Logo_Webmil.svg",
-    "9_Logo_Softjourn.svg",
-    "10_Logo_ArtHuss.svg",
-    "11_Logo_Huss.svg",
-    "12_Logo_TheGradient.png",
-    "30_Logo_Ukrsybbank.svg",
-    "14_Logo_Show.svg",
-    "15_Logo_Prom.svg",
-    "16_Logo_DesignforU.svg",
-    "17_Logo_Coax.svg",
-    "18_Logo_Arystokraty.svg",
-    "19_Logo_CopperHead.svg",
-    "20_Logo_TM.svg",
-    "21_Logo_Chernozem.svg",
-    "22_Logo_ITCL.svg",
-    "23_Logo_PMC.png",
-    "24_Logo_Nostres.svg",
-    "25_Logo_MML.svg",
-    "26_Logo_Paperivka.svg",
-    "27_Logo_Uxpressia.svg",
-    "28_Logo_Aquareal.png",
-    "13_Logo_Skovoroda.svg",
-    "31_Logo_IfCity.png",
+"1_Logo_UKF.svg",
+"2_Logo_Wix.svg",
+"3_Logo_Bruketa.svg",
+"4_Logo_Deposit.svg",
+"5_Logo_BBDO.svg",
+"6_Logo_Beetroot.svg",
+"7_Logo_BeetAcademy.svg",
+"8_Logo_Webmil.svg",
+"9_Logo_Softjourn.svg",
+"10_Logo_ArtHuss.svg",
+"11_Logo_Huss.svg",
+"12_Logo_TheGradient.svg",
+"13_Logo_Skovoroda.svg",
+"14_Logo_Show.svg",
+"15_Logo_Prom.svg",
+"16_Logo_DesignforU.svg",
+"17_Logo_Coax.svg",
+"18_Logo_Arystokraty.svg",
+"19_Logo_CopperHead.svg",
+"20_Logo_TM.svg",
+"21_Logo_IF.svg",
+"22_Logo_ITCL.svg",
+"23_Logo_Chernozem.svg",
+"24_Logo_Nostres.svg",
+"25_Logo_MML.svg",
+"26_Logo_Paperivka.svg",
+"27_Logo_Uxpressia.svg",
+"28_Logo_Aquareal.svg",
+"29_Logo_Ukrsybbank.svg",
+"30_Logo_PMC.svg",
+"31_logo_easy.svg",
+"32_logo_urbanradio.svg",
+"33_logo_coffeelab.svg",
+"34_logo_dnes.svg",
+"35_logo_ifcity.svg",
+"36_logo_vertical.svg",
+"37_logo_Art.svg",
   ],
 }
