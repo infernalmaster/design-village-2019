@@ -807,7 +807,7 @@ export default {
       address: {
         en: "Potocki Palace, Shpytalna 3, Ivano Frankivsk",
       },
-      fbLink: "",
+      fbLink: "https://www.facebook.com/events/513034409308550/",
       img: "EXHB_Paris.jpg",
     },
     {
