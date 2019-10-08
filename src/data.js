@@ -218,8 +218,8 @@ export default {
   workshops: [
     {
       title: {
-        en: "Art i Ya Lettering",
-        uk: "Арт і Я Леттерінг",
+        en: "Lettering",
+        uk: "Леттерінг",
       },
       name: {
         en: "Natalka Komyakhov, Alexander Komyakhov",
@@ -276,7 +276,7 @@ export default {
       },
       fbLink: "",
       date: "11 / 10",
-      time: "16:40",
+      time: "16:30",
       duration: "1 hour",
       peoples: "10",
       price: "FREE",
@@ -371,6 +371,30 @@ export default {
         title: {
           en: "OLGA PROTASOVA",
           uk: "Ольга Протасова",
+        },
+        desc: {
+          en: "Workshop",
+          uk: "Воркшоп",
+        },
+      },
+      {
+        start: "15:00",
+        end: "",
+        title: {
+          en: "Natalka Komyakhov, Alexander Komyakhov",
+          uk: "Natalka Komyakhov, Alexander Komyakhov",
+        },
+        desc: {
+          en: "Workshop",
+          uk: "Воркшоп",
+        },
+      },
+      {
+        start: "16:30",
+        end: "",
+        title: {
+          en: "Rupert Breheny",
+          uk: "Rupert Breheny",
         },
         desc: {
           en: "Workshop",
@@ -764,7 +788,7 @@ export default {
       address: {
         en: "Mickiewicz Square",
       },
-      fbLink: "",
+      fbLink: "https://www.facebook.com/events/514685209320719/",
       img: "EXHB_Pictronic.jpg",
     },
     {
@@ -792,12 +816,12 @@ export default {
         uk: "Synchrodogs",
       },
       title: {
-        en: "Slightly Modified",
-        uk: "Slightly Modified",
+        en: "Slightly Altered",
+        uk: "",
       },
       desc: {
         en:
-          "-",
+          '"Working on ‘Slightly Altered’ project artistic duo Synchrodogs went into a one-month trip across the Carpathian Mountains to discover how far people managed to intrude into the territories that were meant to be wild. People have always been shaping natural forces around them. But is there a limit of resources the Earth would allow us to use? "Slightly Altered" is a reflection on how much we are intertwined with nature - changing the environment, we change ourselves."',
       },
       address: {
         en: "Ivan Franko Academic Music-Drama Theater, Nezalezhnosti 42",
