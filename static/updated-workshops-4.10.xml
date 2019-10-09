@@ -366,7 +366,7 @@
 		</event>
 		<event>
 			<id>32</id>
-			<placeId>50</placeId>
+			<placeId>53</placeId>
 			<name>Yellow&amp;Blue</name>
 			<startDateTime>2019-10-13T14:00+03:00</startDateTime>
 			<endDateTime>2019-10-20T20:00+03:00</endDateTime>
@@ -883,7 +883,7 @@
 			</description>
 		</event>
 		<event>
-			<id>18</id>
+			<id>1</id>
 			<placeId>1</placeId>
 			<name>PARTY TIME!</name>
 			<startDateTime>2019-10-12T22:00+03:00</startDateTime>
@@ -896,7 +896,7 @@
 		</event>
 		<event>
 			<id>19</id>
-			<placeId>4</placeId>
+			<placeId>1</placeId>
 			<name>What you need to know when you make illustrations for a book</name>
 			<startDateTime>2019-10-13T12:00+03:00</startDateTime>
 			<endDateTime>2019-10-13T12:30+03:00</endDateTime>
@@ -913,7 +913,7 @@
 		</event>
 		<event>
 			<id>98</id>
-			<placeId>4</placeId>
+			<placeId>1</placeId>
 			<name>Co-creating books</name>
 			<startDateTime>2019-10-13T12:45+03:00</startDateTime>
 			<endDateTime>2019-10-13T13:30+03:00</endDateTime>
@@ -1894,11 +1894,11 @@
    </place>
    <place>
       <id>4</id>
-      <name>Arena center</name>
-      <address>46 Nezalezhnosti St.</address>
+      <name>Ivan Franko National Academic Music and Drama Theatre</name>
+      <address>42 Nezalezhnosti St.</address>
       <location>
-         <lat>48.917474</lat>
-         <lon>24.722544</lon>
+         <lat>48.917564</lat>
+         <lon>24.719003</lon>
       </location>
    </place>
    <place>
@@ -2335,11 +2335,11 @@
    </place>
    <place>
       <id>53</id>
-      <name>Pivoteka</name>
-      <address>113 Nezalezhnosti St.</address>
+      <name>Mitskevycha Square</name>
+      <address>1 Mitskevycha Square St.</address>
       <location>
-         <lat>48.917876</lat>
-         <lon>24.723768</lon>
+         <lat>48.921274</lat> 
+         <lon>24.711297</lon>
       </location>
    </place>
 </places>
