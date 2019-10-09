@@ -1863,4 +1863,484 @@
 			<priceRange>1</priceRange>
 		</recomendation>
 	</recomendations>
+<!--  list of locations  -->
+<places>
+   <place>
+      <id>1</id>
+      <name>Promprylad.Renovation</name>
+      <address>23 Sakharova St.</address>
+      <location>
+         <lat>48.914031</lat>
+         <lon>24.711948</lon>
+      </location>
+   </place>
+   <place>
+      <id>2</id>
+      <name>Shevchenka 3</name>
+      <address>3 Shevchenka St.</address>
+      <location>
+         <lat>48.919275</lat>
+         <lon>24.706175</lon>
+      </location>
+   </place>
+   <place>
+      <id>3</id>
+      <name>Delikacia</name>
+      <address>20 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919135</lat>
+         <lon>24.713651</lon>
+      </location>
+   </place>
+   <place>
+      <id>4</id>
+      <name>Arena center</name>
+      <address>46 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.917474</lat>
+         <lon>24.722544</lon>
+      </location>
+   </place>
+   <place>
+      <id>5</id>
+      <name>Urban Space 100</name>
+      <address>19 Grushevskogo St.</address>
+      <location>
+         <lat>48.921841</lat>
+         <lon>24.713623</lon>
+      </location>
+   </place>
+   <place>
+      <id>6</id>
+      <name>Muliarovykh</name>
+      <address>5 Chornovola St.</address>
+      <location>
+         <lat>48.918736</lat>
+         <lon>24.707561</lon>
+      </location>
+   </place>
+   <place>
+      <id>7</id>
+      <name>Familia</name>
+      <address>31 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919525</lat>
+         <lon>24.712957</lon>
+      </location>
+   </place>
+   <place>
+      <id>8</id>
+      <name>Kukhnia</name>
+      <address>4 Sichovykh Striltsiv St.</address>
+      <location>
+         <lat>48.918901</lat>
+         <lon>24.713124</lon>
+      </location>
+   </place>
+   <place>
+      <id>9</id>
+      <name>Manufactura</name>
+      <address>6 Mitskevych Square</address>
+      <location>
+         <lat>48.921064</lat>
+         <lon>24.711834</lon>
+      </location>
+   </place>
+   <place>
+      <id>10</id>
+      <name>Fabrrica</name>
+      <address>1 Virmenska St.</address>
+      <location>
+         <lat>48.922183</lat>
+         <lon>24.711208</lon>
+      </location>
+   </place>
+   <place>
+      <id>11</id>
+      <name>Desiatka</name>
+      <address>4 Shashkevycha St.</address>
+      <location>
+         <lat>48.920122</lat>
+         <lon>24.711822</lon>
+      </location>
+   </place>
+   <place>
+      <id>12</id>
+      <name>Copper Head</name>
+      <address>10 Mazepy St.</address>
+      <location>
+         <lat>48.921151</lat>
+         <lon>24.706460</lon>
+      </location>
+   </place>
+   <place>
+      <id>13</id>
+      <name>Mondays</name>
+      <address>11 Franka St.</address>
+      <location>
+         <lat>48.919909</lat>
+         <lon>24.715432</lon>
+      </location>
+   </place>
+   <place>
+      <id>14</id>
+      <name>Fabryka Kavy</name>
+      <address>35 Pivdenyi Bulvar</address>
+      <location>
+         <lat>48.919786</lat>
+         <lon>24.699234</lon>
+      </location>
+   </place>
+   <place>
+      <id>15</id>
+      <name>Sunday Coffee</name>
+      <address>23 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919788</lat>
+         <lon>24.712082</lon>
+      </location>
+   </place>
+   <place>
+      <id>16</id>
+      <name>Gost</name>
+      <address>5 Kurbasa St.</address>
+      <location>
+         <lat>48.921295</lat>
+         <lon>24.712665</lon>
+      </location>
+   </place>
+   <place>
+      <id>17</id>
+      <name>Brunnen</name>
+      <address>24 Pivdenyi Bulvar</address>
+      <location>
+         <lat>48.921900</lat>
+         <lon>24.700923</lon>
+      </location>
+   </place>
+   <place>
+      <id>18</id>
+      <name>Joseph Strudel</name>
+      <address>10 Sichovykh Striltsiv St.</address>
+      <location>
+         <lat>48.919886</lat>
+         <lon>24.706450</lon>
+      </location>
+   </place>
+   <place>
+      <id>19</id>
+      <name>Viva Italia</name>
+      <address>26 Vovchynetska St.</address>
+      <location>
+         <lat>48.926666</lat>
+         <lon>24.718842</lon>
+      </location>
+   </place>
+   <place>
+      <id>20</id>
+      <name>Franciszek Romaszkan</name>
+      <address>126 Chornovola St.</address>
+      <location>
+         <lat>48.910909</lat>
+         <lon>24.699075</lon>
+      </location>
+   </place>
+   <place>
+      <id>21</id>
+      <name>Florens</name>
+      <address>7 Galytska St.</address>
+      <location>
+         <lat>48.921871</lat>
+         <lon>24.708403</lon>
+      </location>
+   </place>
+   <place>
+      <id>22</id>
+      <name>ShpyndeLL</name>
+      <address>21 Pivdenyi Bulvar</address>
+      <location>
+         <lat>48.922701</lat>
+         <lon>24.702323</lon>
+      </location>
+   </place>
+   <place>
+      <id>23</id>
+      <name>Corassini grill and wine</name>
+      <address>1 Fortechnyi Provulok</address>
+      <location>
+         <lat>48.922578</lat>
+         <lon>24.707202</lon>
+      </location>
+   </place>
+   <place>
+      <id>24</id>
+      <name>Pizza Plus Group</name>
+      <address>6 Rynok Square</address>
+      <location>
+         <lat>48.921938</lat>
+         <lon>24.709910</lon>
+      </location>
+   </place>
+   <place>
+      <id>25</id>
+      <name>Cukernia</name>
+      <address>12 Shashkevycha St.</address>
+      <location>
+         <lat>48.919503</lat>
+         <lon>24.711506</lon>
+      </location>
+   </place>
+   <place>
+      <id>26</id>
+      <name>Peperoncino</name>
+      <address>43 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919310</lat>
+         <lon>24.714174</lon>
+      </location>
+   </place>
+   <place>
+      <id>27</id>
+      <name>Wine and Meat</name>
+      <address>11 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919963</lat>
+         <lon>24.709792</lon>
+      </location>
+   </place>
+   <place>
+      <id>28</id>
+      <name>ChefClub</name>
+      <address>67 Chornovola St.</address>
+      <location>
+         <lat>48.914451</lat>
+         <lon>24.702845</lon>
+      </location>
+   </place>
+   <place>
+      <id>29</id>
+      <name>Ikra</name>
+      <address>8 Vagilevycha St</address>
+      <location>
+         <lat>48.914486</lat>
+         <lon>24.702793</lon>
+      </location>
+   </place>
+   <place>
+      <id>30</id>
+      <name>Khata Bagata</name>
+      <address>2А Belvederska St.</address>
+      <location>
+         <lat>48.921665</lat>
+         <lon>24.707160</lon>
+      </location>
+   </place>
+   <place>
+      <id>31</id>
+      <name>Pirosmani</name>
+      <address>15 Sichovykh Striltsiv St.</address>
+      <location>
+         <lat>48.919283</lat>
+         <lon>24.709267</lon>
+      </location>
+   </place>
+   <place>
+      <id>32</id>
+      <name>Lviv Chocolate Workshop</name>
+      <address>2 Bachynskogo St.</address>
+      <location>
+         <lat>48.920380</lat>
+         <lon>24.707454</lon>
+      </location>
+   </place>
+   <place>
+      <id>33</id>
+      <name>Akropol</name>
+      <address>21 Sakharova St.</address>
+      <location>
+         <lat>48.914348</lat>
+         <lon>24.710408</lon>
+      </location>
+   </place>
+   <place>
+      <id>34</id>
+      <name>Resto Chicken</name>
+      <address>1 Grushevskogo St.</address>
+      <location>
+         <lat>48.920837</lat>
+         <lon>24.710012</lon>
+      </location>
+   </place>
+   <place>
+      <id>35</id>
+      <name>Kavovarka</name>
+      <address>69 Chornovola St.</address>
+      <location>
+         <lat>48.914373</lat>
+         <lon>24.702571</lon>
+      </location>
+   </place>
+   <place>
+      <id>36</id>
+      <name>Lviv Croissants</name>
+      <address>23 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919641</lat>
+         <lon>24.712094</lon>
+      </location>
+   </place>
+   <place>
+      <id>37</id>
+      <name>Bastion</name>
+      <address>1 Fortechnyi Provulok</address>
+      <location>
+         <lat>48.922234</lat>
+         <lon>24.707632</lon>
+      </location>
+   </place>
+   <place>
+      <id>38</id>
+      <name>Ratusha</name>
+      <address>Rynok Square</address>
+      <location>
+         <lat>48.922722</lat>
+         <lon>24.710401</lon>
+      </location>
+   </place>
+   <place>
+      <id>39</id>
+      <name>Vovchunci</name>
+      <address>Vovchyntsi</address>
+      <location>
+         <lat>48.945950</lat>
+         <lon>24.745952</lon>
+      </location>
+   </place>
+   <place>
+      <id>40</id>
+      <name>Potocki Palace</name>
+      <address>5 Shpytalna St.</address>
+      <location>
+         <lat>48.924646</lat>
+         <lon>24.713537</lon>
+      </location>
+   </place>
+   <place>
+      <id>41</id>
+      <name>Shevchenka Park</name>
+      <address>107 Chornovola St.</address>
+      <location>
+         <lat>48.912013</lat>
+         <lon>24.699981</lon>
+      </location>
+   </place>
+   <place>
+      <id>42</id>
+      <name>Cathedral of the Resurrection</name>
+      <address>22 Sheptytskyi Square</address>
+      <location>
+         <lat>48.922246</lat>
+         <lon>24.708823</lon>
+      </location>
+   </place>
+   <place>
+      <id>43</id>
+      <name>Collegiate Church of the Virgin Mary (art museum)</name>
+      <address>Sheptytskyi Square</address>
+      <location>
+         <lat>48.923883</lat>
+         <lon>24.709122</lon>
+      </location>
+   </place>
+   <place>
+      <id>44</id>
+      <name>Austrian directorate of the Stanislavov railway</name>
+      <address>2 Galytska St.</address>
+      <location>
+         <lat>48.921580</lat>
+         <lon>24.708760</lon>
+      </location>
+   </place>
+   <place>
+      <id>45</id>
+      <name>Ivano-Frankivsk Regional Philharmonic</name>
+      <address>3 Kurbasa St.</address>
+      <location>
+         <lat>48.921798</lat>
+         <lon>24.712341</lon>
+      </location>
+   </place>
+   <place>
+      <id>46</id>
+      <name>City Lake</name>
+      <address>136 Mazepy St.</address>
+      <location>
+         <lat>48.914647</lat>
+         <lon>24.691365</lon>
+      </location>
+   </place>
+   <place>
+      <id>47</id>
+      <name>Memorial Park</name>
+      <address>9 Melnyka St.</address>
+      <location>
+         <lat>48.917006</lat>
+         <lon>24.714544</lon>
+      </location>
+   </place>
+   <place>
+      <id>48</id>
+      <name>Stometrivka</name>
+      <address>11 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.920020</lat>
+         <lon>24.709322</lon>
+      </location>
+   </place>
+   <place>
+      <id>49</id>
+      <name>Ivan Franko National Academic Music and Drama Theatre</name>
+      <address>42 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.917564</lat>
+         <lon>24.719003</lon>
+      </location>
+   </place>
+   <place>
+      <id>50</id>
+      <name>Ivano-Frankivsk University of Law named after King Danylo Halytskyi</name>
+      <address>35 Konovaltsia St.</address>
+      <location>
+         <lat>48.915744</lat>
+         <lon>24.711360</lon>
+      </location>
+   </place>
+   <place>
+      <id>51</id>
+      <name>Coffee Shop</name>
+      <address>2 Mazepy St.</address>
+      <location>
+         <lat>48.921217</lat>
+         <lon>24.706914</lon>
+      </location>
+   </place>
+   <place>
+      <id>52</id>
+      <name>Ципа Taphouse</name>
+      <address>4 Kurbasa St.</address>
+      <location>
+         <lat>48.920820</lat>
+         <lon>24.712265</lon>
+      </location>
+   </place>
+   <place>
+      <id>53</id>
+      <name>Pivoteka</name>
+      <address>113 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.917876</lat>
+         <lon>24.723768</lon>
+      </location>
+   </place>
+</places>
 </data>
