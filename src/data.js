@@ -481,12 +481,12 @@ export default {
         start: "9:10",
         end: "9:40",
         title: {
-          en: "Rene Wawrzkiewicz",
-          uk: "Rene Wawrzkiewicz",
+          en: "Davor Bruketa",
+          uk: "Davor Bruketa",
         },
         desc: {
-          en: "How to compete and win in designer competitions?",
-          uk: "Як конкурувати та перемагати у конкурсах для дизайнерів?",
+          en: "Lecture. English",
+          uk: "Лекція. English",
         },
       },
       {
@@ -603,12 +603,12 @@ export default {
         start: "17:20",
         end: "17:50",
         title: {
-          en: "Davor Bruketa",
-          uk: "Davor Bruketa",
+          en: "Rene Wawrzkiewicz",
+          uk: "Rene Wawrzkiewicz",
         },
         desc: {
-          en: "Lecture. English",
-          uk: "Лекція. English",
+          en: "How to compete and win in designer competitions?",
+          uk: "Як конкурувати та перемагати у конкурсах для дизайнерів?",
         },
       },
       {
