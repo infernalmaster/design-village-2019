@@ -883,11 +883,11 @@
 			</description>
 		</event>
 		<event>
-			<id>1</id>
+			<id>99</id>
 			<placeId>1</placeId>
 			<name>PARTY TIME!</name>
 			<startDateTime>2019-10-12T22:00+03:00</startDateTime>
-			<endDateTime/>
+			<endDateTime>2019-11-12T05:00+03:00</endDateTime>
 			<poster>http://cnt.designvillage.com.ua/images2/Archive/poster_01.png</poster>
 			<description>
 				<description1>Promprylad.Renovation, Parasolkovyi tsekh. Come to Promprylad: take the metal stairs, and then just follow the signs. Every Design Village participant will get free welcome-drinks — so better not to loose your DV-bracelet! Have fun!</description1>
