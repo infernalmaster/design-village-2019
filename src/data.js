@@ -285,6 +285,28 @@ export default {
     },
     {
       title: {
+        en: "Visual content creation made easy for non-designers with Crello",
+        uk: "Visual content creation made easy for non-designers with Crello",
+      },
+      name: {
+        en: "Inna Trokhymets",
+        uk: "Inna Trokhymets",
+      },
+      desc: {
+        en: "Depositphotos and Crello. This workshop is for digital enthusiasts- marketing professionals, bloggers, lecturers and all non-designers willing to learn about the alternative tools  helping with the daily routine visual graphic and video content creation.",
+        uk: "",
+      },
+      fbLink: "",
+      date: "13 / 10",
+      time: "10:00",
+      duration: "2 hours",
+      peoples: "UNLIMITED",
+      price: "FREE",
+      img: "zaglushka.png",
+      clearImg: "zaglushka.png",
+    },
+    {
+      title: {
         en: "Illustration for Digital Product Design",
         uk: "Illustration for Digital Product Design",
       },
