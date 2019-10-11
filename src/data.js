@@ -231,7 +231,7 @@ export default {
       },
       fbLink: "",
       date: "11 / 10",
-      time: "15:00",
+      time: "16:00",
       duration: "2 hours",
       peoples: "UNLIMITED",
       price: "FREE",
@@ -276,7 +276,7 @@ export default {
       },
       fbLink: "",
       date: "11 / 10",
-      time: "16:30",
+      time: "16:00",
       duration: "1 hour",
       peoples: "10",
       price: "FREE",
@@ -376,18 +376,6 @@ export default {
   schedule: {
     0: [
       {
-        start: "14:00",
-        end: "",
-        title: {
-          en: "Exhibitions Opening",
-          uk: "Відкритя виставок",
-        },
-        desc: {
-          en: "Promprylad.Renovation, Akademika Sakharova str. 23",
-          uk: "Promprylad.Renovation, Akademika Sakharova str. 23",
-        },
-      },
-      {
         start: "15:00",
         end: "",
         title: {
@@ -400,7 +388,7 @@ export default {
         },
       },
       {
-        start: "15:00",
+        start: "16:00",
         end: "",
         title: {
           en: "Natalka Komyakhov, Alexander Komyakhov",
@@ -412,7 +400,7 @@ export default {
         },
       },
       {
-        start: "16:30",
+        start: "16:00",
         end: "",
         title: {
           en: "Rupert Breheny",
@@ -459,6 +447,18 @@ export default {
             "Artist collaboration with big companies in the design industry. English",
           uk:
             "Artist collaboration with big companies in the design industry. English",
+        },
+      },
+      {
+        start: "19:00",
+        end: "",
+        title: {
+          en: "Exhibitions Opening",
+          uk: "Відкритя виставок",
+        },
+        desc: {
+          en: "Promprylad.Renovation, Akademika Sakharova str. 23",
+          uk: "Promprylad.Renovation, Akademika Sakharova str. 23",
         },
       },
       {
