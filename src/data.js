@@ -383,7 +383,7 @@ export default {
           uk: "Ольга Протасова",
         },
         desc: {
-          en: "Workshop",
+          en: "Workshop at Promprylad.Renovation",
           uk: "Воркшоп",
         },
       },
@@ -407,7 +407,7 @@ export default {
           uk: "Rupert Breheny",
         },
         desc: {
-          en: "Workshop",
+          en: "Workshop at Promprylad.Renovation",
           uk: "Воркшоп",
         },
       },
@@ -691,7 +691,7 @@ export default {
           uk: "LEO NATSUME",
         },
         desc: {
-          en: "Workshop. English",
+          en: "Workshop at Promprylad.Renovation. English",
           uk: "Workshop. English",
         },
       },
@@ -703,7 +703,7 @@ export default {
           uk: "Микола Коваленко",
         },
         desc: {
-          en: "Workshop",
+          en: "Workshop at Promprylad.Renovation",
           uk: "Воркшоп",
         },
       },
@@ -715,7 +715,7 @@ export default {
           uk: "Маша Тетерін",
         },
         desc: {
-          en: "Workshop",
+          en: "Workshop at Promprylad.Renovation",
           uk: "Воркшоп",
         },
       },
@@ -723,11 +723,11 @@ export default {
         start: "10:00",
         end: "",
         title: {
-          en: "Depositphotos",
-          uk: "Depositphotos",
+          en: "VISUAL CONTENT CREATION MADE EASY FOR NON-DESIGNERS WITH CRELLO",
+          uk: "VISUAL CONTENT CREATION MADE EASY FOR NON-DESIGNERS WITH CRELLO",
         },
         desc: {
-          en: "Workshop",
+          en: "Workshop at Promprylad.Renovation",
           uk: "Воркшоп",
         },
       },
