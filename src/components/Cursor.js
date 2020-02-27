@@ -16,7 +16,7 @@ export class Cursor extends Component {
     window.removeEventListener('mousemove', this.handlerMouseMove)
   }
 
-  handlerMouseMove = () => {
+  handlerMouseMove = (e) => {
     let isFocused = ['A', 'BUTTON'].includes(e.target.tagName)
                  || ['A', 'BUTTON'].includes(e.target.parentNode.tagName)
     this.setState({ x: e.clientX, y: e.clientY, isFocused })
