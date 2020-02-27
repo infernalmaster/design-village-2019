@@ -2,6 +2,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  cursor: none;
 }
 body {
   margin: 0;
@@ -56,6 +57,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  cursor: none;
 }
 a:active,
 a:hover {
@@ -488,4 +490,22 @@ td:last-child {
   html {
     font-size: 100%;
   }
+}
+.cursor {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, -50%);
+  background: #FCFB63;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: width .1s, height .1s ;
+  z-index: 9999;
+  /* mix-blend-mode: difference; */
+}
+.cursor.cursor--is-focused {
+  width: 80px;
+  height: 80px;
+  transition: width .1s, height .1s;
+  opacity: .2;
 }

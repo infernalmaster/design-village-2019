@@ -9,6 +9,8 @@ import SEO from "./seo"
 import data from "../data"
 import { bp } from "./bp"
 
+import { Cursor } from "./Cursor"
+import { Map } from "./Map"
 import { Workshop } from "./Workshop"
 import { ExhibitionItem } from "./ExhibitionItem"
 import { Speaker } from "./Speaker"
@@ -72,6 +74,8 @@ const IndexPage = ({ t }) => {
       <SEO />
 
       <MainHeader data={data} t={t} />
+
+      <Cursor />
 
       <section
         css={css`
@@ -393,6 +397,7 @@ const IndexPage = ({ t }) => {
               title={t(w.title)}
               name={t(w.name)}
               desc={t(w.desc)}
+              tag={w.tag}
               imgSrc={imgSrc}
               clearImgSrc={clearImgSrc}
             />
@@ -520,41 +525,15 @@ const IndexPage = ({ t }) => {
               <br /> Nezalezhnosti str. 42, Ivano-Frankivsk
             </p>
           </div>
-          <a
-            href="https://www.google.com/maps/place/%D0%98%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%82%D0%B5%D0%B0%D1%82%D1%80+%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8+%D0%98%D0%B2%D0%B0%D0%BD%D0%B0+%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%B0/@48.9156942,24.7177289,16.24z/data=!4m5!3m4!1s0x0:0x9961cdce000e7ba2!8m2!3d48.9176057!4d24.7188574"
-            target="_blank"
-            rel="noopener noreferrer"
+          <div
             css={css`
-              position: relative;
-              display: block;
-              margin-top: 20px;
-              @media (min-width: ${bp}) {
-                margin-top: 185px;
-              }
+              width: 626px;
+              height: 616px;
             `}
           >
-            <img
-              css={css`
-                max-width: 875px;
-                display: block;
-              `}
-              src={require("../images/map.jpg")}
-              alt="map"
-            />
+            <Map />
+          </div>
 
-            <div
-              css={css`
-                position: absolute;
-                z-index: 1;
-                width: 15px;
-                height: 15px;
-                background: #fcfb63;
-                border-radius: 50%;
-                left: 60%;
-                top: 39%;
-              `}
-            />
-          </a>
         </div>
       </section>
 
@@ -618,6 +597,7 @@ const IndexPage = ({ t }) => {
                 css={css`
                   padding: 15px;
                   width: 33%;
+                  height: 100%;
 
                   @media (min-width: ${bp}) {
                     width: 20%;

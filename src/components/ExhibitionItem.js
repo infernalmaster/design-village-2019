@@ -27,7 +27,6 @@ export const ExhibitionItem = ({
   >
     <div
       css={css`
-        width: 70%;
         @media (min-width: ${bp}) {
           width: calc(50% - 15px);
         }
@@ -37,7 +36,6 @@ export const ExhibitionItem = ({
     </div>
     <div
       css={css`
-        width: 70%;
         padding: 14px 0 0 0;
         line-height: 1.2;
         @media (min-width: ${bp}) {

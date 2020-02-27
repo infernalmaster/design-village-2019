@@ -9,6 +9,7 @@ export const Workshop = ({
   title,
   name,
   desc,
+  tag,
   fbLink,
   date,
   time,
@@ -27,11 +28,11 @@ export const Workshop = ({
       border: 1px solid #323232;
       padding: 0 10px 10px 10px;
 
-      &:hover {
+      /* &:hover {
         .img-overlay {
           opacity: 0;
         }
-      }
+      } */
 
       @media (min-width: ${bp}) {
         padding: 0;
@@ -77,6 +78,12 @@ export const Workshop = ({
           margin-right: 18px;
           position: relative;
 
+          &:hover {
+            .img-overlay {
+              opacity: 0;
+            }
+          }
+
           @media (min-width: ${bp}) {
             width: 100px;
             height: 100px;
@@ -96,6 +103,7 @@ export const Workshop = ({
             z-index: 2;
             width: 100%;
             transition: opacity 0.3s;
+            overflow: hidden;
           `}
         >
           <Img fluid={imgSrc} alt={name} />
@@ -196,7 +204,7 @@ export const Workshop = ({
             }
           `}
         >
-          #workshop
+          #{tag}
         </span>
       </div>
     </div>
@@ -250,7 +258,7 @@ export const Workshop = ({
           }
         `}
       >
-        facebook
+        Registration Closed
       </OutboundLink>
     )}
   </section>

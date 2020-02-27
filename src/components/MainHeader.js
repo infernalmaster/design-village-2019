@@ -39,10 +39,12 @@ export const MainHeader = ({ data, t }) => {
         left: 0;
         width: 100%;
 
-        ${!isBlack && `background: #fff center center no-repeat;`}
+        ${!isBlack && `background: #fff;`}
 
         @media (min-width: ${bp}) {
           background-image: url(${require("../images/village.svg")});
+          background-repeat: no-repeat;
+          background-position: center center;
         }
       `}
     >
@@ -104,6 +106,7 @@ export const MainHeader = ({ data, t }) => {
           border: none;
           outline: none;
           overflow: hidden;
+          cursor:none;
 
           margin-top: ${isBlack ? "20px" : "10px"};
 

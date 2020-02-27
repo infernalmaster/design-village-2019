@@ -1,6 +1,6 @@
 import React from "react"
 import { css } from "@emotion/core"
-import { bp } from "./bp"
+import { bp, bp1290} from "./bp"
 export const ScheduleItem = ({ title, desc, start, end }) => (
   <section
     css={css`
@@ -21,11 +21,15 @@ export const ScheduleItem = ({ title, desc, start, end }) => (
         line-height: 29px;
 
         @media (min-width: ${bp}) {
-          font-size: 36px;
-          line-height: 43px;
-          height: 248px;
+          height: 260px;
           padding: 32px 19px;
           border: 1px solid rgba(196, 196, 196, 0.6);
+        }
+
+        @media (min-width: ${bp}) {
+          font-size: 36px;
+          line-height: 43px;
+          height: 340px;
         }
       `}
     >
@@ -55,7 +59,7 @@ export const ScheduleItem = ({ title, desc, start, end }) => (
 
       <div
         css={css`
-          margin: 0 0 0 30px;
+          margin: 0 0 0 20px;
         `}
       >
         <h4
@@ -70,7 +74,7 @@ export const ScheduleItem = ({ title, desc, start, end }) => (
             font-size: 18px;
             line-height: 22px;
 
-            @media (min-width: ${bp}) {
+            @media (min-width: ${bp1290}) {
               font-size: 24px;
               line-height: 30px;
             }
