@@ -6,11 +6,20 @@ export class Cursor extends Component {
     super(props);
 
     this.state = { x: -10, y: 0, isFocused: false };
-    window.addEventListener('mousemove', (e) => {
-      let isFocused = ['A', 'BUTTON'].includes(e.target.tagName)
-                   || ['A', 'BUTTON'].includes(e.target.parentNode.tagName)
-      this.setState({ x: e.clientX, y: e.clientY, isFocused })
-    })
+  }
+
+  componentDidMount() {
+    window.addEventListener('mousemove', this.handleMouseMove)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('mousemove', this.handleMouseMove)
+  }
+
+  handleMouseMove = () => {
+    let isFocused = ['A', 'BUTTON'].includes(e.target.tagName)
+                 || ['A', 'BUTTON'].includes(e.target.parentNode.tagName)
+    this.setState({ x: e.clientX, y: e.clientY, isFocused })
   }
 
   render() {
