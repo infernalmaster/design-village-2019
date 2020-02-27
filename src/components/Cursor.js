@@ -9,14 +9,14 @@ export class Cursor extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener('mousemove', this.handleMouseMove)
+    window.addEventListener('mousemove', this.handlerMouseMove)
   }
 
   componentWillUnmount() {
-    window.removeEventListener('mousemove', this.handleMouseMove)
+    window.removeEventListener('mousemove', this.handlerMouseMove)
   }
 
-  handleMouseMove = () => {
+  handlerMouseMove = () => {
     let isFocused = ['A', 'BUTTON'].includes(e.target.tagName)
                  || ['A', 'BUTTON'].includes(e.target.parentNode.tagName)
     this.setState({ x: e.clientX, y: e.clientY, isFocused })
