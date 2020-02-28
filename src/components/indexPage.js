@@ -527,8 +527,12 @@ const IndexPage = ({ t }) => {
           </div>
           <div
             css={css`
-              width: 626px;
-              height: 616px;
+              width: 100%;
+              height: 270px;
+
+              @media (min-width: ${bp}) {
+                height: auto;
+              }
             `}
           >
             <Map />
