@@ -509,3 +509,7 @@ td:last-child {
   transition: width .1s, height .1s;
   opacity: .2;
 }
+@media only screen and (max-width: 1024px) {
+  .cursor,
+  .cursor.cursor--is-focused { display: none; }
+}
