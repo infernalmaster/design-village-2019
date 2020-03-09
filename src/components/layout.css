@@ -491,25 +491,3 @@ td:last-child {
     font-size: 100%;
   }
 }
-.cursor {
-  position: fixed;
-  width: 10px;
-  height: 10px;
-  transform: translate(-50%, -50%);
-  background: #FCFB63;
-  border-radius: 50%;
-  pointer-events: none;
-  transition: width .1s, height .1s ;
-  z-index: 9999;
-  /* mix-blend-mode: difference; */
-}
-.cursor.cursor--is-focused {
-  width: 80px;
-  height: 80px;
-  transition: width .1s, height .1s;
-  opacity: .2;
-}
-@media only screen and (max-width: 1024px) {
-  .cursor,
-  .cursor.cursor--is-focused { display: none; }
-}
