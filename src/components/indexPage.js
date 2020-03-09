@@ -537,7 +537,6 @@ const IndexPage = ({ t }) => {
           >
             <Map />
           </div>
-
         </div>
       </section>
 

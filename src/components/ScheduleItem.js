@@ -1,6 +1,6 @@
 import React from "react"
 import { css } from "@emotion/core"
-import { bp, bp1290} from "./bp"
+import { bp, bp1290 } from "./bp"
 export const ScheduleItem = ({ title, desc, start, end }) => (
   <section
     css={css`

@@ -1,9 +1,11 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3add7f15-47f0-470c-831e-144f775a31e3/deploy-status)](https://app.netlify.com/sites/design-village-2019/deploys)
 
 todo:
+
 - test with https://www.browserstack.com in iPhones and some other platforms
 
 ## Resources:
+
 - https://github.com/twobin/react-lazyload
 - https://docs.google.com/document/d/16QYLft3O4t63dlYOS-X8KbNXCObeniywwgGcPojJ_KI/edit?fbclid=IwAR3OKR68STwX5k4WoR68UsjaM-r_IDnKMZmp749XCHasZrXZrOvnHyg0CmI
 - https://www.figma.com/file/uEntt79qCiF9kNUBCLhmlA/design-village?node-id=14%3A2

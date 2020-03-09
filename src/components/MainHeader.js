@@ -106,7 +106,7 @@ export const MainHeader = ({ data, t }) => {
           border: none;
           outline: none;
           overflow: hidden;
-          cursor:none;
+          cursor: none;
 
           margin-top: ${isBlack ? "20px" : "10px"};
 
