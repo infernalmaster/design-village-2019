@@ -1,0 +1,2346 @@
+<data>
+	<festivalData>
+		<name>Design Village</name>
+		<banner>https://www.dropbox.com/s/kos8uvqbeexrlp5/aboutUs.png?dl=1</banner>
+		<startDate>2019-10-11T03:00+03:00</startDate>
+		<endDate>2019-10-13T03:00+03:00</endDate>
+		<description>Let's face it: designer is not the only person behind the design. Sometimes you need a little help from data specialists, marketers, AI engineers, artists or from all of them at a time to come up with a final vision. So, how does the whole ‘working together’ process in design really look like and how does the cooperation affect the project?
+  Join us on a three day design festival to have the answers.
+</description>
+		<contactInformation>
+			<phones>
+				<phone>
+					<number>+380976350399</number>
+				</phone>
+			</phones>
+			<siteUrl>http://designvillage.world</siteUrl>
+			<address>Ivano-Frankivsk</address>
+		</contactInformation>
+		<socialLinks>
+			<socialLink>
+				<type>Facebook</type>
+				<link>https://www.facebook.com/designvillagecarpathians/</link>
+			</socialLink>
+			<socialLink>
+				<type>Instagram</type>
+				<link>https://www.instagram.com/designvillage_conference/</link>
+			</socialLink>
+		</socialLinks>
+		<partners>
+			<description>Partners</description>
+			<partner>
+				<id>1</id>
+				<name>BBDO</name>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-01.png</logo>
+				<description>We create and tell great stories.</description>
+				<site>http://bbdo.ua/</site>
+			</partner>
+			<partner>
+				<id>2</id>
+				<name>Webmil</name>
+				<logo>http://cnt.designvillage.world/images2/Sponsors/sponsor-01.png</logo>
+				<description>We entirely enjoy our work.</description>
+				<site>http://webmil.eu/</site>
+			</partner>
+			<partner>
+				<id>3</id>
+				<name>Bruketa&amp;Žinić&amp;Grey</name>
+				<logo>https://designvillage.world/images/partners/4_Logo_Bruketa.svg</logo>
+				<description>Bruketa&amp;Žinić&amp;Grey is part of the global Grey network since 2017, when WPP acquired a majority stake in Bruketa&amp;Žinić OM. The agency is a Brand, Product &amp; Retail Design Hub and Digital Shopper Hub for Grey network.</description>
+				<site>http://bruketa-zinic.com</site>
+			</partner>
+			<partner>
+				<id>4</id>
+				<name>Softjourn</name>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-03.png</logo>
+				<description>We are the world’s experts in software development.</description>
+				<site>https://softjourn.com/</site>
+			</partner>
+			<partner>
+				<id>5</id>
+				<name>Depositphotos</name>
+				<logo>https://designvillage.world/images/partners/3_Logo_Deposit.svg</logo>
+				<description>Photo bank with a premium collection of stock photos, vectors and videos.</description>
+				<site>depositphotos.com</site>
+			</partner>
+			<partner>
+				<id>6</id>
+				<name>WIX</name>
+				<logo>https://designvillage.world/images/partners/2_Logo_Wix.svg</logo>
+				<description>Wix.com is a leading cloud-based development platform with millions of users worldwide. We help create great professional sites.</description>
+				<site>wix.com</site>
+			</partner>
+			<partner>
+				<id>7</id>
+				<name>ArtHuss</name>
+				<logo>https://designvillage.world/images/partners/10_Logo_ArtHuss.svg</logo>
+				<description>Publisher Art Huss</description>
+				<site>https://www.arthuss.com.ua/</site>
+			</partner>
+			<partner>
+				<id>8</id>
+				<name>huss</name>
+				<logo>https://designvillage.world/images/partners/11_Logo_Huss.svg</logo>
+				<description>Family typography</description>
+				<site>http://www.brendari.com/</site>
+			</partner>
+			<partner>
+				<id>9</id>
+				<name>SoftServe</name>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-10.png</logo>
+				<description>Leading Ukrainian IT company</description>
+				<site>https://huss.com.ua/</site>
+			</partner>
+			<partner>
+				<id>10</id>
+				<name>THE GRADIENT</name>
+				<logo>https://designvillage.world/images/partners/12_Logo_TheGradient.png</logo>
+				<description>DIGITAL PRODUCT DESIGN FIRM</description>
+				<site>https://thegradient.com/</site>
+			</partner>
+			<partner>
+				<id>11</id>
+				<name>UKRSIBBANK</name>
+				<logo>https://designvillage.world/images/partners/30_Logo_Ukrsybbank.svg</logo>
+				<description>UKRSIBBANK BNP Paribas Group - a bank of positive changes.</description>
+				<site>https://my.ukrsibbank.com</site>
+			</partner>
+			<partner>
+				<id>12</id>
+				<name>IT Cluster</name>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-13.png</logo>
+				<description>A group of initiative people who united on a voluntary basis.</description>
+				<site>http://it-cluster.if.ua/</site>
+			</partner>
+			<partner>
+				<id>13</id>
+				<name>Show Service</name>
+				<logo>https://designvillage.world/images/partners/14_Logo_Show.svg</logo>
+				<description>Service company.</description>
+				<site>https://www.facebook.com/showserviceUA/</site>
+			</partner>
+			<partner>
+				<id>14</id>
+				<name>Chernozem</name>
+				<logo>http://cnt.designvillage.world/images2/partners/media-partners-03.png</logo>
+				<description>Portal of visual culture</description>
+				<site>https://chernozem.info/</site>
+			</partner>
+			<partner>
+				<id>15</id>
+				<name>COAX Software</name>
+				<logo>https://designvillage.world/images/partners/17_Logo_Coax.svg</logo>
+				<description>Your partner for incredible mobile and web products.</description>
+				<site>https://coaxsoft.com/</site>
+			</partner>
+			<partner>
+				<id>16</id>
+				<name>Аристократи. Radio &amp; Podcasts</name>
+				<logo>https://designvillage.world/images/partners/18_Logo_Arystokraty.svg</logo>
+				<description>Aristocrats.fm is a Ukrainian independent online radio station.</description>
+				<site>https://aristocrats.fm/</site>
+			</partner>
+			<partner>
+				<id>16</id>
+				<name>COOPER HEAD</name>
+				<logo>https://designvillage.world/images/partners/19_Logo_CopperHead.svg</logo>
+				<description>Craft beer. Craft food. Full cocktail bar. Enjoy our freshly brewed beer, unique cuisine, delicious cocktail and neoteric interior.</description>
+				<site>https://www.facebook.com/copperheadbeer/</site>
+			</partner>
+			<partner>
+				<id>17</id>
+				<name>PMC Center</name>
+				<logo>https://designvillage.world/images/partners/23_Logo_PMC.png</logo>
+				<description>PMC Center or Product Management Community Center is an international product community, created in 2015 to unite product oriented people, generate the environment and opportunities for professional networking and growth.</description>
+				<site>https://www.pmc.center</site>
+			</partner>
+			<partner>
+				<id>18</id>
+				<name>NOSTRES</name>
+				<logo>https://designvillage.world/images/partners/24_Logo_Nostres.svg</logo>
+				<description>Marketing solutions.</description>
+			</partner>
+			<partner>
+				<id>19</id>
+				<name>Multimedia lab</name>
+				<logo>https://designvillage.world/images/partners/25_Logo_MML.svg</logo>
+				<description>The most equipped studio in Ivano-Frankivsk for creating audio-visual content with equipped coworking for design and post-production.</description>
+				<site>https://www.facebook.com/multimedialabprom/</site>
+			</partner>
+			<partner>
+				<id>20</id>
+				<name>Paperivka</name>
+				<logo>https://designvillage.world/images/partners/26_Logo_Paperivka.svg</logo>
+				<description>Printing company.</description>
+				<site>http://paperivka.com.ua</site>
+			</partner>
+			<partner>
+				<id>21</id>
+				<name>BeetRoot</name>
+				<logo>http://cnt.designvillage.world/images2/Sponsors/sponsor-02.png</logo>
+				<description>Build world-class software and dedicated tech teams together with one of Ukraine’s foremost employers.</description>
+				<site>https://beetroot.se</site>
+			</partner>
+			<partner>
+				<id>22</id>
+				<name>BeetRoot Academy</name>
+				<logo>https://designvillage.world/images/partners/29_Logo_BeetAcademy.svg</logo>
+				<description>Swedish-Ukrainian modern IT school.</description>
+				<site>https://beetroot.academy/</site>
+			</partner>
+			<partner>
+				<id>23</id>
+				<name>Promprylad.Renovation</name>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-11.png</logo>
+				<description>Contemporary Innovation Center</description>
+				<site>https://www.facebook.com/promprylad.renovation/posts_to_page/</site>
+			</partner>
+			<partner>
+				<id>24</id>
+				<name>Warm City</name>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-08.png</logo>
+				<description>Aims to provide new opportunities for Ivano-Frankivsk</description>
+				<site>https://warm.if.ua</site>
+			</partner>
+			<partner>
+				<id>25</id>
+				<name>UXPressia</name>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-09.png</logo>
+				<description>Service Design Tool</description>
+				<site>https://uxpressia.com/</site>
+			</partner>
+			<partner>
+				<id>26</id>
+				<name>Aqua Real</name>
+				<logo>https://designvillage.world/images/partners/28_Logo_Aquareal.png</logo>
+				<description>Bottled water supplier.</description>
+				<site>https://www.facebook.com/pg/aquarealif/posts/</site>
+			</partner>
+			<partner>
+				<id>27</id>
+				<name>Radio SKOVORODA</name>
+				<logo>https://designvillage.world/images/partners/13_Logo_Skovoroda.svg</logo>
+				<description>The first Ukrainian-language wandering online radio.</description>
+				<site>http://radioskovoroda.com</site>
+			</partner>
+		</partners>
+		<sponsors>
+			<description>Sponsors</description>
+			<sponsor>
+				<id>1</id>
+				<name>Ukrainian Cultural Foundation</name>
+				<logo>https://designvillage.world/images/partners/1_Logo_UKF.svg</logo>
+				<description/>
+				<site>https://ucf.in.ua/</site>
+			</sponsor>
+			<sponsor>
+				<id>2</id>
+				<name>Ivano-Frankivsk City Council</name>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-07.png</logo>
+				<description>Administrative territorial unit and local self-government body.</description>
+				<site>http://www.mrada.if.ua/</site>
+			</sponsor>
+		</sponsors>
+	</festivalData>
+	<events>
+		<event>
+			<id>0</id>
+			<placeId>1</placeId>
+			<name>In search of meanings</name>
+			<startDateTime>2019-10-11T12:00+03:00</startDateTime>
+			<endDateTime>2019-10-25T20:00+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/n4p43euskeogg2w/Maria%20Bilinska%20insta.jpg?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/n4p43euskeogg2w/Maria%20Bilinska%20insta.jpg?dl=1</thumbnail>
+			<eventUrl/>
+			<leader>
+				<id>0</id>
+				<name>Maria Bilinska</name>
+				<leaderPicture>https://www.dropbox.com/s/n4p43euskeogg2w/Maria%20Bilinska%20insta.jpg?dl=0</leaderPicture>
+			</leader>
+			<description>
+				<description1>Mixed media art works exhibition.</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/events/437574260195505</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>1</id>
+			<placeId>1</placeId>
+			<name>Workshop “Plasticine illustration”</name>
+			<startDateTime>2019-10-11T15:00+03:00</startDateTime>
+			<endDateTime>2019-10-11T18:00+03:00</endDateTime>
+			<poster>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</poster>
+			<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</thumbnail>
+			<eventUrl/>
+			<leader>
+				<id>1</id>
+				<name>Olha Protasova</name>
+				<leaderPicture>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</leaderPicture>
+			</leader>
+			<description>
+				<description1>Olha Protasova is Kyiv-based freelance illustrator and graphic designer, at the moment happily focused on things she loves best: lettering, illustration community in Ukraine and her family.
+</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/designvillagecarpathians/</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>2</id>
+			<placeId>1</placeId>
+			<name>Illustration for Digital Product Design</name>
+			<startDateTime>2019-10-13T10:00+03:00</startDateTime>
+			<endDateTime>2019-10-13T18:00+03:00</endDateTime>
+			<poster>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</poster>
+			<eventUrl/>
+			<leader>
+				<id>2</id>
+				<name>Leo Natsume</name>
+				<leaderPicture>https://www.dropbox.com/s/a5586tg0cyge3js/Leo.png?dl=0</leaderPicture>
+			</leader>
+			<description>
+				<description1>Leo Natsume is a talented visual designer with a focus on Digital Design - UI/UX, interaction design and mainly illustration, currently working at Grupo RBS, based in Porto Alegre/Brazil. Clients: Google, Uber, Huawei, Nike, Disney, Coca-Cola, NYT, Mercedes-Benz, WillSmith, others.
+</description1>
+				<description2/>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/events/489049448340216/</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>3</id>
+			<placeId>1</placeId>
+			<name>Social Poster</name>
+			<startDateTime>2019-10-13T10:00+03:00</startDateTime>
+			<endDateTime>2019-10-13T18:00+03:00</endDateTime>
+			<poster>https://scontent.fiev1-1.fna.fbcdn.net/v/t1.0-9/70806504_2192475330880218_5465774921328099328_n.jpg?_nc_cat=110&amp;_nc_oc=AQm59gOQzOt4aoZZSAlVAz7vs0ArBk6v3Qi0DPVNjkcR6nw-ZKgiTkIMez8gDw32qzg&amp;_nc_ht=scontent.fiev1-1.fna&amp;oh=08dcb7519bcd8e9de04e04e025db4282&amp;oe=5DF6A5A6</poster>
+			<thumbnail>https://scontent.fiev1-1.fna.fbcdn.net/v/t1.0-9/70806504_2192475330880218_5465774921328099328_n.jpg?_nc_cat=110&amp;_nc_oc=AQm59gOQzOt4aoZZSAlVAz7vs0ArBk6v3Qi0DPVNjkcR6nw-ZKgiTkIMez8gDw32qzg&amp;_nc_ht=scontent.fiev1-1.fna&amp;oh=08dcb7519bcd8e9de04e04e025db4282&amp;oe=5DF6A5A6</thumbnail>
+			<eventUrl/>
+			<leader>
+				<id>3</id>
+				<name>Mykola Kovalenko</name>
+			</leader>
+			<description>
+				<description1>&quot;Social poster&quot;, workshop of graphic designer, art director dnkstudio Nikolai Kovalenko'</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/events/980699868988952/</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>34</id>
+			<placeId>1</placeId>
+			<name>Express packaging</name>
+			<startDateTime>2019-10-13T10:00+03:00</startDateTime>
+			<endDateTime>2019-10-13T16:00+03:00</endDateTime>
+			<poster>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</poster>
+			<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</thumbnail>
+			<eventUrl/>
+			<leader>
+				<id>34</id>
+				<name>Masha Teterin</name>
+				<leaderPicture>https://www.dropbox.com/s/etgo337ma095iho/teterin.png?dl=0</leaderPicture>
+			</leader>
+			<description>
+				<description1>Head of BBDO Branding, BBDO Ukraine. Clients: Staropramen, Stella Artois, Mars, WOG, Pepsi, Kotex, Snickers.</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/events/1554778644546335/</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>32</id>
+			<placeId>53</placeId>
+			<name>Yellow&amp;Blue</name>
+			<startDateTime>2019-10-13T14:00+03:00</startDateTime>
+			<endDateTime>2019-10-20T20:00+03:00</endDateTime>
+			<poster>https://designvillage.world/images/exhibitions/EXHB_Pictronic.jpg</poster>
+			<thumbnail>https://designvillage.world/images/exhibitions/EXHB_Pictronic.jpg</thumbnail>
+			<eventUrl/>
+			<leader>
+				<id>32</id>
+				<name>Pictoric</name>
+			</leader>
+			<description>
+				<description1>You won't find it in any travel guide: a complete image of modern Ukraine, bright and ironic, portrayed on posters and illustrations.</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/designvillagecarpathians/</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>33</id>
+			<placeId>4</placeId>
+			<name>BEST OF PGA BOOKS</name>
+			<startDateTime>2019-10-12T09:00+03:00</startDateTime>
+			<endDateTime>2019-10-12T20:00+03:00</endDateTime>
+			<poster>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</poster>
+			<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</thumbnail>
+			<eventUrl/>
+			<leader>
+				<id>33</id>
+				<name>Rene Wawrzkiewicz</name>
+				<leaderPicture>https://www.dropbox.com/s/li80lpnef5tb0bd/Rene-Wawrzkiewicz.png?dl=1</leaderPicture>
+			</leader>
+			<description>
+				<description1>Selection of the best Polish books from the Polish Graphic Awards.</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/designvillagecarpathians/</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>4</id>
+			<placeId>40</placeId>
+			<name>NOTRE-DAME DE PARIS</name>
+			<startDateTime>2019-10-11T14:00+03:00</startDateTime>
+			<endDateTime>2019-10-20T20:00+03:00</endDateTime>
+			<poster>https://designvillage.world/images/exhibitions/EXHB_Paris.jpg</poster>
+			<eventUrl/>
+			<leader>
+				<id>4</id>
+				<name>Mykola Kovalenko</name>
+				<leaderPicture>https://www.dropbox.com/s/osurrk38vyxm23w/M_kovalenko1.png?dl=1</leaderPicture>
+			</leader>
+			<description>
+				<description1>After Notre-Dame de Paris tragedy famous ukrainian graphic designer Mykola Kovalenko together with the French Institute in Bratislava announced a poster call. We are glad to show you best 24 posters from around the world dedicated to Notre-Dame de Paris.
+</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/events/980699868988952/?acontext=%7B%22source%22%3A5%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%5C%22[]%5C%22%22%7D]%2C%22has_source%22%3Atrue%7D</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>5</id>
+			<placeId>1</placeId>
+			<name>Workshop from the Calligraphy and Lettering School &quot;Art and I&quot;</name>
+			<startDateTime>2019-10-11T16:00+03:00</startDateTime>
+			<endDateTime>2019-10-11T18:00+03:00</endDateTime>
+			<poster>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</poster>
+			<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</thumbnail>
+			<eventUrl>NO LINK</eventUrl>
+			<leader>
+				<id>5</id>
+				<name>Calligraphy and Lettering School &quot;Art and I&quot;</name>
+			</leader>
+			<description>
+				<description1>NO DESCRIPTION
+</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/designvillagecarpathians/</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>7</id>
+			<placeId>1</placeId>
+			<name>Crello workshop</name>
+			<startDateTime>2019-10-13T10:00+03:00</startDateTime>
+			<endDateTime>2019-10-13T14:00+03:00</endDateTime>
+			<poster>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</poster>
+			<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</thumbnail>
+			<eventUrl>NO LINK</eventUrl>
+			<leader>
+				<id>7</id>
+				<name>DEPOSITPHOTOS</name>
+			</leader>
+			<description>
+				<description1>Crello is one of the favorite tools of anyone who needs to create graphic content for social networks, online advertising or email marketing frequently and quickly. At Design Village the DEPOSITPHOTOS team will talk about how to work with Crello and introduce participants to the most interesting functionality of the platform.
+</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>NO LINK</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>6</id>
+			<placeId>4</placeId>
+			<name>EXHIBITIONS OPENING</name>
+			<startDateTime>2019-010-11T14:00+03:00</startDateTime>
+			<endDateTime>2019-10-11T13:10+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/0hea8yhlh9m873l/Group%204.png?dl=1
+</poster>
+			<thumbnail>https://www.dropbox.com/s/0hea8yhlh9m873l/Group%204.png?dl=1
+</thumbnail>
+			<description>
+				<description1>Hi there! So good to see you! We will start with a short greeting just to say hello and let you know what is waiting for you today — lectures, workshops, exhibitions, parties or some schedule changes. All What? Where? and When? in this 20 minutes or less.
+</description1>
+			</description>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/</eventUrl>
+		</event>
+		<event>
+			<id>14</id>
+			<placeId>1</placeId>
+			<name>Creative Content Search
+</name>
+			<startDateTime>2019-10-11T16:40+03:00</startDateTime>
+			<endDateTime>2019-10-11T17:40+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/uqawfyuoiezkk8h/Tatiana%20Boksha%20Instagram.jpg?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/uqawfyuoiezkk8h/Tatiana%20Boksha%20Instagram.jpg?dl=1</thumbnail>
+			<eventUrl>NO LINK
+</eventUrl>
+			<leader>
+				<id>14</id>
+				<name>Tatiana Boksha</name>
+			</leader>
+			<description>
+				<description1>Tatiana Boksha - Visual Content Curator в Depositphotos. Tatiana will tell you how to work more effectively with the Depositphotos platform, use unobtrusive but useful features and find the best visual content to work with.
+</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>https://www.facebook.com/designvillagecarpathians</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>8</id>
+			<placeId>1</placeId>
+			<name>Artist collaboration with big companies in the design industry</name>
+			<startDateTime>2019-10-11T17:40+03:00</startDateTime>
+			<endDateTime>2019-10-11T18:40+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/a5586tg0cyge3js/Leo.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/a5586tg0cyge3js/Leo.png?dl=1</thumbnail>
+			<eventUrl>NO LINK
+</eventUrl>
+			<leader>
+				<id>8</id>
+				<name>Leo Natsume</name>
+			</leader>
+			<description>
+				<description1>Leo Natsume is a Brazilian illustrator and creative designer. Creates illustrations for Huawei, Uber, Google, Vans and Apple. In his lecture, Leo will talk about his approaches to illustration, examine case studies from his own practice, and then answer participants' questions in an open dialogue format.
+</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>NO LINK</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>88</id>
+			<placeId>1</placeId>
+			<name>PANEL DISCUSSION</name>
+			<startDateTime>2019-10-11T19:00+03:00</startDateTime>
+			<endDateTime>2019-10-11T20:30+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/yodeco7fe6tc6qp/Anze-jereb.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/yodeco7fe6tc6qp/Anze-jereb.png?dl=1</thumbnail>
+			<eventUrl>NO LINK
+</eventUrl>
+			<leader>
+				<id>88</id>
+				<name>Anze Jereb</name>
+			</leader>
+			<description>
+				<description1>Moderator - Anze Jereb, Regional Executive Creative Director, BBDO Ukraine &amp; Central Asia.</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>NO LINK</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>89</id>
+			<placeId>1</placeId>
+			<name>DESIGN EVENING</name>
+			<startDateTime>2019-10-11T16:30+03:00</startDateTime>
+			<endDateTime>2019-10-11T20:30+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/kos8uvqbeexrlp5/aboutUs.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/kos8uvqbeexrlp5/aboutUs.png?dl=1</thumbnail>
+			<eventUrl>NO LINK
+</eventUrl>
+			<leader>
+				<id>89</id>
+				<name>Tatiana Boksha, Leo Natsume, Anze Jereb </name>
+			</leader>
+			<description>
+				<description1>Design evening at Promprylad. Renovation</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link>NO LINK</link>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>90</id>
+			<placeId>4</placeId>
+			<name>PARTICIPANTS REGISTRATION</name>
+			<startDateTime>2019-10-12T08:00+03:00</startDateTime>
+			<endDateTime>2019-10-12T09:00+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/0hea8yhlh9m873l/Group%204.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/0hea8yhlh9m873l/Group%204.png?dl=1</thumbnail>
+			<description>
+				<description1>Exchange your ticket to a member's bracelet — you can show it from your smartphone or print a copy from your mail. One bracelet for three days of conference — try not to lose it!
+</description1>
+			</description>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/</eventUrl>
+		</event>
+		<event>
+			<id>91</id>
+			<placeId>4</placeId>
+			<name>OFFICIAL OPENING</name>
+			<startDateTime>2019-10-12T09:00+03:00</startDateTime>
+			<endDateTime>2019-10-12T09:10+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/0hea8yhlh9m873l/Group%204.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/0hea8yhlh9m873l/Group%204.png?dl=1</thumbnail>
+			<description>
+				<description1>Hi there! So good to see you! We will start with a short greeting just to say hello and let you know what is waiting for you today — lectures, workshops, exhibitions, parties or some schedule changes. All What? Where? and When? in this 10 minutes or less.</description1>
+			</description>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/</eventUrl>
+		</event>
+		<event>
+			<id>92</id>
+			<placeId>4</placeId>
+			<name>How to compete and win in designer competitions?</name>
+			<startDateTime>2019-10-12T09:10+03:00</startDateTime>
+			<endDateTime>2019-10-12T09:40+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/li80lpnef5tb0bd/Rene-Wawrzkiewicz.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/li80lpnef5tb0bd/Rene-Wawrzkiewicz.png?dl=1</thumbnail>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/
+</eventUrl>
+			<leader>
+				<id>92</id>
+				<name>Rene Wawrzkiewicz</name>
+			</leader>
+			<description>
+				<description1>Graphic designer, researcher, and design curator, Jury at European Design Awards. Warsaw, Poland.
+</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link/>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>93</id>
+			<placeId>4</placeId>
+			<name>Lecture.RUPERT BREHENY</name>
+			<startDateTime>2019-10-12T09:50+03:00</startDateTime>
+			<endDateTime>2019-10-12T10:35+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/c7vzb8s9ats2cla/Rupert%20Instagram.jpg?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/c7vzb8s9ats2cla/Rupert%20Instagram.jpg?dl=1</thumbnail>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/
+</eventUrl>
+			<leader>
+				<id>93</id>
+				<name>Rupert Breheny</name>
+			</leader>
+			<description>
+				<description1>VR Manager at Google. Zürich Area, Switzerland.</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link/>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>10</id>
+			<placeId>4</placeId>
+			<name>COFFEE BREAK</name>
+			<startDateTime>2019-10-12T10:35+03:00</startDateTime>
+			<endDateTime>2019-10-12T11:15+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/gfgvhgjxcqbubnc/Group%207.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/gfgvhgjxcqbubnc/Group%207.png?dl=1</thumbnail>
+			<description>
+				<description1>Take the coffee and go out to breathe fresh air a bit. But better is to do some exercises — walk the stairs up and down or just walk around the Ivan Franko Academic Music-Drama Theater — it's good for the brain! ;-)
+</description1>
+			</description>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/</eventUrl>
+		</event>
+		<event>
+			<id>94</id>
+			<placeId>4</placeId>
+			<name>Making a difference by working as a design team</name>
+			<startDateTime>2019-10-12T11:15+03:00</startDateTime>
+			<endDateTime>2019-10-12T12:00+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/uauka73c6a7nvy5/Sebastiaan%20insta.jpg?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/uauka73c6a7nvy5/Sebastiaan%20insta.jpg?dl=1</thumbnail>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/</eventUrl>
+			<leader>
+				<id>94</id>
+				<name>Sebastian Scheer</name>
+			</leader>
+			<description>
+				<description1>Design Director, MediaMonks. Amsterdam, Netherlands.
+</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link/>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>95</id>
+			<placeId>4</placeId>
+			<name>Lecture.MARIANNA TOMASELLI</name>
+			<startDateTime>2019-10-12T12:10+03:00</startDateTime>
+			<endDateTime>2019-10-12T12:50+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/e85pzgoi9b1vww0/Marianna%20Tomaselli%20Instagram_1.jpg?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/e85pzgoi9b1vww0/Marianna%20Tomaselli%20Instagram_1.jpg?dl=1</thumbnail>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/</eventUrl>
+			<leader>
+				<id>95</id>
+				<name>Marianna Tomaselli</name>
+			</leader>
+			<description>
+				<description1>Illustrator and Art Director, Milan, Italy</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link/>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>12</id>
+			<placeId>4</placeId>
+			<name>LUNCH TIME</name>
+			<startDateTime>2019-10-12T13:00+03:00</startDateTime>
+			<endDateTime>2019-10-12T14:30+03:00</endDateTime>
+			<poster>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</poster>
+			<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</thumbnail>
+			<description>
+				<description1>Bon appetit! Smachnogo! You have an hour and half to take a break and have some good food. Use a 10% discount at the KUCHNIA restaurant (Sichovyh Striltsiv Str., 41). Just say &quot;I'm from Design Village!&quot; and get your discount.</description1>
+			</description>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/</eventUrl>
+		</event>
+		<event>
+			<id>13</id>
+			<placeId>4</placeId>
+			<name>Design skills: Soft is the new hard</name>
+			<startDateTime>2019-10-12T14:30+03:00</startDateTime>
+			<endDateTime>2019-10-12T15:00+03:00</endDateTime>
+			<poster>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</poster>
+			<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</thumbnail>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/</eventUrl>
+			<leader>
+				<id>13</id>
+				<name>Anna Skorobogatova</name>
+			</leader>
+			<description>
+				<description1>Head of Design Wix Ukraine.
+</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link/>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>15</id>
+			<placeId>4</placeId>
+			<name>Design &amp; Strategy</name>
+			<startDateTime>2019-10-12T15:10+03:00</startDateTime>
+			<endDateTime>2019-10-12T15:50+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/1509m8y6mxya2vw/Havrysh%20insta.jpg?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/1509m8y6mxya2vw/Havrysh%20insta.jpg?dl=1</thumbnail>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians</eventUrl>
+			<leader>
+				<id>15</id>
+				<name>Roman Havrysh</name>
+			</leader>
+			<description>
+				<description1>Managing Partner at Aimbulance. Kyiv, Ukraine.</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link/>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>96</id>
+			<placeId>4</placeId>
+			<name>Motion Design Pre-Production Processes. “Down the waterfall together”.</name>
+			<startDateTime>2019-10-12T16:00+03:00</startDateTime>
+			<endDateTime>2019-10-12T16:45+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/8nzzdnjdiq0aan5/Abrams.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/8nzzdnjdiq0aan5/Abrams.png?dl=1</thumbnail>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians/</eventUrl>
+			<leader>
+				<id>96</id>
+				<name>Evan Abrams</name>
+			</leader>
+			<description>
+				<description1>Freelance Motion Designer and Tutor. Ontario, Canada.</description1>
+			</description>
+			<socialLinks>
+				<socialLink>
+					<type>Facebook</type>
+					<link/>
+				</socialLink>
+			</socialLinks>
+		</event>
+		<event>
+			<id>100</id>
+			<placeId>4</placeId>
+			<name>COFFEE BREAK</name>
+			<startDateTime>2019-10-12T16:50+03:00</startDateTime>
+			<endDateTime>2019-10-12T17:20+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/gfgvhgjxcqbubnc/Group%207.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/gfgvhgjxcqbubnc/Group%207.png?dl=1</thumbnail>
+			<description>
+				<description1>Take the coffee and go out to breathe fresh air a bit. But better is to do some exercises — walk the stairs up and down or just walk around the Ivan Franko Academic Music-Drama Theater — it's good for the brain! ;-)</description1>
+			</description>
+			<eventUrl/>
+		</event>
+		<event>
+			<id>16</id>
+			<placeId>4</placeId>
+			<name>Lecture.DAVOR BRUKETA</name>
+			<startDateTime>2019-10-12T17:20+03:00</startDateTime>
+			<endDateTime>2019-10-12T17:50+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/rgo82f84glojp0c/davor.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/rgo82f84glojp0c/davor.png?dl=1</thumbnail>
+			<eventUrl/>
+			<leader>
+				<id>16</id>
+				<name>Davor Bruketa</name>
+			</leader>
+			<description>
+				<description1>Creative Director and Co-Founder of Bruketa&amp;Zinic&amp;Gray. Zagreb, Croatia</description1>
+			</description>
+		</event>
+		<event>
+			<id>17</id>
+			<placeId>4</placeId>
+			<name>Fighting e-commerce sameness.</name>
+			<startDateTime>2019-10-12T18:00+03:00</startDateTime>
+			<endDateTime>2019-10-12T18:40+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/23gxx0pzjhlxols/Julien%20Insta.jpg?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/23gxx0pzjhlxols/Julien%20Insta.jpg?dl=1</thumbnail>
+			<eventUrl/>
+			<leader>
+				<id>17</id>
+				<name>Julian Mollema</name>
+			</leader>
+			<description>
+				<description1>Lead Designer at Build in Amsterdam.</description1>
+			</description>
+		</event>
+		<event>
+			<id>97</id>
+			<placeId>4</placeId>
+			<name>Design for your mother, your plumber and your doctor.</name>
+			<startDateTime>2019-10-12T18:50+03:00</startDateTime>
+			<endDateTime>2019-10-12T19:30+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/twk29y102vlepg6/Luke_Hayman.jpg?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/twk29y102vlepg6/Luke_Hayman.jpg?dl=1</thumbnail>
+			<eventUrl/>
+			<leader>
+				<id>97</id>
+				<name>Luke Hayman</name>
+			</leader>
+			<description>
+				<description1>Partner at Pentagram, New York, USA.</description1>
+			</description>
+		</event>
+		<event>
+			<id>99</id>
+			<placeId>1</placeId>
+			<name>PARTY TIME!</name>
+			<startDateTime>2019-10-12T22:00+03:00</startDateTime>
+			<endDateTime>2019-11-12T05:00+03:00</endDateTime>
+			<poster>http://cnt.designvillage.world/images2/Archive/poster_01.png</poster>
+			<description>
+				<description1>Promprylad.Renovation, Parasolkovyi tsekh. Come to Promprylad: take the metal stairs, and then just follow the signs. Every Design Village participant will get free welcome-drinks — so better not to loose your DV-bracelet! Have fun!</description1>
+			</description>
+			<eventUrl>https://www.facebook.com/events/436500150315574/</eventUrl>
+		</event>
+		<event>
+			<id>19</id>
+			<placeId>1</placeId>
+			<name>What you need to know when you make illustrations for a book</name>
+			<startDateTime>2019-10-13T12:00+03:00</startDateTime>
+			<endDateTime>2019-10-13T12:30+03:00</endDateTime>
+			<poster>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</poster>
+			<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/a6/Bender_Rodriguez.png</thumbnail>
+			<leader>
+				<id>19</id>
+				<name>Roman Malynovsky</name>
+			</leader>
+			<description>
+				<description1>The Library of Babel publishing, Civilization publishing. Founder, editor-and-chief</description1>
+			</description>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians</eventUrl>
+		</event>
+		<event>
+			<id>98</id>
+			<placeId>1</placeId>
+			<name>Co-creating books</name>
+			<startDateTime>2019-10-13T12:45+03:00</startDateTime>
+			<endDateTime>2019-10-13T13:30+03:00</endDateTime>
+			<poster>https://www.dropbox.com/s/1nx3p6eh7paefgl/kovalchuk1.png?dl=1</poster>
+			<thumbnail>https://www.dropbox.com/s/1nx3p6eh7paefgl/kovalchuk1.png?dl=1</thumbnail>
+			<leader>
+				<id>19</id>
+				<name>Mykola Kovalchuk</name>
+			</leader>
+			<description>
+				<description1>Designer at ArtHuss Publishing House</description1>
+			</description>
+			<eventUrl>https://www.facebook.com/designvillagecarpathians</eventUrl>
+		</event>
+	</events>
+	<recomendations>
+		<recomendation>
+			<id>1</id>
+			<placeId>8</placeId>
+			<type>Eat</type>
+			<name>Restauracja Kuchnia</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/30/kyhnya.png</logo>
+			<description>Modern author's cuisine. With the conference ticket you'll receive 10% discount.</description>
+			<workingHours>11:00-00:00</workingHours>
+			<priceRange>3</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380958615485</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/RestauracjaKuchnia/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>2</id>
+			<placeId>7</placeId>
+			<type>Eat</type>
+			<name>Familia</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/19/Familiya.jpg</logo>
+			<description>Family restaurant &quot;Familia&quot;. There is a separate grill menu.</description>
+			<workingHours>11:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380342505050</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/Familiya.if/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>3</id>
+			<placeId>51</placeId>
+			<type>Eat</type>
+			<name>Coffee Shop</name>
+			<logo>http://cnt.designvillage.world/images2/eat/coffe.png</logo>
+			<description>Coffee Shop</description>
+			<workingHours>08:00-22:00</workingHours>
+			<priceRange>1</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380936925140</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>4</id>
+			<type>Eat</type>
+			<placeId>5</placeId>
+			<name>Urban Space 100</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/17/Urban.jpg</logo>
+			<workingHours>6:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<description>This is a restaurant where you can not only eat, but also socialise, discuss the ideas, find likeminded people.</description>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380666338882</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/urbanspace100/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>5</id>
+			<placeId>51</placeId>
+			<type>Eat</type>
+			<name>Profiterole</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/12670332_735834513218166_6867323210342030421_n.jpg?_nc_cat=0&amp;_nc_eui2=AeFS_EcuJEV6akeuWG_q21QGyi76u-0aHosZGwuQSikl8b4BDfOxrpo3sYlv9adSv4zVPr0-BMpJ0IlZoFEFAFLLy9-eonTbwRn9Qnv08-txUw&amp;oh=5155446965a8f88d8a854a52ab7c8315&amp;oe=5BBFA143</logo>
+			<description>Profitrol is created to meet your desires and embody your tasteful imagination ...</description>
+			<workingHours>08:00-23:00</workingHours>
+			<priceRange>3</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+3800960009694</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>https://profiterole.com.ua/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>6</id>
+			<placeId>3</placeId>
+			<type>Eat</type>
+			<name>Delikacia</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/27/Delikacia.jpg</logo>
+			<description>Delikacia – coffee and pastry shop</description>
+			<workingHours>07:45-22:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380681176070</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/Delikacia/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>7</id>
+			<placeId>10</placeId>
+			<type>Eat</type>
+			<name>Fabbrica</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/28/fabbrica.jpg</logo>
+			<description>FABBRICA – Italian restaurant exclusively with Ukrainian products.</description>
+			<workingHours>12:00-23:00</workingHours>
+			<priceRange>3</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380955969890</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/FabbricaIF/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>8</id>
+			<placeId>6</placeId>
+			<type>Eat</type>
+			<name>Muliarovykh</name>
+			<logo>http://cnt.designvillage.world/images2/eat/mulyarovyh.png</logo>
+			<description>Museum of Galician life and cuisine of the last century.</description>
+			<workingHours>10:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380991791861</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/muliarova/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>9</id>
+			<placeId>9</placeId>
+			<type>Eat</type>
+			<name>Manufactura</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/31/manufactyra.jpg</logo>
+			<description>Hot Belgian waffles, Italian coffee and calm music.</description>
+			<workingHours>09:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380933469206</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/ManufacturaIF/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>101</id>
+			<placeId>11</placeId>
+			<type>Eat</type>
+			<name>Beer Club 10</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/25/10.jpg</logo>
+			<description>Beer club and bistro. Delicious meals, large portions, local beer.</description>
+			<workingHours>12:00-22:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380503728707</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/10beerclub/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>11</id>
+			<placeId>11</placeId>
+			<type>Eat</type>
+			<name>Copper Head</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/26/copperhead.jpg</logo>
+			<description>Beer Workshop. Craft beer. Craft food.</description>
+			<workingHours>10:00-23:00</workingHours>
+			<priceRange>3</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380681899696</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/copperheadbeer/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>12</id>
+			<placeId>13</placeId>
+			<type>Eat</type>
+			<name>Mondays</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/32/mondays.jpg</logo>
+			<description>A cozy cafe in the city center where you can buy and taste goodies,detox juice.</description>
+			<workingHours>09:30-20:00</workingHours>
+			<priceRange>3</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380937740640</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/mondays.ua/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>13</id>
+			<placeId>14</placeId>
+			<type>Eat</type>
+			<name>Fabryka Kavy</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/29/FKava.jpg</logo>
+			<description>Fabryka Kavy is a space that combines roasting coffee and a coffee shop.</description>
+			<workingHours>08:00-20:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380961118541</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/fabrykakavyif/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>14</id>
+			<placeId>15</placeId>
+			<type>Eat</type>
+			<name>Sunday coffee</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/34/sundaycoffee.png</logo>
+			<description>Sunday Coffee - It is a coffee that warms up and makes the day brighter!</description>
+			<workingHours>07:30-23:00</workingHours>
+			<priceRange>1</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380993231038</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/sundaycoffeeua/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>15</id>
+			<placeId>16</placeId>
+			<type>Eat</type>
+			<name>GOST Bar</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/36/Gost.jpg</logo>
+			<description>This bar is a friendly combination of boozer and restaurant at the Intourist Hotel of the 80's.</description>
+			<workingHours>11:00-01:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380661092192</number>
+					</phone>
+					<phone>
+						<name/>
+						<number/>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/gostbar/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>16</id>
+			<placeId>17</placeId>
+			<type>Eat</type>
+			<name>Brunnen</name>
+			<logo>https://s3.eu-central-1.amazonaws.com/listmusor/production/49529/logo/big/592296d49874f.jpg?1309784296</logo>
+			<description>In Brunnen you will always be glad to meet and happy to feed.</description>
+			<workingHours>11:00-23:00</workingHours>
+			<priceRange>3</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380342525111</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/brunnen2/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>18</id>
+			<placeId>19</placeId>
+			<type>Eat</type>
+			<name>Viva Italia</name>
+			<logo>http://frankivsk-online.com/wp-content/uploads/2017/07/logo-frankivsk-viva-italia.png</logo>
+			<description>Italian cuisine restaurant</description>
+			<workingHours>10:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380342711111</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>http://viva-italia.com.ua/ua/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>19</id>
+			<placeId>20</placeId>
+			<type>Eat</type>
+			<name>Franciszek Romaszkan</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/17022056_1589384191076158_8684599223378269048_n.jpg?_nc_cat=0&amp;oh=c782c1e337fbc0ddd74f43d2adc3321a&amp;oe=5B5AAB65</logo>
+			<description>Restaurant-museum, open to all those who like.</description>
+			<workingHours>11:00-00:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380666693603</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/F.Romaszkan/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>20</id>
+			<placeId>21</placeId>
+			<type>Eat</type>
+			<name>Florens</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/10423947_331309277017191_1853148876347512592_n.jpg?_nc_cat=0&amp;oh=0737a1740b149f68cee8972a366daf41&amp;oe=5B698616</logo>
+			<description>Pizzeria &quot;FLORENS&quot; - a piece of Italy in Ivano-Frankivsk.</description>
+			<workingHours>11:00-00:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380666693603</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/F.Romaszkan/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>21</id>
+			<placeId>22</placeId>
+			<type>Eat</type>
+			<name>ShpyndeL</name>
+			<logo>http://shpindel.com.ua/images/logo_big.png</logo>
+			<description>The first antique restaurant in Ivano-Frankivsk</description>
+			<workingHours>12:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380960737573</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/shpindel.if/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>22</id>
+			<placeId>23</placeId>
+			<type>Eat</type>
+			<name>CORASSINI grill and wine</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/1468531_566870663383598_1943437616_n.jpg?_nc_cat=0&amp;oh=d387b73f8861e499dc666d8ad367f1b0&amp;oe=5B598A71</logo>
+			<description>«Corassini»- Feel the story to taste!&quot;</description>
+			<workingHours>11:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380959145252</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/corassini.if/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>23</id>
+			<placeId>24</placeId>
+			<type>Eat</type>
+			<name>Pizza Plus Group</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/29790318_172998053513780_6205986689410471330_n.jpg?_nc_cat=0&amp;oh=093181d8da111330b1b9b01b1104a317&amp;oe=5B9BC3BE</logo>
+			<description>Casual cuisine in Ivano-Frankivsk from Pizza Plus Group network</description>
+			<workingHours>10:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380503915120</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/pizzaplusgroup/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>24</id>
+			<placeId>25</placeId>
+			<type>Eat</type>
+			<name>Cukernia</name>
+			<logo>https://pp.userapi.com/c625323/v625323365/1dfea/aZ7JMq43FF8.jpg</logo>
+			<description>Our sweet is a work and experience of several generations, inspiration.</description>
+			<workingHours>08:00-23:00</workingHours>
+			<priceRange>3</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380503372848</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>http://cukiernia.com.ua/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>25</id>
+			<placeId>26</placeId>
+			<type>Eat</type>
+			<name>Peperoncino</name>
+			<logo>https://s3.eu-central-1.amazonaws.com/listmusor/production/45338/logo/big/5a422206d27ca.png</logo>
+			<description>Cafe &quot;Peperoncino&quot; offers European cuisine and high class service.</description>
+			<workingHours>10:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380342537347</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/pizzaplusgroup/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>26</id>
+			<placeId>27</placeId>
+			<type>Eat</type>
+			<name>&quot;Wine and Meat&quot;</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/19248028_751947261596946_7455675554973016528_n.jpg?_nc_cat=0&amp;oh=8bae54a92492d6fca3c064c67f04dd54&amp;oe=5B6A17A2</logo>
+			<description>&quot;Wine and Meat&quot; is a new restaurant which can satisfy even very demanding gourmets..</description>
+			<workingHours>09:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380505175903</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/VynoMjaso/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>27</id>
+			<placeId>28</placeId>
+			<type>Eat</type>
+			<name>ChefClub</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/28471444_153208232031665_4230375506335326242_n.jpg?_nc_cat=0&amp;oh=75a10fd393d5e21dbce35c6b924601c5&amp;oe=5B578087</logo>
+			<description>&quot;Chef Club&quot; is a special place where the wonderful atmosphere, which sets on quality rest.</description>
+			<workingHours>12:00-23:00</workingHours>
+			<priceRange>3</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380678816767</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/ChefClub.if/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>28</id>
+			<placeId>29</placeId>
+			<type>Eat</type>
+			<name>Ikra</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t31.0-8/1412352_734195659984724_23800342763865006_o.jpg?_nc_cat=0&amp;oh=24a4ad058a727abcb3b09c7cd6653112&amp;oe=5B606E7A</logo>
+			<description>Masters of sushi will cook traditional and original Japanese cuisine.</description>
+			<workingHours>11:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380342539018</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/ikra.if/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>29</id>
+			<placeId>30</placeId>
+			<type>Eat</type>
+			<name>Khata Bagata</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/28575938_337487390096151_4526174295797423398_n.jpg?_nc_cat=0&amp;oh=0d8e6fe9ee6eeb6b4cd5aa70e93fd09c&amp;oe=5B65B440</logo>
+			<description>The ethno-restaurant recreates the best Ukrainian traditions and hospitably.</description>
+			<workingHours>09:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380970191918</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/hatabagata/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>30</id>
+			<placeId>31</placeId>
+			<type>Eat</type>
+			<name>Pirosmani</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/17098705_1553718211312785_7978338870162107829_n.jpg?_nc_cat=0&amp;oh=2df6a080eeb3e265e0a85a7c5772dea0&amp;oe=5B6E73AE</logo>
+			<description>Here you will try authentic Georgian cuisine, full of flavor of herbs and spices.</description>
+			<workingHours>11:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380684025650</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/ifpirosmani/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>31</id>
+			<placeId>32</placeId>
+			<type>Eat</type>
+			<name>Lviv Chocolate Workshop</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/15697487_676353345858870_7639170329005968761_n.jpg?_nc_cat=0&amp;oh=2cb183e396b7d1a6f70cb7ba4c827982&amp;oe=5B5D3A34</logo>
+			<description>The Lviv Chocolate Workshop is a cozy place where you will learn the magic of chocolate.</description>
+			<workingHours>09:00-22:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380986085709</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/chocolate.if/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>32</id>
+			<placeId>33</placeId>
+			<type>Eat</type>
+			<name>Akropol</name>
+			<logo>http://frankivsk-online.com/wp-content/uploads/2017/07/logo-frankivsk-akropol.jpg</logo>
+			<description>Lunch at affordable prices and in a wide assortment.
+</description>
+			<workingHours>09:00-19:00</workingHours>
+			<priceRange>1</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380342523034</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl/>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>33</id>
+			<placeId>34</placeId>
+			<type>Eat</type>
+			<name>Resto Chicken</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/30656683_1518513348259938_6237867877731401728_n.jpg?_nc_cat=0&amp;oh=bce4881fd3c4a6103818e549f3900d7c&amp;oe=5B521D0A</logo>
+			<description>Tasty fast-food. Celebration of solemn events.</description>
+			<workingHours>09:00-23:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380953301685</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/restochicken.if/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>34</id>
+			<placeId>35</placeId>
+			<type>Eat</type>
+			<name>Kavovarka</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/14034833_1736317896608061_5740940292960976694_n.jpg?_nc_cat=0&amp;oh=04b2cb088122090d4a23faf8ffc75011&amp;oe=5B5CDB32</logo>
+			<description>Fresh coffee, always fresh and useful non-preserved bread, refined European desserts.</description>
+			<workingHours>08:00-20:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380673419229</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/kavovarka/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>35</id>
+			<placeId>33</placeId>
+			<type>Eat</type>
+			<name>Lviv Croissants</name>
+			<logo>https://scontent.flwo1-1.fna.fbcdn.net/v/t1.0-9/12140773_1136184733077872_1977463119919244806_n.jpg?_nc_cat=0&amp;oh=7088372d9e89a5b24732ffcbcf5f2cbe&amp;oe=5B9D818E</logo>
+			<description>A great selection of coffee and delicious croissants.</description>
+			<workingHours>09:00-21:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380958277211</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>www.fb.com/LvivCroissants/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>36</id>
+			<placeId>52</placeId>
+			<type>Eat</type>
+			<name>Ципа Taphouse</name>
+			<logo>https://scontent.fiev4-1.fna.fbcdn.net/v/t1.0-9/31195605_635841590096293_8781732754854363106_n.jpg?_nc_cat=0&amp;oh=a28631663b3eeec0d0b261c1bd212bb2&amp;oe=5B9845A3</logo>
+			<description>A great selection of beer</description>
+			<workingHours>09:00-21:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380969437343</number>
+					</phone>
+				</phones>
+				<email/>
+				<siteUrl>http://www.tsypa.beer/</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>37</id>
+			<placeId>53</placeId>
+			<type>Eat</type>
+			<name>Pivoteka</name>
+			<logo>https://s3.eu-central-1.amazonaws.com/listmusor/production/147347/logo/big/59af98a17ed39.png?1309784296</logo>
+			<description>A great selection of beer</description>
+			<workingHours>10:00-22:00</workingHours>
+			<priceRange>2</priceRange>
+			<contactInformation>
+				<phones>
+					<phone>
+						<name/>
+						<number>+380673621002</number>
+					</phone>
+				</phones>
+				<email/>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<type>Visit</type>
+			<id>38</id>
+			<placeId>37</placeId>
+			<name>Bastion</name>
+			<logo>http://cnt.designvillage.world/images2/see/bastion.png</logo>
+			<description>Fortress gallery</description>
+			<workingHours>09:00-20:00</workingHours>
+			<priceRange>2</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>39</id>
+			<placeId>38</placeId>
+			<type>Visit</type>
+			<name>Town Hall Observation Deck</name>
+			<logo>http://cnt.designvillage.world/images2/see/ratusha.png</logo>
+			<description>50m above the Frankivsk</description>
+			<workingHours>10:00-20:00</workingHours>
+			<priceRange>1</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>40</id>
+			<placeId>38</placeId>
+			<type>Visit</type>
+			<name>Night walks in Frankivsk</name>
+			<logo>http://warm.if.ua/uploads/mobile_image/image/22/Ratysha.jpg</logo>
+			<description/>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+			<contactInformation>
+				<siteUrl>www.fb.com/places/Cem-zanatsa-v-gorode-Ivano-Frankovsk/108466925844385</siteUrl>
+			</contactInformation>
+		</recomendation>
+		<recomendation>
+			<id>41</id>
+			<placeId>39</placeId>
+			<type>Visit</type>
+			<name>Go to Vovchyntsi</name>
+			<logo>http://cnt.designvillage.world/images2/see/vovchynci.png</logo>
+			<description>Гори, місто, вогні</description>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>42</id>
+			<placeId>40</placeId>
+			<type>Visit</type>
+			<name>Potocki Palace</name>
+			<logo>http://cnt.designvillage.world/images2/see/pototskyh.png</logo>
+			<description>An architectural monument and urban planning of historical significance.</description>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>43</id>
+			<placeId>41</placeId>
+			<type>Visit</type>
+			<name>Shevchenko Park</name>
+			<logo>http://cnt.designvillage.world/images2/see/park.png</logo>
+			<description/>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>44</id>
+			<placeId>38</placeId>
+			<type>Visit</type>
+			<name>Forged sculptures</name>
+			<logo>http://cnt.designvillage.world/images2/see/skulptury.png</logo>
+			<description>It will be difficult for you (and who promised that it will be easy?), to find them.</description>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>45</id>
+			<placeId>42</placeId>
+			<type>Visit</type>
+			<name>Cathedral of the Resurrection</name>
+			<logo>http://cnt.designvillage.world/images2/see/katedra.png</logo>
+			<description>The historic religious building which functions as a Catholic cathedral.</description>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>46</id>
+			<placeId>43</placeId>
+			<type>Visit</type>
+			<name>Collegiate Church of the Virgin Mary (art museum)</name>
+			<logo>http://cnt.designvillage.world/images2/see/sheptytskyh.png</logo>
+			<description>The oldest building of Ivano-Frankivsk city</description>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>47</id>
+			<placeId>44</placeId>
+			<type>Visit</type>
+			<name>Austrian directorate of the Stanislavov railway</name>
+			<logo>http://cnt.designvillage.world/images2/see/maduniversytet.png</logo>
+			<description/>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>48</id>
+			<placeId>45</placeId>
+			<type>Visit</type>
+			<name>Regional music philharmonic</name>
+			<logo>http://cnt.designvillage.world/images2/see/filarmonia.png</logo>
+			<description/>
+			<workingHours>10:00-22:00</workingHours>
+			<priceRange>1</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>49</id>
+			<placeId>46</placeId>
+			<type>Visit</type>
+			<name>City Lake</name>
+			<logo>http://cnt.designvillage.world/images2/see/ozero.png</logo>
+			<description>A charming spot, with wonderful views all around...</description>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>50</id>
+			<placeId>47</placeId>
+			<type>Visit</type>
+			<name>Memorial Park</name>
+			<logo>http://cnt.designvillage.world/images2/see/memorialnyj.png</logo>
+			<description/>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>51</id>
+			<placeId>48</placeId>
+			<type>Visit</type>
+			<name>Stometrivka</name>
+			<logo>https://www.dobovo.com/blog/wp-content/uploads/2017/06/%D0%A1%D1%82%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%BA%D0%B0.jpg</logo>
+			<description>Looking at the interesting places it is unlikely to be able to bypass the main pedestrian zone.</description>
+			<workingHours>00:00-24:00</workingHours>
+			<priceRange>0</priceRange>
+		</recomendation>
+		<recomendation>
+			<id>52</id>
+			<placeId>49</placeId>
+			<type>Visit</type>
+			<name>Ivan Franko National Academic Music and Drama Theatre</name>
+			<logo>http://cnt.designvillage.world/images2/see/dramteatr.png</logo>
+			<description>Not attending a single staging of the Drama Theatre - at least mevetton.</description>
+			<workingHours>10:00-22:00</workingHours>
+			<priceRange>1</priceRange>
+		</recomendation>
+	</recomendations>
+<!--  list of locations  -->
+<places>
+   <place>
+      <id>1</id>
+      <name>Promprylad.Renovation</name>
+      <address>23 Sakharova St.</address>
+      <location>
+         <lat>48.914031</lat>
+         <lon>24.711948</lon>
+      </location>
+   </place>
+   <place>
+      <id>2</id>
+      <name>Shevchenka 3</name>
+      <address>3 Shevchenka St.</address>
+      <location>
+         <lat>48.919275</lat>
+         <lon>24.706175</lon>
+      </location>
+   </place>
+   <place>
+      <id>3</id>
+      <name>Delikacia</name>
+      <address>20 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919135</lat>
+         <lon>24.713651</lon>
+      </location>
+   </place>
+   <place>
+      <id>4</id>
+      <name>Ivan Franko National Academic Music and Drama Theatre</name>
+      <address>42 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.917564</lat>
+         <lon>24.719003</lon>
+      </location>
+   </place>
+   <place>
+      <id>5</id>
+      <name>Urban Space 100</name>
+      <address>19 Grushevskogo St.</address>
+      <location>
+         <lat>48.921841</lat>
+         <lon>24.713623</lon>
+      </location>
+   </place>
+   <place>
+      <id>6</id>
+      <name>Muliarovykh</name>
+      <address>5 Chornovola St.</address>
+      <location>
+         <lat>48.918736</lat>
+         <lon>24.707561</lon>
+      </location>
+   </place>
+   <place>
+      <id>7</id>
+      <name>Familia</name>
+      <address>31 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919525</lat>
+         <lon>24.712957</lon>
+      </location>
+   </place>
+   <place>
+      <id>8</id>
+      <name>Kukhnia</name>
+      <address>4 Sichovykh Striltsiv St.</address>
+      <location>
+         <lat>48.918901</lat>
+         <lon>24.713124</lon>
+      </location>
+   </place>
+   <place>
+      <id>9</id>
+      <name>Manufactura</name>
+      <address>6 Mitskevych Square</address>
+      <location>
+         <lat>48.921064</lat>
+         <lon>24.711834</lon>
+      </location>
+   </place>
+   <place>
+      <id>10</id>
+      <name>Fabrrica</name>
+      <address>1 Virmenska St.</address>
+      <location>
+         <lat>48.922183</lat>
+         <lon>24.711208</lon>
+      </location>
+   </place>
+   <place>
+      <id>11</id>
+      <name>Desiatka</name>
+      <address>4 Shashkevycha St.</address>
+      <location>
+         <lat>48.920122</lat>
+         <lon>24.711822</lon>
+      </location>
+   </place>
+   <place>
+      <id>12</id>
+      <name>Copper Head</name>
+      <address>10 Mazepy St.</address>
+      <location>
+         <lat>48.921151</lat>
+         <lon>24.706460</lon>
+      </location>
+   </place>
+   <place>
+      <id>13</id>
+      <name>Mondays</name>
+      <address>11 Franka St.</address>
+      <location>
+         <lat>48.919909</lat>
+         <lon>24.715432</lon>
+      </location>
+   </place>
+   <place>
+      <id>14</id>
+      <name>Fabryka Kavy</name>
+      <address>35 Pivdenyi Bulvar</address>
+      <location>
+         <lat>48.919786</lat>
+         <lon>24.699234</lon>
+      </location>
+   </place>
+   <place>
+      <id>15</id>
+      <name>Sunday Coffee</name>
+      <address>23 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919788</lat>
+         <lon>24.712082</lon>
+      </location>
+   </place>
+   <place>
+      <id>16</id>
+      <name>Gost</name>
+      <address>5 Kurbasa St.</address>
+      <location>
+         <lat>48.921295</lat>
+         <lon>24.712665</lon>
+      </location>
+   </place>
+   <place>
+      <id>17</id>
+      <name>Brunnen</name>
+      <address>24 Pivdenyi Bulvar</address>
+      <location>
+         <lat>48.921900</lat>
+         <lon>24.700923</lon>
+      </location>
+   </place>
+   <place>
+      <id>18</id>
+      <name>Joseph Strudel</name>
+      <address>10 Sichovykh Striltsiv St.</address>
+      <location>
+         <lat>48.919886</lat>
+         <lon>24.706450</lon>
+      </location>
+   </place>
+   <place>
+      <id>19</id>
+      <name>Viva Italia</name>
+      <address>26 Vovchynetska St.</address>
+      <location>
+         <lat>48.926666</lat>
+         <lon>24.718842</lon>
+      </location>
+   </place>
+   <place>
+      <id>20</id>
+      <name>Franciszek Romaszkan</name>
+      <address>126 Chornovola St.</address>
+      <location>
+         <lat>48.910909</lat>
+         <lon>24.699075</lon>
+      </location>
+   </place>
+   <place>
+      <id>21</id>
+      <name>Florens</name>
+      <address>7 Galytska St.</address>
+      <location>
+         <lat>48.921871</lat>
+         <lon>24.708403</lon>
+      </location>
+   </place>
+   <place>
+      <id>22</id>
+      <name>ShpyndeLL</name>
+      <address>21 Pivdenyi Bulvar</address>
+      <location>
+         <lat>48.922701</lat>
+         <lon>24.702323</lon>
+      </location>
+   </place>
+   <place>
+      <id>23</id>
+      <name>Corassini grill and wine</name>
+      <address>1 Fortechnyi Provulok</address>
+      <location>
+         <lat>48.922578</lat>
+         <lon>24.707202</lon>
+      </location>
+   </place>
+   <place>
+      <id>24</id>
+      <name>Pizza Plus Group</name>
+      <address>6 Rynok Square</address>
+      <location>
+         <lat>48.921938</lat>
+         <lon>24.709910</lon>
+      </location>
+   </place>
+   <place>
+      <id>25</id>
+      <name>Cukernia</name>
+      <address>12 Shashkevycha St.</address>
+      <location>
+         <lat>48.919503</lat>
+         <lon>24.711506</lon>
+      </location>
+   </place>
+   <place>
+      <id>26</id>
+      <name>Peperoncino</name>
+      <address>43 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919310</lat>
+         <lon>24.714174</lon>
+      </location>
+   </place>
+   <place>
+      <id>27</id>
+      <name>Wine and Meat</name>
+      <address>11 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919963</lat>
+         <lon>24.709792</lon>
+      </location>
+   </place>
+   <place>
+      <id>28</id>
+      <name>ChefClub</name>
+      <address>67 Chornovola St.</address>
+      <location>
+         <lat>48.914451</lat>
+         <lon>24.702845</lon>
+      </location>
+   </place>
+   <place>
+      <id>29</id>
+      <name>Ikra</name>
+      <address>8 Vagilevycha St</address>
+      <location>
+         <lat>48.914486</lat>
+         <lon>24.702793</lon>
+      </location>
+   </place>
+   <place>
+      <id>30</id>
+      <name>Khata Bagata</name>
+      <address>2А Belvederska St.</address>
+      <location>
+         <lat>48.921665</lat>
+         <lon>24.707160</lon>
+      </location>
+   </place>
+   <place>
+      <id>31</id>
+      <name>Pirosmani</name>
+      <address>15 Sichovykh Striltsiv St.</address>
+      <location>
+         <lat>48.919283</lat>
+         <lon>24.709267</lon>
+      </location>
+   </place>
+   <place>
+      <id>32</id>
+      <name>Lviv Chocolate Workshop</name>
+      <address>2 Bachynskogo St.</address>
+      <location>
+         <lat>48.920380</lat>
+         <lon>24.707454</lon>
+      </location>
+   </place>
+   <place>
+      <id>33</id>
+      <name>Akropol</name>
+      <address>21 Sakharova St.</address>
+      <location>
+         <lat>48.914348</lat>
+         <lon>24.710408</lon>
+      </location>
+   </place>
+   <place>
+      <id>34</id>
+      <name>Resto Chicken</name>
+      <address>1 Grushevskogo St.</address>
+      <location>
+         <lat>48.920837</lat>
+         <lon>24.710012</lon>
+      </location>
+   </place>
+   <place>
+      <id>35</id>
+      <name>Kavovarka</name>
+      <address>69 Chornovola St.</address>
+      <location>
+         <lat>48.914373</lat>
+         <lon>24.702571</lon>
+      </location>
+   </place>
+   <place>
+      <id>36</id>
+      <name>Lviv Croissants</name>
+      <address>23 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.919641</lat>
+         <lon>24.712094</lon>
+      </location>
+   </place>
+   <place>
+      <id>37</id>
+      <name>Bastion</name>
+      <address>1 Fortechnyi Provulok</address>
+      <location>
+         <lat>48.922234</lat>
+         <lon>24.707632</lon>
+      </location>
+   </place>
+   <place>
+      <id>38</id>
+      <name>Ratusha</name>
+      <address>Rynok Square</address>
+      <location>
+         <lat>48.922722</lat>
+         <lon>24.710401</lon>
+      </location>
+   </place>
+   <place>
+      <id>39</id>
+      <name>Vovchunci</name>
+      <address>Vovchyntsi</address>
+      <location>
+         <lat>48.945950</lat>
+         <lon>24.745952</lon>
+      </location>
+   </place>
+   <place>
+      <id>40</id>
+      <name>Potocki Palace</name>
+      <address>5 Shpytalna St.</address>
+      <location>
+         <lat>48.924646</lat>
+         <lon>24.713537</lon>
+      </location>
+   </place>
+   <place>
+      <id>41</id>
+      <name>Shevchenka Park</name>
+      <address>107 Chornovola St.</address>
+      <location>
+         <lat>48.912013</lat>
+         <lon>24.699981</lon>
+      </location>
+   </place>
+   <place>
+      <id>42</id>
+      <name>Cathedral of the Resurrection</name>
+      <address>22 Sheptytskyi Square</address>
+      <location>
+         <lat>48.922246</lat>
+         <lon>24.708823</lon>
+      </location>
+   </place>
+   <place>
+      <id>43</id>
+      <name>Collegiate Church of the Virgin Mary (art museum)</name>
+      <address>Sheptytskyi Square</address>
+      <location>
+         <lat>48.923883</lat>
+         <lon>24.709122</lon>
+      </location>
+   </place>
+   <place>
+      <id>44</id>
+      <name>Austrian directorate of the Stanislavov railway</name>
+      <address>2 Galytska St.</address>
+      <location>
+         <lat>48.921580</lat>
+         <lon>24.708760</lon>
+      </location>
+   </place>
+   <place>
+      <id>45</id>
+      <name>Ivano-Frankivsk Regional Philharmonic</name>
+      <address>3 Kurbasa St.</address>
+      <location>
+         <lat>48.921798</lat>
+         <lon>24.712341</lon>
+      </location>
+   </place>
+   <place>
+      <id>46</id>
+      <name>City Lake</name>
+      <address>136 Mazepy St.</address>
+      <location>
+         <lat>48.914647</lat>
+         <lon>24.691365</lon>
+      </location>
+   </place>
+   <place>
+      <id>47</id>
+      <name>Memorial Park</name>
+      <address>9 Melnyka St.</address>
+      <location>
+         <lat>48.917006</lat>
+         <lon>24.714544</lon>
+      </location>
+   </place>
+   <place>
+      <id>48</id>
+      <name>Stometrivka</name>
+      <address>11 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.920020</lat>
+         <lon>24.709322</lon>
+      </location>
+   </place>
+   <place>
+      <id>49</id>
+      <name>Ivan Franko National Academic Music and Drama Theatre</name>
+      <address>42 Nezalezhnosti St.</address>
+      <location>
+         <lat>48.917564</lat>
+         <lon>24.719003</lon>
+      </location>
+   </place>
+   <place>
+      <id>50</id>
+      <name>Ivano-Frankivsk University of Law named after King Danylo Halytskyi</name>
+      <address>35 Konovaltsia St.</address>
+      <location>
+         <lat>48.915744</lat>
+         <lon>24.711360</lon>
+      </location>
+   </place>
+   <place>
+      <id>51</id>
+      <name>Coffee Shop</name>
+      <address>2 Mazepy St.</address>
+      <location>
+         <lat>48.921217</lat>
+         <lon>24.706914</lon>
+      </location>
+   </place>
+   <place>
+      <id>52</id>
+      <name>Ципа Taphouse</name>
+      <address>4 Kurbasa St.</address>
+      <location>
+         <lat>48.920820</lat>
+         <lon>24.712265</lon>
+      </location>
+   </place>
+   <place>
+      <id>53</id>
+      <name>Mitskevycha Square</name>
+      <address>1 Mitskevycha Square St.</address>
+      <location>
+         <lat>48.921274</lat> 
+         <lon>24.711297</lon>
+      </location>
+   </place>
+</places>
+</data>
