@@ -9,7 +9,7 @@ export default {
     ig: "https://www.instagram.com/designvillage_festival/",
     tw: "https://twitter.com/DesignVillageUA",
     phone_collaboration: "093 508 99 58",
-    email: "hello@designvillage.com.ua",
+    email: "hello@designvillage.world",
   },
   header: {
     desc: {

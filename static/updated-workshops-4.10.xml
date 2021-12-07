@@ -13,7 +13,7 @@
 					<number>+380976350399</number>
 				</phone>
 			</phones>
-			<siteUrl>http://designvillage.com.ua</siteUrl>
+			<siteUrl>http://designvillage.world</siteUrl>
 			<address>Ivano-Frankivsk</address>
 		</contactInformation>
 		<socialLinks>
@@ -31,195 +31,195 @@
 			<partner>
 				<id>1</id>
 				<name>BBDO</name>
-				<logo>http://cnt.designvillage.com.ua/images2/partners/partners-01.png</logo>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-01.png</logo>
 				<description>We create and tell great stories.</description>
 				<site>http://bbdo.ua/</site>
 			</partner>
 			<partner>
 				<id>2</id>
 				<name>Webmil</name>
-				<logo>http://cnt.designvillage.com.ua/images2/Sponsors/sponsor-01.png</logo>
+				<logo>http://cnt.designvillage.world/images2/Sponsors/sponsor-01.png</logo>
 				<description>We entirely enjoy our work.</description>
 				<site>http://webmil.eu/</site>
 			</partner>
 			<partner>
 				<id>3</id>
 				<name>Bruketa&amp;Žinić&amp;Grey</name>
-				<logo>https://designvillage.com.ua/images/partners/4_Logo_Bruketa.svg</logo>
+				<logo>https://designvillage.world/images/partners/4_Logo_Bruketa.svg</logo>
 				<description>Bruketa&amp;Žinić&amp;Grey is part of the global Grey network since 2017, when WPP acquired a majority stake in Bruketa&amp;Žinić OM. The agency is a Brand, Product &amp; Retail Design Hub and Digital Shopper Hub for Grey network.</description>
 				<site>http://bruketa-zinic.com</site>
 			</partner>
 			<partner>
 				<id>4</id>
 				<name>Softjourn</name>
-				<logo>http://cnt.designvillage.com.ua/images2/partners/partners-03.png</logo>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-03.png</logo>
 				<description>We are the world’s experts in software development.</description>
 				<site>https://softjourn.com/</site>
 			</partner>
 			<partner>
 				<id>5</id>
 				<name>Depositphotos</name>
-				<logo>https://designvillage.com.ua/images/partners/3_Logo_Deposit.svg</logo>
+				<logo>https://designvillage.world/images/partners/3_Logo_Deposit.svg</logo>
 				<description>Photo bank with a premium collection of stock photos, vectors and videos.</description>
 				<site>depositphotos.com</site>
 			</partner>
 			<partner>
 				<id>6</id>
 				<name>WIX</name>
-				<logo>https://designvillage.com.ua/images/partners/2_Logo_Wix.svg</logo>
+				<logo>https://designvillage.world/images/partners/2_Logo_Wix.svg</logo>
 				<description>Wix.com is a leading cloud-based development platform with millions of users worldwide. We help create great professional sites.</description>
 				<site>wix.com</site>
 			</partner>
 			<partner>
 				<id>7</id>
 				<name>ArtHuss</name>
-				<logo>https://designvillage.com.ua/images/partners/10_Logo_ArtHuss.svg</logo>
+				<logo>https://designvillage.world/images/partners/10_Logo_ArtHuss.svg</logo>
 				<description>Publisher Art Huss</description>
 				<site>https://www.arthuss.com.ua/</site>
 			</partner>
 			<partner>
 				<id>8</id>
 				<name>huss</name>
-				<logo>https://designvillage.com.ua/images/partners/11_Logo_Huss.svg</logo>
+				<logo>https://designvillage.world/images/partners/11_Logo_Huss.svg</logo>
 				<description>Family typography</description>
 				<site>http://www.brendari.com/</site>
 			</partner>
 			<partner>
 				<id>9</id>
 				<name>SoftServe</name>
-				<logo>http://cnt.designvillage.com.ua/images2/partners/partners-10.png</logo>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-10.png</logo>
 				<description>Leading Ukrainian IT company</description>
 				<site>https://huss.com.ua/</site>
 			</partner>
 			<partner>
 				<id>10</id>
 				<name>THE GRADIENT</name>
-				<logo>https://designvillage.com.ua/images/partners/12_Logo_TheGradient.png</logo>
+				<logo>https://designvillage.world/images/partners/12_Logo_TheGradient.png</logo>
 				<description>DIGITAL PRODUCT DESIGN FIRM</description>
 				<site>https://thegradient.com/</site>
 			</partner>
 			<partner>
 				<id>11</id>
 				<name>UKRSIBBANK</name>
-				<logo>https://designvillage.com.ua/images/partners/30_Logo_Ukrsybbank.svg</logo>
+				<logo>https://designvillage.world/images/partners/30_Logo_Ukrsybbank.svg</logo>
 				<description>UKRSIBBANK BNP Paribas Group - a bank of positive changes.</description>
 				<site>https://my.ukrsibbank.com</site>
 			</partner>
 			<partner>
 				<id>12</id>
 				<name>IT Cluster</name>
-				<logo>http://cnt.designvillage.com.ua/images2/partners/partners-13.png</logo>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-13.png</logo>
 				<description>A group of initiative people who united on a voluntary basis.</description>
 				<site>http://it-cluster.if.ua/</site>
 			</partner>
 			<partner>
 				<id>13</id>
 				<name>Show Service</name>
-				<logo>https://designvillage.com.ua/images/partners/14_Logo_Show.svg</logo>
+				<logo>https://designvillage.world/images/partners/14_Logo_Show.svg</logo>
 				<description>Service company.</description>
 				<site>https://www.facebook.com/showserviceUA/</site>
 			</partner>
 			<partner>
 				<id>14</id>
 				<name>Chernozem</name>
-				<logo>http://cnt.designvillage.com.ua/images2/partners/media-partners-03.png</logo>
+				<logo>http://cnt.designvillage.world/images2/partners/media-partners-03.png</logo>
 				<description>Portal of visual culture</description>
 				<site>https://chernozem.info/</site>
 			</partner>
 			<partner>
 				<id>15</id>
 				<name>COAX Software</name>
-				<logo>https://designvillage.com.ua/images/partners/17_Logo_Coax.svg</logo>
+				<logo>https://designvillage.world/images/partners/17_Logo_Coax.svg</logo>
 				<description>Your partner for incredible mobile and web products.</description>
 				<site>https://coaxsoft.com/</site>
 			</partner>
 			<partner>
 				<id>16</id>
 				<name>Аристократи. Radio &amp; Podcasts</name>
-				<logo>https://designvillage.com.ua/images/partners/18_Logo_Arystokraty.svg</logo>
+				<logo>https://designvillage.world/images/partners/18_Logo_Arystokraty.svg</logo>
 				<description>Aristocrats.fm is a Ukrainian independent online radio station.</description>
 				<site>https://aristocrats.fm/</site>
 			</partner>
 			<partner>
 				<id>16</id>
 				<name>COOPER HEAD</name>
-				<logo>https://designvillage.com.ua/images/partners/19_Logo_CopperHead.svg</logo>
+				<logo>https://designvillage.world/images/partners/19_Logo_CopperHead.svg</logo>
 				<description>Craft beer. Craft food. Full cocktail bar. Enjoy our freshly brewed beer, unique cuisine, delicious cocktail and neoteric interior.</description>
 				<site>https://www.facebook.com/copperheadbeer/</site>
 			</partner>
 			<partner>
 				<id>17</id>
 				<name>PMC Center</name>
-				<logo>https://designvillage.com.ua/images/partners/23_Logo_PMC.png</logo>
+				<logo>https://designvillage.world/images/partners/23_Logo_PMC.png</logo>
 				<description>PMC Center or Product Management Community Center is an international product community, created in 2015 to unite product oriented people, generate the environment and opportunities for professional networking and growth.</description>
 				<site>https://www.pmc.center</site>
 			</partner>
 			<partner>
 				<id>18</id>
 				<name>NOSTRES</name>
-				<logo>https://designvillage.com.ua/images/partners/24_Logo_Nostres.svg</logo>
+				<logo>https://designvillage.world/images/partners/24_Logo_Nostres.svg</logo>
 				<description>Marketing solutions.</description>
 			</partner>
 			<partner>
 				<id>19</id>
 				<name>Multimedia lab</name>
-				<logo>https://designvillage.com.ua/images/partners/25_Logo_MML.svg</logo>
+				<logo>https://designvillage.world/images/partners/25_Logo_MML.svg</logo>
 				<description>The most equipped studio in Ivano-Frankivsk for creating audio-visual content with equipped coworking for design and post-production.</description>
 				<site>https://www.facebook.com/multimedialabprom/</site>
 			</partner>
 			<partner>
 				<id>20</id>
 				<name>Paperivka</name>
-				<logo>https://designvillage.com.ua/images/partners/26_Logo_Paperivka.svg</logo>
+				<logo>https://designvillage.world/images/partners/26_Logo_Paperivka.svg</logo>
 				<description>Printing company.</description>
 				<site>http://paperivka.com.ua</site>
 			</partner>
 			<partner>
 				<id>21</id>
 				<name>BeetRoot</name>
-				<logo>http://cnt.designvillage.com.ua/images2/Sponsors/sponsor-02.png</logo>
+				<logo>http://cnt.designvillage.world/images2/Sponsors/sponsor-02.png</logo>
 				<description>Build world-class software and dedicated tech teams together with one of Ukraine’s foremost employers.</description>
 				<site>https://beetroot.se</site>
 			</partner>
 			<partner>
 				<id>22</id>
 				<name>BeetRoot Academy</name>
-				<logo>https://designvillage.com.ua/images/partners/29_Logo_BeetAcademy.svg</logo>
+				<logo>https://designvillage.world/images/partners/29_Logo_BeetAcademy.svg</logo>
 				<description>Swedish-Ukrainian modern IT school.</description>
 				<site>https://beetroot.academy/</site>
 			</partner>
 			<partner>
 				<id>23</id>
 				<name>Promprylad.Renovation</name>
-				<logo>http://cnt.designvillage.com.ua/images2/partners/partners-11.png</logo>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-11.png</logo>
 				<description>Contemporary Innovation Center</description>
 				<site>https://www.facebook.com/promprylad.renovation/posts_to_page/</site>
 			</partner>
 			<partner>
 				<id>24</id>
 				<name>Warm City</name>
-				<logo>http://cnt.designvillage.com.ua/images2/partners/partners-08.png</logo>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-08.png</logo>
 				<description>Aims to provide new opportunities for Ivano-Frankivsk</description>
 				<site>https://warm.if.ua</site>
 			</partner>
 			<partner>
 				<id>25</id>
 				<name>UXPressia</name>
-				<logo>http://cnt.designvillage.com.ua/images2/partners/partners-09.png</logo>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-09.png</logo>
 				<description>Service Design Tool</description>
 				<site>https://uxpressia.com/</site>
 			</partner>
 			<partner>
 				<id>26</id>
 				<name>Aqua Real</name>
-				<logo>https://designvillage.com.ua/images/partners/28_Logo_Aquareal.png</logo>
+				<logo>https://designvillage.world/images/partners/28_Logo_Aquareal.png</logo>
 				<description>Bottled water supplier.</description>
 				<site>https://www.facebook.com/pg/aquarealif/posts/</site>
 			</partner>
 			<partner>
 				<id>27</id>
 				<name>Radio SKOVORODA</name>
-				<logo>https://designvillage.com.ua/images/partners/13_Logo_Skovoroda.svg</logo>
+				<logo>https://designvillage.world/images/partners/13_Logo_Skovoroda.svg</logo>
 				<description>The first Ukrainian-language wandering online radio.</description>
 				<site>http://radioskovoroda.com</site>
 			</partner>
@@ -229,14 +229,14 @@
 			<sponsor>
 				<id>1</id>
 				<name>Ukrainian Cultural Foundation</name>
-				<logo>https://designvillage.com.ua/images/partners/1_Logo_UKF.svg</logo>
+				<logo>https://designvillage.world/images/partners/1_Logo_UKF.svg</logo>
 				<description/>
 				<site>https://ucf.in.ua/</site>
 			</sponsor>
 			<sponsor>
 				<id>2</id>
 				<name>Ivano-Frankivsk City Council</name>
-				<logo>http://cnt.designvillage.com.ua/images2/partners/partners-07.png</logo>
+				<logo>http://cnt.designvillage.world/images2/partners/partners-07.png</logo>
 				<description>Administrative territorial unit and local self-government body.</description>
 				<site>http://www.mrada.if.ua/</site>
 			</sponsor>
@@ -370,8 +370,8 @@
 			<name>Yellow&amp;Blue</name>
 			<startDateTime>2019-10-13T14:00+03:00</startDateTime>
 			<endDateTime>2019-10-20T20:00+03:00</endDateTime>
-			<poster>https://designvillage.com.ua/images/exhibitions/EXHB_Pictronic.jpg</poster>
-			<thumbnail>https://designvillage.com.ua/images/exhibitions/EXHB_Pictronic.jpg</thumbnail>
+			<poster>https://designvillage.world/images/exhibitions/EXHB_Pictronic.jpg</poster>
+			<thumbnail>https://designvillage.world/images/exhibitions/EXHB_Pictronic.jpg</thumbnail>
 			<eventUrl/>
 			<leader>
 				<id>32</id>
@@ -417,7 +417,7 @@
 			<name>NOTRE-DAME DE PARIS</name>
 			<startDateTime>2019-10-11T14:00+03:00</startDateTime>
 			<endDateTime>2019-10-20T20:00+03:00</endDateTime>
-			<poster>https://designvillage.com.ua/images/exhibitions/EXHB_Paris.jpg</poster>
+			<poster>https://designvillage.world/images/exhibitions/EXHB_Paris.jpg</poster>
 			<eventUrl/>
 			<leader>
 				<id>4</id>
@@ -888,7 +888,7 @@
 			<name>PARTY TIME!</name>
 			<startDateTime>2019-10-12T22:00+03:00</startDateTime>
 			<endDateTime>2019-11-12T05:00+03:00</endDateTime>
-			<poster>http://cnt.designvillage.com.ua/images2/Archive/poster_01.png</poster>
+			<poster>http://cnt.designvillage.world/images2/Archive/poster_01.png</poster>
 			<description>
 				<description1>Promprylad.Renovation, Parasolkovyi tsekh. Come to Promprylad: take the metal stairs, and then just follow the signs. Every Design Village participant will get free welcome-drinks — so better not to loose your DV-bracelet! Have fun!</description1>
 			</description>
@@ -983,7 +983,7 @@
 			<placeId>51</placeId>
 			<type>Eat</type>
 			<name>Coffee Shop</name>
-			<logo>http://cnt.designvillage.com.ua/images2/eat/coffe.png</logo>
+			<logo>http://cnt.designvillage.world/images2/eat/coffe.png</logo>
 			<description>Coffee Shop</description>
 			<workingHours>08:00-22:00</workingHours>
 			<priceRange>1</priceRange>
@@ -1102,7 +1102,7 @@
 			<placeId>6</placeId>
 			<type>Eat</type>
 			<name>Muliarovykh</name>
-			<logo>http://cnt.designvillage.com.ua/images2/eat/mulyarovyh.png</logo>
+			<logo>http://cnt.designvillage.world/images2/eat/mulyarovyh.png</logo>
 			<description>Museum of Galician life and cuisine of the last century.</description>
 			<workingHours>10:00-23:00</workingHours>
 			<priceRange>2</priceRange>
@@ -1714,7 +1714,7 @@
 			<id>38</id>
 			<placeId>37</placeId>
 			<name>Bastion</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/bastion.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/bastion.png</logo>
 			<description>Fortress gallery</description>
 			<workingHours>09:00-20:00</workingHours>
 			<priceRange>2</priceRange>
@@ -1724,7 +1724,7 @@
 			<placeId>38</placeId>
 			<type>Visit</type>
 			<name>Town Hall Observation Deck</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/ratusha.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/ratusha.png</logo>
 			<description>50m above the Frankivsk</description>
 			<workingHours>10:00-20:00</workingHours>
 			<priceRange>1</priceRange>
@@ -1747,7 +1747,7 @@
 			<placeId>39</placeId>
 			<type>Visit</type>
 			<name>Go to Vovchyntsi</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/vovchynci.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/vovchynci.png</logo>
 			<description>Гори, місто, вогні</description>
 			<workingHours>00:00-24:00</workingHours>
 			<priceRange>0</priceRange>
@@ -1757,7 +1757,7 @@
 			<placeId>40</placeId>
 			<type>Visit</type>
 			<name>Potocki Palace</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/pototskyh.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/pototskyh.png</logo>
 			<description>An architectural monument and urban planning of historical significance.</description>
 			<workingHours>00:00-24:00</workingHours>
 			<priceRange>0</priceRange>
@@ -1767,7 +1767,7 @@
 			<placeId>41</placeId>
 			<type>Visit</type>
 			<name>Shevchenko Park</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/park.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/park.png</logo>
 			<description/>
 			<workingHours>00:00-24:00</workingHours>
 			<priceRange>0</priceRange>
@@ -1777,7 +1777,7 @@
 			<placeId>38</placeId>
 			<type>Visit</type>
 			<name>Forged sculptures</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/skulptury.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/skulptury.png</logo>
 			<description>It will be difficult for you (and who promised that it will be easy?), to find them.</description>
 			<workingHours>00:00-24:00</workingHours>
 			<priceRange>0</priceRange>
@@ -1787,7 +1787,7 @@
 			<placeId>42</placeId>
 			<type>Visit</type>
 			<name>Cathedral of the Resurrection</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/katedra.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/katedra.png</logo>
 			<description>The historic religious building which functions as a Catholic cathedral.</description>
 			<workingHours>00:00-24:00</workingHours>
 			<priceRange>0</priceRange>
@@ -1797,7 +1797,7 @@
 			<placeId>43</placeId>
 			<type>Visit</type>
 			<name>Collegiate Church of the Virgin Mary (art museum)</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/sheptytskyh.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/sheptytskyh.png</logo>
 			<description>The oldest building of Ivano-Frankivsk city</description>
 			<workingHours>00:00-24:00</workingHours>
 			<priceRange>0</priceRange>
@@ -1807,7 +1807,7 @@
 			<placeId>44</placeId>
 			<type>Visit</type>
 			<name>Austrian directorate of the Stanislavov railway</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/maduniversytet.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/maduniversytet.png</logo>
 			<description/>
 			<workingHours>00:00-24:00</workingHours>
 			<priceRange>0</priceRange>
@@ -1817,7 +1817,7 @@
 			<placeId>45</placeId>
 			<type>Visit</type>
 			<name>Regional music philharmonic</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/filarmonia.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/filarmonia.png</logo>
 			<description/>
 			<workingHours>10:00-22:00</workingHours>
 			<priceRange>1</priceRange>
@@ -1827,7 +1827,7 @@
 			<placeId>46</placeId>
 			<type>Visit</type>
 			<name>City Lake</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/ozero.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/ozero.png</logo>
 			<description>A charming spot, with wonderful views all around...</description>
 			<workingHours>00:00-24:00</workingHours>
 			<priceRange>0</priceRange>
@@ -1837,7 +1837,7 @@
 			<placeId>47</placeId>
 			<type>Visit</type>
 			<name>Memorial Park</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/memorialnyj.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/memorialnyj.png</logo>
 			<description/>
 			<workingHours>00:00-24:00</workingHours>
 			<priceRange>0</priceRange>
@@ -1857,7 +1857,7 @@
 			<placeId>49</placeId>
 			<type>Visit</type>
 			<name>Ivan Franko National Academic Music and Drama Theatre</name>
-			<logo>http://cnt.designvillage.com.ua/images2/see/dramteatr.png</logo>
+			<logo>http://cnt.designvillage.world/images2/see/dramteatr.png</logo>
 			<description>Not attending a single staging of the Drama Theatre - at least mevetton.</description>
 			<workingHours>10:00-22:00</workingHours>
 			<priceRange>1</priceRange>
